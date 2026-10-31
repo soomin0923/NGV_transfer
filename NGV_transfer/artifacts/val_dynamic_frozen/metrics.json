@@ -1,0 +1,139 @@
+{
+  "schema": "day2_evaluation_v2",
+  "utc": "2026-10-12T05:18:36.036647+00:00",
+  "hostname": "DESKTOP-BQ43C60",
+  "machine": "x86_64",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "3.12.15",
+  "accuracy": 0.8,
+  "macro_f1": 0.7617216117216118,
+  "per_class": [
+    {
+      "label": "bottle",
+      "support": 40,
+      "predicted": 44,
+      "precision": 0.9090909090909091,
+      "recall": 1.0,
+      "f1": 0.9523809523809523
+    },
+    {
+      "label": "phone",
+      "support": 40,
+      "predicted": 8,
+      "precision": 0.75,
+      "recall": 0.15,
+      "f1": 0.24999999999999997
+    },
+    {
+      "label": "cookie",
+      "support": 40,
+      "predicted": 40,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "mouse",
+      "support": 40,
+      "predicted": 44,
+      "precision": 0.9090909090909091,
+      "recall": 1.0,
+      "f1": 0.9523809523809523
+    },
+    {
+      "label": "other",
+      "support": 40,
+      "predicted": 64,
+      "precision": 0.53125,
+      "recall": 0.85,
+      "f1": 0.6538461538461537
+    }
+  ],
+  "zero_division": "Undefined precision/recall/F1 is reported as 0.",
+  "samples": 200,
+  "labels": [
+    "bottle",
+    "phone",
+    "cookie",
+    "mouse",
+    "other"
+  ],
+  "confusion_matrix": [
+    [
+      40,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      6,
+      0,
+      4,
+      30
+    ],
+    [
+      0,
+      0,
+      40,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      40,
+      0
+    ],
+    [
+      4,
+      2,
+      0,
+      0,
+      34
+    ]
+  ],
+  "model": "/home/sm/edge_ai_classifier_wired_cpu/artifacts/dynamic_diagnostic/model_dynamic_frozen.tflite",
+  "model_sha256": "0b026d48772542538b59313d1f262971980d8767e17e2a77bdeedfcadc03382f",
+  "bytes": 1130712,
+  "data": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/val",
+  "data_sha256": "f9f34b316bd7845069c5b46c0e53921458e5af77ff7e4c3b6784a1c5b235d767",
+  "split": "val",
+  "backend": "litert",
+  "device": "CPU",
+  "precision": "dynamic",
+  "threads": 4,
+  "execution_path": "xnnpack_or_default_cpu",
+  "delegate_fallback_reason": null,
+  "batch": 1,
+  "warmup": 20,
+  "timed_samples": 200,
+  "timing_scope": "prepared float32 input -> quantization (if any) -> CPU inference -> float32 probabilities; excludes file load/resize and camera/display",
+  "latency_method": "one inference per held-out image after warmup",
+  "median_ms": 1.409418,
+  "p95_ms": 3.4936637999999998,
+  "mean_ms": 1.7438672799999997,
+  "invoke_median_ms": 1.227745,
+  "input": {
+    "dtype": "float32",
+    "shape": [
+      1,
+      160,
+      160,
+      3
+    ],
+    "scale": 0.0,
+    "zero_point": 0
+  },
+  "output": {
+    "dtype": "float32",
+    "shape": [
+      1,
+      5
+    ],
+    "scale": 0.0,
+    "zero_point": 0
+  }
+}

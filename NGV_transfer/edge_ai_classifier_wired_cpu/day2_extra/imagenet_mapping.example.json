@@ -1,0 +1,6 @@
+{
+  "cup": ["cup", "coffee_mug"],
+  "bottle": ["water_bottle", "pop_bottle", "wine_bottle", "beer_bottle"],
+  "wallet": ["wallet"],
+  "remote": ["remote_control"]
+}

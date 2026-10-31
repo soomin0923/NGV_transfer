@@ -1,0 +1,36 @@
+{
+  "status": "validated",
+  "model": "MobileNetV3Small",
+  "classes": 1000,
+  "trained_in_this_lab": false,
+  "preprocessing": "RGB 0..255; internal preprocessing",
+  "source": "Keras ImageNet pretrained weights",
+  "pretrained_sha256": "bb828f93ae32afb89c2df190a39c06deaa63ea1d95fec93bceb52264f5bf61e8",
+  "models": [
+    {
+      "precision": "fp32",
+      "model": "imagenet_mobilenetv3small_fp32.tflite",
+      "sha256": "a16a9892e31c2eb82bb302f7861cf14f926ca3d4773171f1bb5a889dc1beb6cd",
+      "bytes": 10208016,
+      "status": "PASS",
+      "finite": true,
+      "input_dtype": "<class 'numpy.float32'>",
+      "output_dtype": "<class 'numpy.float32'>",
+      "execution_path": "xnnpack_or_default_cpu",
+      "delegate_fallback_reason": null,
+      "input_quantization": [
+        0.0,
+        0
+      ],
+      "output_quantization": [
+        0.0,
+        0
+      ],
+      "max_abs_error": 5.4836273193359375e-06,
+      "top1_agreement_not_accuracy": 1.0,
+      "zero_output_rows": 0
+    }
+  ],
+  "parity_source": "local validation photos (no ImageNet ground-truth benchmark)",
+  "quantization_note": "INT8 ranges use local custom-camera TRAIN photos. This does not establish accuracy over all 1000 ImageNet classes. Quantized 1000-way softmax may round small probabilities to zero; low-confidence/tied outputs require caution."
+}

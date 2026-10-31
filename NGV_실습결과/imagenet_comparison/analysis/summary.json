@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "truth": "bottle",
+      "condition": "condition_1",
+      "samples": 4,
+      "paired_samples": 0,
+      "custom_samples": 0,
+      "imagenet_samples": 4,
+      "imagenet_mapping_defined": false,
+      "custom_accuracy": null,
+      "custom_accuracy_paired": null,
+      "imagenet_top1_mapped_accuracy": null,
+      "imagenet_top1_mapped_accuracy_paired": null,
+      "imagenet_top5_contains_mapped_class": null,
+      "model_group": 1,
+      "custom_model_sha256": "unrecorded",
+      "imagenet_model_sha256": "a16a9892e31c2eb82bb302f7861cf14f926ca3d4773171f1bb5a889dc1beb6cd",
+      "hostname": "sm2",
+      "machine": "aarch64",
+      "threads": "4",
+      "custom_execution_path": "unrecorded",
+      "imagenet_execution_path": "xnnpack_or_default_cpu",
+      "custom_model": "unrecorded",
+      "imagenet_model": "imagenet_mobilenetv3small_fp32.tflite",
+      "custom_observed_ms_samples": 0,
+      "custom_observed_median_ms": null,
+      "imagenet_observed_ms_samples": 4,
+      "imagenet_observed_median_ms": 4.213810500004911
+    }
+  ],
+  "explicit_mapping": {},
+  "recorded_frames": 4,
+  "missing_gallery_images": [],
+  "note": "Observed recorded-frame results; same-frame Top-1 comparisons only; no fabricated semantic labels or timings."
+}

@@ -1,0 +1,38 @@
+{
+  "variant": "structured",
+  "accuracy": 0.9997916666666666,
+  "samples": 4800,
+  "parameters": 99204,
+  "dense_macs": 98816,
+  "zero_fraction_kernels": 0.0,
+  "history": {
+    "accuracy": [
+      0.9999305605888367,
+      0.9999305605888367,
+      1.0
+    ],
+    "loss": [
+      0.00555822066962719,
+      0.0009073591791093349,
+      0.00039410952012985945
+    ],
+    "val_accuracy": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "val_loss": [
+      0.001596758607774973,
+      0.0006544929347001016,
+      0.0003963519702665508
+    ]
+  },
+  "pre_finetune_accuracy": 0.9975,
+  "environment": {
+    "utc": "2026-10-13T04:52:16.601815+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15"
+  }
+}

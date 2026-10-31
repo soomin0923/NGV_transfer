@@ -1,0 +1,30 @@
+{
+  "schema": "day2_random_benchmark_v2",
+  "utc": "2026-10-12T05:21:45.401220+00:00",
+  "hostname": "sm2",
+  "machine": "aarch64",
+  "platform": "Linux-6.18.50+rpt-rpi-2712-aarch64-with-glibc2.41",
+  "python": "3.13.5",
+  "model": "model_dynamic_frozen.tflite",
+  "model_sha256": "0b026d48772542538b59313d1f262971980d8767e17e2a77bdeedfcadc03382f",
+  "execution_path": "xnnpack_or_default_cpu",
+  "delegate_fallback_reason": null,
+  "precision": "dynamic",
+  "bytes": 1130712,
+  "threads": 4,
+  "repeats": 100,
+  "warmup": 20,
+  "input_shape": [
+    1,
+    160,
+    160,
+    3
+  ],
+  "input_seed": 42,
+  "input_distribution": "uniform float32 [0,255)",
+  "timing_scope": "prepared input -> quantization -> CPU inference -> float32 NumPy output; no camera/display",
+  "median_ms": 1.584707,
+  "p95_ms": 1.9955363999999998,
+  "mean_ms": 1.6471508700000004,
+  "not_accuracy": "Random input has no ground truth; this is a timing/sanity test."
+}

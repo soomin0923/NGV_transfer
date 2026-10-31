@@ -1,0 +1,6031 @@
+{
+  "seed": 42,
+  "fs_hz": 2048,
+  "samples_per_window": 1024,
+  "input_features": 256,
+  "sessions_per_class": 150,
+  "windows_per_session": 40,
+  "sessions_per_class_by_split": {
+    "train": 90,
+    "val": 30,
+    "test": 30
+  },
+  "train_val_test": [
+    14400,
+    4800,
+    4800
+  ],
+  "labels": [
+    "normal",
+    "unbalance_like",
+    "misalignment_like",
+    "impact_like"
+  ],
+  "synthetic_only": true,
+  "normalization": "train only",
+  "signal_recipe": "unchanged day3/numerics.py; educational synthetic signals, not real equipment",
+  "change": "increase independent session count; no score targeting or prediction filtering",
+  "visualization_samples": "first two generated windows per class/split, stored in dataset.npz; exact feature-row indices",
+  "sessions": [
+    {
+      "session_id": 0,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 43.28747258267156,
+      "gain": 0.975551375900821,
+      "noise_std": 0.1086878335929106,
+      "windows": 40
+    },
+    {
+      "session_id": 1,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 35.269186594669385,
+      "gain": 1.0693915807938665,
+      "noise_std": 0.044771528626121125,
+      "windows": 40
+    },
+    {
+      "session_id": 2,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 36.119768268378614,
+      "gain": 1.0043493679873816,
+      "noise_std": 0.11210675806079026,
+      "windows": 40
+    },
+    {
+      "session_id": 3,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 35.59861710052697,
+      "gain": 0.8114067279362742,
+      "noise_std": 0.09354341094599125,
+      "windows": 40
+    },
+    {
+      "session_id": 4,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 35.79715375573842,
+      "gain": 1.1207200613207136,
+      "noise_std": 0.09160464536706574,
+      "windows": 40
+    },
+    {
+      "session_id": 5,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 39.477221389234984,
+      "gain": 1.0995771999181774,
+      "noise_std": 0.11481970483080656,
+      "windows": 40
+    },
+    {
+      "session_id": 6,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 41.88255206049321,
+      "gain": 1.0793715379591335,
+      "noise_std": 0.0551261822880442,
+      "windows": 40
+    },
+    {
+      "session_id": 7,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 38.46908298733339,
+      "gain": 0.8475744816534272,
+      "noise_std": 0.11552353991400488,
+      "windows": 40
+    },
+    {
+      "session_id": 8,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 40.89278936522662,
+      "gain": 1.0457146467070513,
+      "noise_std": 0.10340282862177383,
+      "windows": 40
+    },
+    {
+      "session_id": 9,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 34.67596507178108,
+      "gain": 0.991888632630902,
+      "noise_std": 0.05704381509323477,
+      "windows": 40
+    },
+    {
+      "session_id": 10,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 40.76409336327042,
+      "gain": 0.8345896674310368,
+      "noise_std": 0.07920977484421096,
+      "windows": 40
+    },
+    {
+      "session_id": 11,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 35.79424136674318,
+      "gain": 1.0897438647066402,
+      "noise_std": 0.10943690358305988,
+      "windows": 40
+    },
+    {
+      "session_id": 12,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 36.98583189980182,
+      "gain": 0.9136397123890132,
+      "noise_std": 0.0529824713770867,
+      "windows": 40
+    },
+    {
+      "session_id": 13,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 37.063410189387355,
+      "gain": 0.8631496052927298,
+      "noise_std": 0.0546415017222039,
+      "windows": 40
+    },
+    {
+      "session_id": 14,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 42.176865417661546,
+      "gain": 1.100574460486618,
+      "noise_std": 0.11558536800463126,
+      "windows": 40
+    },
+    {
+      "session_id": 15,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 35.758127288292904,
+      "gain": 1.1800181646802397,
+      "noise_std": 0.058263449229588725,
+      "windows": 40
+    },
+    {
+      "session_id": 16,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 41.735638446753946,
+      "gain": 0.9305029992890276,
+      "noise_std": 0.0919229429843548,
+      "windows": 40
+    },
+    {
+      "session_id": 17,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 44.938738576502374,
+      "gain": 1.1227431468626001,
+      "noise_std": 0.11723304247216246,
+      "windows": 40
+    },
+    {
+      "session_id": 18,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 43.71907781579979,
+      "gain": 0.8218113109842358,
+      "noise_std": 0.11289218401129666,
+      "windows": 40
+    },
+    {
+      "session_id": 19,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 37.596607674261975,
+      "gain": 1.0040286663482894,
+      "noise_std": 0.10266373442449983,
+      "windows": 40
+    },
+    {
+      "session_id": 20,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 34.52649720454377,
+      "gain": 1.1803582385202396,
+      "noise_std": 0.08978111061722777,
+      "windows": 40
+    },
+    {
+      "session_id": 21,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 45.434790088319915,
+      "gain": 1.0762595623470201,
+      "noise_std": 0.07815060528526557,
+      "windows": 40
+    },
+    {
+      "session_id": 22,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 35.60256699855009,
+      "gain": 0.9155511442680873,
+      "noise_std": 0.11071087907282381,
+      "windows": 40
+    },
+    {
+      "session_id": 23,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 38.641552904434,
+      "gain": 1.1109627777177047,
+      "noise_std": 0.09547467488023917,
+      "windows": 40
+    },
+    {
+      "session_id": 24,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 35.89824583079746,
+      "gain": 1.0641096418154659,
+      "noise_std": 0.11927715101197847,
+      "windows": 40
+    },
+    {
+      "session_id": 25,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 36.56156515211149,
+      "gain": 0.9035348207464792,
+      "noise_std": 0.07276139873356227,
+      "windows": 40
+    },
+    {
+      "session_id": 26,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 37.855765449794774,
+      "gain": 0.8516259339597867,
+      "noise_std": 0.050450987465904984,
+      "windows": 40
+    },
+    {
+      "session_id": 27,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 36.01994987444873,
+      "gain": 0.9231168379773231,
+      "noise_std": 0.09456715150998973,
+      "windows": 40
+    },
+    {
+      "session_id": 28,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 43.503246997137154,
+      "gain": 0.883998428528867,
+      "noise_std": 0.05999505275529082,
+      "windows": 40
+    },
+    {
+      "session_id": 29,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 38.04945797818896,
+      "gain": 1.1264659991231816,
+      "noise_std": 0.0900694019582177,
+      "windows": 40
+    },
+    {
+      "session_id": 30,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 41.03986888964081,
+      "gain": 0.8559160921279941,
+      "noise_std": 0.08297801061270617,
+      "windows": 40
+    },
+    {
+      "session_id": 31,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 39.25759835877642,
+      "gain": 1.024485845090546,
+      "noise_std": 0.11882183294290807,
+      "windows": 40
+    },
+    {
+      "session_id": 32,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 45.53257463930773,
+      "gain": 1.0554686329742604,
+      "noise_std": 0.06777396086182848,
+      "windows": 40
+    },
+    {
+      "session_id": 33,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 38.72479603806713,
+      "gain": 1.114371193920861,
+      "noise_std": 0.07388810969752453,
+      "windows": 40
+    },
+    {
+      "session_id": 34,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 44.649547821329804,
+      "gain": 0.9303553891918921,
+      "noise_std": 0.051904291709270786,
+      "windows": 40
+    },
+    {
+      "session_id": 35,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 45.494423356214504,
+      "gain": 1.1563334767284452,
+      "noise_std": 0.10799024222765116,
+      "windows": 40
+    },
+    {
+      "session_id": 36,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 44.97483532457868,
+      "gain": 0.8617043607447713,
+      "noise_std": 0.11106159671142021,
+      "windows": 40
+    },
+    {
+      "session_id": 37,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 41.163777526435794,
+      "gain": 0.8443896557083956,
+      "noise_std": 0.09241345151084229,
+      "windows": 40
+    },
+    {
+      "session_id": 38,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 45.6355903096201,
+      "gain": 0.9437155623542584,
+      "noise_std": 0.11378970694096152,
+      "windows": 40
+    },
+    {
+      "session_id": 39,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 35.97720166237239,
+      "gain": 1.1906297593906314,
+      "noise_std": 0.07784510678253459,
+      "windows": 40
+    },
+    {
+      "session_id": 40,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 38.87741893246688,
+      "gain": 1.1639032840241161,
+      "noise_std": 0.1182782726425666,
+      "windows": 40
+    },
+    {
+      "session_id": 41,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 37.88243259233634,
+      "gain": 1.0300892966024418,
+      "noise_std": 0.09945109264542179,
+      "windows": 40
+    },
+    {
+      "session_id": 42,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 34.014696762475396,
+      "gain": 0.90052414849532,
+      "noise_std": 0.0794850762352069,
+      "windows": 40
+    },
+    {
+      "session_id": 43,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 39.409802831306834,
+      "gain": 1.1713667482465866,
+      "noise_std": 0.09565530023658098,
+      "windows": 40
+    },
+    {
+      "session_id": 44,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 44.75877353484772,
+      "gain": 1.1489241169984359,
+      "noise_std": 0.08000648206670609,
+      "windows": 40
+    },
+    {
+      "session_id": 45,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 40.254332661219124,
+      "gain": 0.8573802887029499,
+      "noise_std": 0.05482885240997698,
+      "windows": 40
+    },
+    {
+      "session_id": 46,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 39.06022866741745,
+      "gain": 0.9692744354369796,
+      "noise_std": 0.11145572137279025,
+      "windows": 40
+    },
+    {
+      "session_id": 47,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 39.4635166634364,
+      "gain": 1.1080868327713251,
+      "noise_std": 0.11593316363232764,
+      "windows": 40
+    },
+    {
+      "session_id": 48,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 42.07303036436724,
+      "gain": 0.8583998757363969,
+      "noise_std": 0.0694768982703296,
+      "windows": 40
+    },
+    {
+      "session_id": 49,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 43.97187888376808,
+      "gain": 1.0424375637738865,
+      "noise_std": 0.04332469553515319,
+      "windows": 40
+    },
+    {
+      "session_id": 50,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 37.54271603981041,
+      "gain": 1.1805420165864906,
+      "noise_std": 0.0822007755605149,
+      "windows": 40
+    },
+    {
+      "session_id": 51,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 41.22234218242849,
+      "gain": 0.9970026891726285,
+      "noise_std": 0.06126500714605343,
+      "windows": 40
+    },
+    {
+      "session_id": 52,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 39.04075003378607,
+      "gain": 1.1532243141279783,
+      "noise_std": 0.1050404237647583,
+      "windows": 40
+    },
+    {
+      "session_id": 53,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 41.757515825407026,
+      "gain": 0.8038996918509184,
+      "noise_std": 0.049539897793316995,
+      "windows": 40
+    },
+    {
+      "session_id": 54,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 45.69651434314872,
+      "gain": 0.9620427346130781,
+      "noise_std": 0.06179973284084522,
+      "windows": 40
+    },
+    {
+      "session_id": 55,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 39.58330202090899,
+      "gain": 0.9849954692741811,
+      "noise_std": 0.0637722013013309,
+      "windows": 40
+    },
+    {
+      "session_id": 56,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 37.01912913358442,
+      "gain": 1.1955294593532027,
+      "noise_std": 0.0600100740954673,
+      "windows": 40
+    },
+    {
+      "session_id": 57,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 36.82677959035472,
+      "gain": 0.9798226043673283,
+      "noise_std": 0.041925778308634955,
+      "windows": 40
+    },
+    {
+      "session_id": 58,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 41.73580012442158,
+      "gain": 0.8425249333505306,
+      "noise_std": 0.06386496093906706,
+      "windows": 40
+    },
+    {
+      "session_id": 59,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 42.01782520581207,
+      "gain": 0.9516058419398972,
+      "noise_std": 0.11212174152367149,
+      "windows": 40
+    },
+    {
+      "session_id": 60,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 44.00095988363536,
+      "gain": 1.162479681444636,
+      "noise_std": 0.0925238560845191,
+      "windows": 40
+    },
+    {
+      "session_id": 61,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 41.91821763322088,
+      "gain": 0.8807624807568348,
+      "noise_std": 0.07964885284021186,
+      "windows": 40
+    },
+    {
+      "session_id": 62,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 44.98538490079507,
+      "gain": 1.125961616729878,
+      "noise_std": 0.07255877396899077,
+      "windows": 40
+    },
+    {
+      "session_id": 63,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 38.241247276814924,
+      "gain": 1.1278600931923473,
+      "noise_std": 0.05546595606764314,
+      "windows": 40
+    },
+    {
+      "session_id": 64,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 43.306038308333285,
+      "gain": 0.8707375601513547,
+      "noise_std": 0.05151244629057267,
+      "windows": 40
+    },
+    {
+      "session_id": 65,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 39.69861537538902,
+      "gain": 1.0996764381835344,
+      "noise_std": 0.10456824453371685,
+      "windows": 40
+    },
+    {
+      "session_id": 66,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 37.95804300898703,
+      "gain": 1.108845574496862,
+      "noise_std": 0.058181304815876536,
+      "windows": 40
+    },
+    {
+      "session_id": 67,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 40.00582496304819,
+      "gain": 1.022541838718502,
+      "noise_std": 0.1133213035434984,
+      "windows": 40
+    },
+    {
+      "session_id": 68,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 45.99622519065791,
+      "gain": 0.9022464533159426,
+      "noise_std": 0.10171331829647662,
+      "windows": 40
+    },
+    {
+      "session_id": 69,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 45.26859667196132,
+      "gain": 1.1446890753657204,
+      "noise_std": 0.04389375929333804,
+      "windows": 40
+    },
+    {
+      "session_id": 70,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 40.56943142581794,
+      "gain": 1.0728933635367677,
+      "noise_std": 0.11299130119780137,
+      "windows": 40
+    },
+    {
+      "session_id": 71,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 34.37379750768528,
+      "gain": 1.104622550416658,
+      "noise_std": 0.11569460678185184,
+      "windows": 40
+    },
+    {
+      "session_id": 72,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 45.48518355442825,
+      "gain": 1.1742924053083508,
+      "noise_std": 0.06396362650624825,
+      "windows": 40
+    },
+    {
+      "session_id": 73,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 41.755105085103,
+      "gain": 0.8610461716438008,
+      "noise_std": 0.09573372810218098,
+      "windows": 40
+    },
+    {
+      "session_id": 74,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 39.22968269421675,
+      "gain": 1.087715681393985,
+      "noise_std": 0.0736536682969315,
+      "windows": 40
+    },
+    {
+      "session_id": 75,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 44.88846048270328,
+      "gain": 0.8250637491344814,
+      "noise_std": 0.11106850128208262,
+      "windows": 40
+    },
+    {
+      "session_id": 76,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 44.01692732154309,
+      "gain": 1.1619742896955951,
+      "noise_std": 0.08148882776630717,
+      "windows": 40
+    },
+    {
+      "session_id": 77,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 42.14271540028802,
+      "gain": 0.837723537189635,
+      "noise_std": 0.11583607348861572,
+      "windows": 40
+    },
+    {
+      "session_id": 78,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 36.64331897179158,
+      "gain": 0.9694559302105352,
+      "noise_std": 0.07795545480340571,
+      "windows": 40
+    },
+    {
+      "session_id": 79,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 36.443790649930826,
+      "gain": 0.8693547874938883,
+      "noise_std": 0.07303497388440208,
+      "windows": 40
+    },
+    {
+      "session_id": 80,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 45.372835119385,
+      "gain": 1.093924668925296,
+      "noise_std": 0.08843702249944928,
+      "windows": 40
+    },
+    {
+      "session_id": 81,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 43.39154176717947,
+      "gain": 1.0201302578149292,
+      "noise_std": 0.09395276665380237,
+      "windows": 40
+    },
+    {
+      "session_id": 82,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 42.09861954476005,
+      "gain": 0.9823899769492743,
+      "noise_std": 0.11745874767902631,
+      "windows": 40
+    },
+    {
+      "session_id": 83,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 36.930283654006416,
+      "gain": 0.8812022383217833,
+      "noise_std": 0.09651966889275279,
+      "windows": 40
+    },
+    {
+      "session_id": 84,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 37.11779954231544,
+      "gain": 0.925727731936638,
+      "noise_std": 0.11107296256341825,
+      "windows": 40
+    },
+    {
+      "session_id": 85,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 35.372706045435955,
+      "gain": 1.1549714307562935,
+      "noise_std": 0.05175756885915503,
+      "windows": 40
+    },
+    {
+      "session_id": 86,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 35.945125914169566,
+      "gain": 1.1164539392023363,
+      "noise_std": 0.07207639042037817,
+      "windows": 40
+    },
+    {
+      "session_id": 87,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 39.8606469988499,
+      "gain": 0.9350047804667065,
+      "noise_std": 0.04650439086630919,
+      "windows": 40
+    },
+    {
+      "session_id": 88,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 35.7706391435124,
+      "gain": 1.0520940651185031,
+      "noise_std": 0.07762893005894017,
+      "windows": 40
+    },
+    {
+      "session_id": 89,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "train",
+      "frequency_hz": 42.22682259153277,
+      "gain": 1.1165323485878205,
+      "noise_std": 0.09617627921200728,
+      "windows": 40
+    },
+    {
+      "session_id": 90,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 39.026112085261545,
+      "gain": 1.032434081616293,
+      "noise_std": 0.041510457013163686,
+      "windows": 40
+    },
+    {
+      "session_id": 91,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 35.89325064268806,
+      "gain": 0.9442416662038832,
+      "noise_std": 0.10428269551806305,
+      "windows": 40
+    },
+    {
+      "session_id": 92,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 40.35864438827976,
+      "gain": 1.1029140924059384,
+      "noise_std": 0.05994283600130408,
+      "windows": 40
+    },
+    {
+      "session_id": 93,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 40.840904233054694,
+      "gain": 0.828892213247472,
+      "noise_std": 0.04474455828216958,
+      "windows": 40
+    },
+    {
+      "session_id": 94,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 43.02967386841911,
+      "gain": 0.989188380962625,
+      "noise_std": 0.05850059887634805,
+      "windows": 40
+    },
+    {
+      "session_id": 95,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 43.742736959149155,
+      "gain": 1.055439172153559,
+      "noise_std": 0.07627102494611168,
+      "windows": 40
+    },
+    {
+      "session_id": 96,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 36.66320038872137,
+      "gain": 1.1555494451534518,
+      "noise_std": 0.06862414203733583,
+      "windows": 40
+    },
+    {
+      "session_id": 97,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 45.93548370222674,
+      "gain": 0.9160851049915136,
+      "noise_std": 0.10717792673219334,
+      "windows": 40
+    },
+    {
+      "session_id": 98,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 43.60530880069631,
+      "gain": 0.8343636131238138,
+      "noise_std": 0.0818023694867838,
+      "windows": 40
+    },
+    {
+      "session_id": 99,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 35.003398648776106,
+      "gain": 1.0063829390323156,
+      "noise_std": 0.06647992689717769,
+      "windows": 40
+    },
+    {
+      "session_id": 100,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 40.69559411885288,
+      "gain": 1.134506842003656,
+      "noise_std": 0.05473528324031706,
+      "windows": 40
+    },
+    {
+      "session_id": 101,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 41.929321384994324,
+      "gain": 0.957157915504174,
+      "noise_std": 0.05461558616207126,
+      "windows": 40
+    },
+    {
+      "session_id": 102,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 38.363419531421144,
+      "gain": 0.8382674895795992,
+      "noise_std": 0.05816770004005352,
+      "windows": 40
+    },
+    {
+      "session_id": 103,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 35.615693458078084,
+      "gain": 0.886254509439106,
+      "noise_std": 0.07784897158175474,
+      "windows": 40
+    },
+    {
+      "session_id": 104,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 40.11690384702488,
+      "gain": 1.0989824377977682,
+      "noise_std": 0.057623923149296555,
+      "windows": 40
+    },
+    {
+      "session_id": 105,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 40.553253139422935,
+      "gain": 0.8052607249414651,
+      "noise_std": 0.09710842934751392,
+      "windows": 40
+    },
+    {
+      "session_id": 106,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 45.548051092623126,
+      "gain": 1.0264152867093894,
+      "noise_std": 0.06938507058060725,
+      "windows": 40
+    },
+    {
+      "session_id": 107,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 39.09026559745559,
+      "gain": 0.805084117362804,
+      "noise_std": 0.0652969929932703,
+      "windows": 40
+    },
+    {
+      "session_id": 108,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 42.91416064223048,
+      "gain": 0.951169719864698,
+      "noise_std": 0.08072811681944653,
+      "windows": 40
+    },
+    {
+      "session_id": 109,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 45.26878496488663,
+      "gain": 0.9036798977831891,
+      "noise_std": 0.10252592368419366,
+      "windows": 40
+    },
+    {
+      "session_id": 110,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 42.88202036781209,
+      "gain": 1.1316795662906756,
+      "noise_std": 0.08047023833023206,
+      "windows": 40
+    },
+    {
+      "session_id": 111,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 40.124371157073064,
+      "gain": 0.9123918367494177,
+      "noise_std": 0.05977221284056583,
+      "windows": 40
+    },
+    {
+      "session_id": 112,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 34.627093203373136,
+      "gain": 1.080763535335316,
+      "noise_std": 0.0429004509359113,
+      "windows": 40
+    },
+    {
+      "session_id": 113,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 35.36918795831727,
+      "gain": 1.073980544714471,
+      "noise_std": 0.05883091016181538,
+      "windows": 40
+    },
+    {
+      "session_id": 114,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 44.33034858707309,
+      "gain": 1.1744445950761349,
+      "noise_std": 0.08912934035291814,
+      "windows": 40
+    },
+    {
+      "session_id": 115,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 44.44498884485195,
+      "gain": 1.0379995445473706,
+      "noise_std": 0.11700932410247519,
+      "windows": 40
+    },
+    {
+      "session_id": 116,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 38.84849923995079,
+      "gain": 1.1678080122318493,
+      "noise_std": 0.044683261268920596,
+      "windows": 40
+    },
+    {
+      "session_id": 117,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 41.105449620172806,
+      "gain": 1.020116562531291,
+      "noise_std": 0.04948844376814489,
+      "windows": 40
+    },
+    {
+      "session_id": 118,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 41.741758160650186,
+      "gain": 1.108140835449737,
+      "noise_std": 0.10165927256044255,
+      "windows": 40
+    },
+    {
+      "session_id": 119,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "val",
+      "frequency_hz": 35.12376860366487,
+      "gain": 1.0142074205454001,
+      "noise_std": 0.05279893630387246,
+      "windows": 40
+    },
+    {
+      "session_id": 120,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 45.6549765114238,
+      "gain": 1.1120591257131567,
+      "noise_std": 0.08324406894822871,
+      "windows": 40
+    },
+    {
+      "session_id": 121,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 43.86837877466061,
+      "gain": 0.8362822320642038,
+      "noise_std": 0.07195208738924491,
+      "windows": 40
+    },
+    {
+      "session_id": 122,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 36.2301468667562,
+      "gain": 1.1010401986179064,
+      "noise_std": 0.11976337601407136,
+      "windows": 40
+    },
+    {
+      "session_id": 123,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 39.49357114829018,
+      "gain": 0.954747289154323,
+      "noise_std": 0.07469102810093788,
+      "windows": 40
+    },
+    {
+      "session_id": 124,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 37.37841131976279,
+      "gain": 0.9261626270426517,
+      "noise_std": 0.06668331057372476,
+      "windows": 40
+    },
+    {
+      "session_id": 125,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 43.94148057804131,
+      "gain": 0.8780441026600895,
+      "noise_std": 0.04385735233961495,
+      "windows": 40
+    },
+    {
+      "session_id": 126,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 40.09241675666092,
+      "gain": 1.0787752593418165,
+      "noise_std": 0.08381854601235103,
+      "windows": 40
+    },
+    {
+      "session_id": 127,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 42.84498277137253,
+      "gain": 1.0102772144151664,
+      "noise_std": 0.07450745357605612,
+      "windows": 40
+    },
+    {
+      "session_id": 128,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 45.170456883767194,
+      "gain": 0.907986597838973,
+      "noise_std": 0.06004563018930924,
+      "windows": 40
+    },
+    {
+      "session_id": 129,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 45.05234648725212,
+      "gain": 0.9817626476826945,
+      "noise_std": 0.11439394425800858,
+      "windows": 40
+    },
+    {
+      "session_id": 130,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 40.48693379665025,
+      "gain": 0.8831659038433598,
+      "noise_std": 0.06766427630829513,
+      "windows": 40
+    },
+    {
+      "session_id": 131,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 35.4703141705127,
+      "gain": 0.8253889437215267,
+      "noise_std": 0.05917104906483091,
+      "windows": 40
+    },
+    {
+      "session_id": 132,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 37.06830622213302,
+      "gain": 0.9121931756079239,
+      "noise_std": 0.10474079358172689,
+      "windows": 40
+    },
+    {
+      "session_id": 133,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 37.594780723853894,
+      "gain": 0.9754637198476386,
+      "noise_std": 0.0793344383226883,
+      "windows": 40
+    },
+    {
+      "session_id": 134,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 36.01996428122316,
+      "gain": 0.8575112496156224,
+      "noise_std": 0.059777228394660126,
+      "windows": 40
+    },
+    {
+      "session_id": 135,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 45.82412434770185,
+      "gain": 1.0758113516380987,
+      "noise_std": 0.09609289157856907,
+      "windows": 40
+    },
+    {
+      "session_id": 136,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 36.015724999282334,
+      "gain": 1.1316142838722392,
+      "noise_std": 0.05762677121662839,
+      "windows": 40
+    },
+    {
+      "session_id": 137,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 43.099342527194906,
+      "gain": 1.0925134130852754,
+      "noise_std": 0.052506953622167715,
+      "windows": 40
+    },
+    {
+      "session_id": 138,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 35.69948420921153,
+      "gain": 1.1800902892438334,
+      "noise_std": 0.07767551879008738,
+      "windows": 40
+    },
+    {
+      "session_id": 139,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 40.77006408977543,
+      "gain": 0.8370228947266274,
+      "noise_std": 0.11195263613202619,
+      "windows": 40
+    },
+    {
+      "session_id": 140,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 37.6650745679313,
+      "gain": 1.0222744878248262,
+      "noise_std": 0.1156097306013387,
+      "windows": 40
+    },
+    {
+      "session_id": 141,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 42.263404020943206,
+      "gain": 1.013017669843867,
+      "noise_std": 0.10316057634095344,
+      "windows": 40
+    },
+    {
+      "session_id": 142,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 39.80558150778796,
+      "gain": 0.838230283626821,
+      "noise_std": 0.0840438923614878,
+      "windows": 40
+    },
+    {
+      "session_id": 143,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 36.05379348524313,
+      "gain": 1.0743480367902523,
+      "noise_std": 0.06280398724536915,
+      "windows": 40
+    },
+    {
+      "session_id": 144,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 42.20271379889101,
+      "gain": 0.9184080083911137,
+      "noise_std": 0.11279185384577264,
+      "windows": 40
+    },
+    {
+      "session_id": 145,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 40.284189129480744,
+      "gain": 1.0277747064412663,
+      "noise_std": 0.10658856579479559,
+      "windows": 40
+    },
+    {
+      "session_id": 146,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 41.84345070546983,
+      "gain": 1.119316826844805,
+      "noise_std": 0.10432932839735021,
+      "windows": 40
+    },
+    {
+      "session_id": 147,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 45.750640207804295,
+      "gain": 1.175027916069803,
+      "noise_std": 0.04495986092325925,
+      "windows": 40
+    },
+    {
+      "session_id": 148,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 35.99425515033781,
+      "gain": 1.0780009625577112,
+      "noise_std": 0.05258388489558688,
+      "windows": 40
+    },
+    {
+      "session_id": 149,
+      "class_index": 0,
+      "class_name": "normal",
+      "split": "test",
+      "frequency_hz": 43.20415601774845,
+      "gain": 0.931417441371856,
+      "noise_std": 0.048600340170463496,
+      "windows": 40
+    },
+    {
+      "session_id": 150,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 40.64020658396178,
+      "gain": 0.9350433241696936,
+      "noise_std": 0.09105569510782316,
+      "windows": 40
+    },
+    {
+      "session_id": 151,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 38.35401243536661,
+      "gain": 1.1830635007940802,
+      "noise_std": 0.10350531813454131,
+      "windows": 40
+    },
+    {
+      "session_id": 152,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 39.46433866097945,
+      "gain": 0.869149217813565,
+      "noise_std": 0.11880095369350935,
+      "windows": 40
+    },
+    {
+      "session_id": 153,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 37.863193826093614,
+      "gain": 0.8784108309252279,
+      "noise_std": 0.09785658354608656,
+      "windows": 40
+    },
+    {
+      "session_id": 154,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 44.9269312353306,
+      "gain": 1.0992786937122805,
+      "noise_std": 0.0672330143508629,
+      "windows": 40
+    },
+    {
+      "session_id": 155,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 41.15215282628583,
+      "gain": 1.0228823002615925,
+      "noise_std": 0.11632525473630456,
+      "windows": 40
+    },
+    {
+      "session_id": 156,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 44.6734174336823,
+      "gain": 1.1566008897400104,
+      "noise_std": 0.0761187560226356,
+      "windows": 40
+    },
+    {
+      "session_id": 157,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 42.97242091254769,
+      "gain": 1.0087207163989018,
+      "noise_std": 0.06390534943293386,
+      "windows": 40
+    },
+    {
+      "session_id": 158,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 36.28884771850443,
+      "gain": 1.0737748353651921,
+      "noise_std": 0.08506936261013305,
+      "windows": 40
+    },
+    {
+      "session_id": 159,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 39.46465653399128,
+      "gain": 0.8381473590051393,
+      "noise_std": 0.08870234875445485,
+      "windows": 40
+    },
+    {
+      "session_id": 160,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 43.233403231392856,
+      "gain": 1.0058422724590574,
+      "noise_std": 0.0473913450396858,
+      "windows": 40
+    },
+    {
+      "session_id": 161,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 39.3055316463022,
+      "gain": 0.8317827449579589,
+      "noise_std": 0.10180986398959599,
+      "windows": 40
+    },
+    {
+      "session_id": 162,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 44.52291358890843,
+      "gain": 0.862453500868912,
+      "noise_std": 0.10972498177464468,
+      "windows": 40
+    },
+    {
+      "session_id": 163,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 43.16779370907231,
+      "gain": 1.1479397274846128,
+      "noise_std": 0.06019956713976049,
+      "windows": 40
+    },
+    {
+      "session_id": 164,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 44.797126048431366,
+      "gain": 0.9664041900559247,
+      "noise_std": 0.05034626892382328,
+      "windows": 40
+    },
+    {
+      "session_id": 165,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 37.841241736129945,
+      "gain": 0.875620349296749,
+      "noise_std": 0.10264069254812319,
+      "windows": 40
+    },
+    {
+      "session_id": 166,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 38.04060005819392,
+      "gain": 0.9712627972260447,
+      "noise_std": 0.05442356384719925,
+      "windows": 40
+    },
+    {
+      "session_id": 167,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 38.279976423676544,
+      "gain": 1.1323049744680167,
+      "noise_std": 0.05832358026113227,
+      "windows": 40
+    },
+    {
+      "session_id": 168,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 41.556997102495245,
+      "gain": 0.9700917096873861,
+      "noise_std": 0.06944258593341524,
+      "windows": 40
+    },
+    {
+      "session_id": 169,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 34.149627530427914,
+      "gain": 0.9237233792253101,
+      "noise_std": 0.07853400150224121,
+      "windows": 40
+    },
+    {
+      "session_id": 170,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 43.26096819568161,
+      "gain": 1.0214129920335553,
+      "noise_std": 0.06650282688841032,
+      "windows": 40
+    },
+    {
+      "session_id": 171,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 35.278970221032495,
+      "gain": 0.9936092585368755,
+      "noise_std": 0.061847426358264485,
+      "windows": 40
+    },
+    {
+      "session_id": 172,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 38.08774001226435,
+      "gain": 1.100555387735417,
+      "noise_std": 0.10198102210282545,
+      "windows": 40
+    },
+    {
+      "session_id": 173,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 45.16929159238315,
+      "gain": 0.8853168619762259,
+      "noise_std": 0.06664569813412088,
+      "windows": 40
+    },
+    {
+      "session_id": 174,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 45.037635637846265,
+      "gain": 1.161413856381764,
+      "noise_std": 0.10167426600403824,
+      "windows": 40
+    },
+    {
+      "session_id": 175,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 44.14048604470089,
+      "gain": 0.9333310579257456,
+      "noise_std": 0.096461463933329,
+      "windows": 40
+    },
+    {
+      "session_id": 176,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 38.62059462449517,
+      "gain": 0.8437964273315426,
+      "noise_std": 0.08231575640313196,
+      "windows": 40
+    },
+    {
+      "session_id": 177,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 37.97475267853629,
+      "gain": 1.0341119455003585,
+      "noise_std": 0.09891927170984335,
+      "windows": 40
+    },
+    {
+      "session_id": 178,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 39.80702105137979,
+      "gain": 1.1826057247984036,
+      "noise_std": 0.07976296740939512,
+      "windows": 40
+    },
+    {
+      "session_id": 179,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 41.52440246380298,
+      "gain": 0.978424456696789,
+      "noise_std": 0.051573599654403765,
+      "windows": 40
+    },
+    {
+      "session_id": 180,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 45.62404264912734,
+      "gain": 0.9635433543627967,
+      "noise_std": 0.042793758292947695,
+      "windows": 40
+    },
+    {
+      "session_id": 181,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 45.320472207017254,
+      "gain": 1.1888529269367962,
+      "noise_std": 0.04657311434129298,
+      "windows": 40
+    },
+    {
+      "session_id": 182,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 41.171690045496334,
+      "gain": 0.971468621804947,
+      "noise_std": 0.046468147996897316,
+      "windows": 40
+    },
+    {
+      "session_id": 183,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 38.39925425597482,
+      "gain": 0.8673718386663126,
+      "noise_std": 0.08421563747848328,
+      "windows": 40
+    },
+    {
+      "session_id": 184,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 34.587064171831514,
+      "gain": 1.0456472062348774,
+      "noise_std": 0.04531882620959623,
+      "windows": 40
+    },
+    {
+      "session_id": 185,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 41.42165894389298,
+      "gain": 0.853211368156209,
+      "noise_std": 0.0855918233386134,
+      "windows": 40
+    },
+    {
+      "session_id": 186,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 34.08305753702579,
+      "gain": 0.8266654574210351,
+      "noise_std": 0.04498298700279586,
+      "windows": 40
+    },
+    {
+      "session_id": 187,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 38.239251350842395,
+      "gain": 0.9107674972500132,
+      "noise_std": 0.11860258356103742,
+      "windows": 40
+    },
+    {
+      "session_id": 188,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 37.33376594776011,
+      "gain": 0.9358862694212615,
+      "noise_std": 0.1162905475551029,
+      "windows": 40
+    },
+    {
+      "session_id": 189,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 39.62584546641072,
+      "gain": 0.9423197551344387,
+      "noise_std": 0.068566965562733,
+      "windows": 40
+    },
+    {
+      "session_id": 190,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 40.696470705041406,
+      "gain": 1.1227667149675442,
+      "noise_std": 0.04008858579318809,
+      "windows": 40
+    },
+    {
+      "session_id": 191,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 34.71261294079392,
+      "gain": 0.9875500560239278,
+      "noise_std": 0.0796531418384133,
+      "windows": 40
+    },
+    {
+      "session_id": 192,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 39.29616016822418,
+      "gain": 0.9698187209111758,
+      "noise_std": 0.08763592008203436,
+      "windows": 40
+    },
+    {
+      "session_id": 193,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 41.54058925477693,
+      "gain": 1.0421592383050837,
+      "noise_std": 0.04872818063763325,
+      "windows": 40
+    },
+    {
+      "session_id": 194,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 35.7566296366832,
+      "gain": 0.8558858531951195,
+      "noise_std": 0.05803478025286114,
+      "windows": 40
+    },
+    {
+      "session_id": 195,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 36.866615851830815,
+      "gain": 0.9084976981489867,
+      "noise_std": 0.08182595641758114,
+      "windows": 40
+    },
+    {
+      "session_id": 196,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 38.52741596280124,
+      "gain": 1.0302118546188463,
+      "noise_std": 0.09331777113548305,
+      "windows": 40
+    },
+    {
+      "session_id": 197,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 45.94652451162892,
+      "gain": 1.0872330802306356,
+      "noise_std": 0.08564314600515754,
+      "windows": 40
+    },
+    {
+      "session_id": 198,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 37.79288418442282,
+      "gain": 1.037218628117654,
+      "noise_std": 0.0758454433744328,
+      "windows": 40
+    },
+    {
+      "session_id": 199,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 34.060547911323624,
+      "gain": 1.1566899534914958,
+      "noise_std": 0.050911625659473214,
+      "windows": 40
+    },
+    {
+      "session_id": 200,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 43.09231240945183,
+      "gain": 0.9754453025610306,
+      "noise_std": 0.047693614927507434,
+      "windows": 40
+    },
+    {
+      "session_id": 201,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 43.129548452786345,
+      "gain": 0.8195486567703942,
+      "noise_std": 0.060598806094896956,
+      "windows": 40
+    },
+    {
+      "session_id": 202,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 42.10889070396539,
+      "gain": 1.1173991410904587,
+      "noise_std": 0.05157447005770174,
+      "windows": 40
+    },
+    {
+      "session_id": 203,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 41.227182038736515,
+      "gain": 1.0452719695604091,
+      "noise_std": 0.08389832119821078,
+      "windows": 40
+    },
+    {
+      "session_id": 204,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 44.35619347243298,
+      "gain": 0.9478774872071236,
+      "noise_std": 0.09413931677977919,
+      "windows": 40
+    },
+    {
+      "session_id": 205,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 38.2363995298254,
+      "gain": 1.1133890602529268,
+      "noise_std": 0.053734011338933775,
+      "windows": 40
+    },
+    {
+      "session_id": 206,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 35.87262368574965,
+      "gain": 0.8017887038269238,
+      "noise_std": 0.058615440607438056,
+      "windows": 40
+    },
+    {
+      "session_id": 207,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 35.4635552219794,
+      "gain": 1.138066615045775,
+      "noise_std": 0.11407702189328786,
+      "windows": 40
+    },
+    {
+      "session_id": 208,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 43.20539749808471,
+      "gain": 1.189384033785677,
+      "noise_std": 0.10227708310068773,
+      "windows": 40
+    },
+    {
+      "session_id": 209,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 36.67290242413336,
+      "gain": 0.9417079457621526,
+      "noise_std": 0.10457207979761846,
+      "windows": 40
+    },
+    {
+      "session_id": 210,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 42.996378390365166,
+      "gain": 0.9163006565665875,
+      "noise_std": 0.06478754456284498,
+      "windows": 40
+    },
+    {
+      "session_id": 211,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 34.59142699642379,
+      "gain": 1.0950638494616476,
+      "noise_std": 0.1056608772289771,
+      "windows": 40
+    },
+    {
+      "session_id": 212,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 38.3610211796651,
+      "gain": 1.1913780053679732,
+      "noise_std": 0.08743256205716152,
+      "windows": 40
+    },
+    {
+      "session_id": 213,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 41.55680647688926,
+      "gain": 1.1592240799889675,
+      "noise_std": 0.044962303205118605,
+      "windows": 40
+    },
+    {
+      "session_id": 214,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 34.605519719268344,
+      "gain": 1.0031390074212827,
+      "noise_std": 0.05703122018324204,
+      "windows": 40
+    },
+    {
+      "session_id": 215,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 41.573788849911,
+      "gain": 0.8625889035997805,
+      "noise_std": 0.09054153505081403,
+      "windows": 40
+    },
+    {
+      "session_id": 216,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 45.748382143486964,
+      "gain": 0.8917337412981455,
+      "noise_std": 0.0993019964256266,
+      "windows": 40
+    },
+    {
+      "session_id": 217,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 34.63526287553245,
+      "gain": 1.0380153125230978,
+      "noise_std": 0.07152619694583351,
+      "windows": 40
+    },
+    {
+      "session_id": 218,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 43.5987599539738,
+      "gain": 0.976133516628128,
+      "noise_std": 0.1088145743932031,
+      "windows": 40
+    },
+    {
+      "session_id": 219,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 41.200373697913676,
+      "gain": 0.8650668823629503,
+      "noise_std": 0.08911618895017476,
+      "windows": 40
+    },
+    {
+      "session_id": 220,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 34.342341472017544,
+      "gain": 0.95236383457335,
+      "noise_std": 0.07313872566998644,
+      "windows": 40
+    },
+    {
+      "session_id": 221,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 43.70014695064842,
+      "gain": 1.1164880147366716,
+      "noise_std": 0.10244844908825174,
+      "windows": 40
+    },
+    {
+      "session_id": 222,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 45.04074202888513,
+      "gain": 1.1066595831839559,
+      "noise_std": 0.08105880136209015,
+      "windows": 40
+    },
+    {
+      "session_id": 223,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 36.66411015910637,
+      "gain": 1.1954893564920117,
+      "noise_std": 0.04711314374721568,
+      "windows": 40
+    },
+    {
+      "session_id": 224,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 42.125600693475185,
+      "gain": 0.8179863322231957,
+      "noise_std": 0.11774219427686006,
+      "windows": 40
+    },
+    {
+      "session_id": 225,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 38.244845089094056,
+      "gain": 0.8098101019481546,
+      "noise_std": 0.10521702547853848,
+      "windows": 40
+    },
+    {
+      "session_id": 226,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 41.35566622012156,
+      "gain": 1.0123135278592152,
+      "noise_std": 0.10039443266442497,
+      "windows": 40
+    },
+    {
+      "session_id": 227,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 42.35876295274879,
+      "gain": 1.1603649305877732,
+      "noise_std": 0.07378819714548024,
+      "windows": 40
+    },
+    {
+      "session_id": 228,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 34.864500300919445,
+      "gain": 1.1452876304904056,
+      "noise_std": 0.05517199217787998,
+      "windows": 40
+    },
+    {
+      "session_id": 229,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 35.08678463855006,
+      "gain": 1.1568536896941428,
+      "noise_std": 0.05506279634986917,
+      "windows": 40
+    },
+    {
+      "session_id": 230,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 42.09237322945058,
+      "gain": 0.8424638466894414,
+      "noise_std": 0.09449020341937012,
+      "windows": 40
+    },
+    {
+      "session_id": 231,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 38.79788447579991,
+      "gain": 0.8208680454511385,
+      "noise_std": 0.08369896029150914,
+      "windows": 40
+    },
+    {
+      "session_id": 232,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 38.84899109699292,
+      "gain": 1.0251273955995932,
+      "noise_std": 0.1164265455683881,
+      "windows": 40
+    },
+    {
+      "session_id": 233,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 41.34425472930932,
+      "gain": 0.885663312791672,
+      "noise_std": 0.10377378249270702,
+      "windows": 40
+    },
+    {
+      "session_id": 234,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 40.21511626246724,
+      "gain": 1.039178559668218,
+      "noise_std": 0.0762835026261959,
+      "windows": 40
+    },
+    {
+      "session_id": 235,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 37.010848469191544,
+      "gain": 1.197185445896616,
+      "noise_std": 0.07456711298765825,
+      "windows": 40
+    },
+    {
+      "session_id": 236,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 37.041777551704286,
+      "gain": 1.1014076617371238,
+      "noise_std": 0.1005874457539149,
+      "windows": 40
+    },
+    {
+      "session_id": 237,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 40.77496554533777,
+      "gain": 0.9472843756390223,
+      "noise_std": 0.08161847998741165,
+      "windows": 40
+    },
+    {
+      "session_id": 238,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 34.18937937340293,
+      "gain": 0.8569211962100156,
+      "noise_std": 0.11875373781970283,
+      "windows": 40
+    },
+    {
+      "session_id": 239,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "train",
+      "frequency_hz": 43.646807599008895,
+      "gain": 1.1777993251599224,
+      "noise_std": 0.07857778689142005,
+      "windows": 40
+    },
+    {
+      "session_id": 240,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 43.301438177548874,
+      "gain": 1.1504530409877904,
+      "noise_std": 0.05205484090742106,
+      "windows": 40
+    },
+    {
+      "session_id": 241,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 41.75268124560232,
+      "gain": 0.8541431733932445,
+      "noise_std": 0.11598413917889058,
+      "windows": 40
+    },
+    {
+      "session_id": 242,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 39.565941660858094,
+      "gain": 1.1245143219685367,
+      "noise_std": 0.1042416993372638,
+      "windows": 40
+    },
+    {
+      "session_id": 243,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 45.089953315522145,
+      "gain": 1.0738876483263606,
+      "noise_std": 0.06791350257547485,
+      "windows": 40
+    },
+    {
+      "session_id": 244,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 37.81346363976714,
+      "gain": 1.023885214304469,
+      "noise_std": 0.04428211961312086,
+      "windows": 40
+    },
+    {
+      "session_id": 245,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 44.66391011727918,
+      "gain": 1.0445645011886906,
+      "noise_std": 0.07108191615130596,
+      "windows": 40
+    },
+    {
+      "session_id": 246,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 37.20155381423972,
+      "gain": 0.9917085005877105,
+      "noise_std": 0.09965152936998749,
+      "windows": 40
+    },
+    {
+      "session_id": 247,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 42.487919493696,
+      "gain": 1.1094277966847874,
+      "noise_std": 0.057766912551160315,
+      "windows": 40
+    },
+    {
+      "session_id": 248,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 42.35928525473391,
+      "gain": 1.070309758463131,
+      "noise_std": 0.05816813854063403,
+      "windows": 40
+    },
+    {
+      "session_id": 249,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 36.535189468522624,
+      "gain": 1.0201790085329538,
+      "noise_std": 0.04039887528226564,
+      "windows": 40
+    },
+    {
+      "session_id": 250,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 43.26480013225549,
+      "gain": 0.9478553676564564,
+      "noise_std": 0.08146937770828463,
+      "windows": 40
+    },
+    {
+      "session_id": 251,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 35.82884650920595,
+      "gain": 0.805561483997765,
+      "noise_std": 0.10776292225558642,
+      "windows": 40
+    },
+    {
+      "session_id": 252,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 38.88581381152005,
+      "gain": 1.0017118622213783,
+      "noise_std": 0.08067891946301911,
+      "windows": 40
+    },
+    {
+      "session_id": 253,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 35.094766642571976,
+      "gain": 0.9203088395556841,
+      "noise_std": 0.07794731994226962,
+      "windows": 40
+    },
+    {
+      "session_id": 254,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 41.83607968322427,
+      "gain": 0.8458958649445171,
+      "noise_std": 0.10166186865920149,
+      "windows": 40
+    },
+    {
+      "session_id": 255,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 41.76555717061021,
+      "gain": 1.0885848001395768,
+      "noise_std": 0.11175186048827154,
+      "windows": 40
+    },
+    {
+      "session_id": 256,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 42.25611362182516,
+      "gain": 0.9885986515835319,
+      "noise_std": 0.09716847853736385,
+      "windows": 40
+    },
+    {
+      "session_id": 257,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 36.43272081489765,
+      "gain": 0.9733754062254486,
+      "noise_std": 0.06874218222461426,
+      "windows": 40
+    },
+    {
+      "session_id": 258,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 34.14159295386351,
+      "gain": 0.8255664879562346,
+      "noise_std": 0.056971687253967535,
+      "windows": 40
+    },
+    {
+      "session_id": 259,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 43.98019984282299,
+      "gain": 0.8244883624209005,
+      "noise_std": 0.04759794086903096,
+      "windows": 40
+    },
+    {
+      "session_id": 260,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 34.83006537338909,
+      "gain": 0.8446713672372499,
+      "noise_std": 0.09170681906877155,
+      "windows": 40
+    },
+    {
+      "session_id": 261,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 41.7990943104622,
+      "gain": 0.8425603548394873,
+      "noise_std": 0.048821184881284264,
+      "windows": 40
+    },
+    {
+      "session_id": 262,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 43.82814592330984,
+      "gain": 0.9641328597316847,
+      "noise_std": 0.1090236896810097,
+      "windows": 40
+    },
+    {
+      "session_id": 263,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 40.986013173791825,
+      "gain": 1.1544947935088012,
+      "noise_std": 0.06561474843513489,
+      "windows": 40
+    },
+    {
+      "session_id": 264,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 45.723271529888144,
+      "gain": 1.1409060826550659,
+      "noise_std": 0.11508626678341416,
+      "windows": 40
+    },
+    {
+      "session_id": 265,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 42.1218457189968,
+      "gain": 1.102458722212941,
+      "noise_std": 0.11631514813715615,
+      "windows": 40
+    },
+    {
+      "session_id": 266,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 34.44523748192801,
+      "gain": 0.8052829295662255,
+      "noise_std": 0.05831832305373154,
+      "windows": 40
+    },
+    {
+      "session_id": 267,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 37.030589818955,
+      "gain": 1.1384538750628472,
+      "noise_std": 0.08609365424443763,
+      "windows": 40
+    },
+    {
+      "session_id": 268,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 34.80730919154561,
+      "gain": 1.0985778675270983,
+      "noise_std": 0.04401243520696203,
+      "windows": 40
+    },
+    {
+      "session_id": 269,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "val",
+      "frequency_hz": 34.16396019238138,
+      "gain": 1.1454731801452667,
+      "noise_std": 0.05266875198903936,
+      "windows": 40
+    },
+    {
+      "session_id": 270,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 40.63102990229154,
+      "gain": 1.1431372533336217,
+      "noise_std": 0.04845942087923029,
+      "windows": 40
+    },
+    {
+      "session_id": 271,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 43.56358182375377,
+      "gain": 0.8131400778643326,
+      "noise_std": 0.09470121954230609,
+      "windows": 40
+    },
+    {
+      "session_id": 272,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 41.98603426169615,
+      "gain": 1.0464784474574842,
+      "noise_std": 0.09555362999997662,
+      "windows": 40
+    },
+    {
+      "session_id": 273,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 37.00288887917756,
+      "gain": 1.160359470146214,
+      "noise_std": 0.0679969527611721,
+      "windows": 40
+    },
+    {
+      "session_id": 274,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 39.627868048085254,
+      "gain": 0.8021094172634151,
+      "noise_std": 0.04614168777139053,
+      "windows": 40
+    },
+    {
+      "session_id": 275,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 41.3258249648667,
+      "gain": 1.127837713627176,
+      "noise_std": 0.07821561261648935,
+      "windows": 40
+    },
+    {
+      "session_id": 276,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 34.93897016418625,
+      "gain": 0.8392877848729559,
+      "noise_std": 0.08429901419892649,
+      "windows": 40
+    },
+    {
+      "session_id": 277,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 44.9850371966921,
+      "gain": 0.8981946196983276,
+      "noise_std": 0.0810652230004933,
+      "windows": 40
+    },
+    {
+      "session_id": 278,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 40.695174817562105,
+      "gain": 0.8612349131995427,
+      "noise_std": 0.04230475201637806,
+      "windows": 40
+    },
+    {
+      "session_id": 279,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 45.96181676902373,
+      "gain": 1.0304913248604468,
+      "noise_std": 0.10622952361042023,
+      "windows": 40
+    },
+    {
+      "session_id": 280,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 42.68003424957333,
+      "gain": 0.9035772311152818,
+      "noise_std": 0.04157148068048147,
+      "windows": 40
+    },
+    {
+      "session_id": 281,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 40.918298768625036,
+      "gain": 1.1738031108075557,
+      "noise_std": 0.07669807850146677,
+      "windows": 40
+    },
+    {
+      "session_id": 282,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 35.31316048824525,
+      "gain": 1.1322897394139801,
+      "noise_std": 0.06787098739756843,
+      "windows": 40
+    },
+    {
+      "session_id": 283,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 39.75709785362067,
+      "gain": 0.934945060092782,
+      "noise_std": 0.10062661663192601,
+      "windows": 40
+    },
+    {
+      "session_id": 284,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 36.97411294134555,
+      "gain": 1.1668224191452319,
+      "noise_std": 0.11604874818997835,
+      "windows": 40
+    },
+    {
+      "session_id": 285,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 45.96072319478013,
+      "gain": 1.1898189929619698,
+      "noise_std": 0.06118974236485096,
+      "windows": 40
+    },
+    {
+      "session_id": 286,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 44.27187212449451,
+      "gain": 1.0655741690335545,
+      "noise_std": 0.04587246025679204,
+      "windows": 40
+    },
+    {
+      "session_id": 287,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 34.77593277053169,
+      "gain": 0.8478308681567663,
+      "noise_std": 0.07043957266812884,
+      "windows": 40
+    },
+    {
+      "session_id": 288,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 36.17404063164422,
+      "gain": 0.8810386973285574,
+      "noise_std": 0.0450393092853591,
+      "windows": 40
+    },
+    {
+      "session_id": 289,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 37.50482855999566,
+      "gain": 0.9289537980395532,
+      "noise_std": 0.11897053881838643,
+      "windows": 40
+    },
+    {
+      "session_id": 290,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 35.868771186026194,
+      "gain": 0.8272648547666018,
+      "noise_std": 0.04796569613852793,
+      "windows": 40
+    },
+    {
+      "session_id": 291,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 43.823261554531236,
+      "gain": 0.944394738401624,
+      "noise_std": 0.04739602334626925,
+      "windows": 40
+    },
+    {
+      "session_id": 292,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 43.108104186389134,
+      "gain": 0.8717628982302397,
+      "noise_std": 0.11078386178966998,
+      "windows": 40
+    },
+    {
+      "session_id": 293,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 36.948236100307845,
+      "gain": 0.8315614225326042,
+      "noise_std": 0.08494436682295864,
+      "windows": 40
+    },
+    {
+      "session_id": 294,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 43.7722421496876,
+      "gain": 0.8248541216637502,
+      "noise_std": 0.06655753668047956,
+      "windows": 40
+    },
+    {
+      "session_id": 295,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 38.437193665236265,
+      "gain": 1.1304407365263036,
+      "noise_std": 0.08733770877792821,
+      "windows": 40
+    },
+    {
+      "session_id": 296,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 43.732869562159266,
+      "gain": 0.9225110967225594,
+      "noise_std": 0.10263682658641196,
+      "windows": 40
+    },
+    {
+      "session_id": 297,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 38.50897885028958,
+      "gain": 1.140709569561902,
+      "noise_std": 0.05707808740870082,
+      "windows": 40
+    },
+    {
+      "session_id": 298,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 45.146481276134885,
+      "gain": 1.103570449269505,
+      "noise_std": 0.09721467821693483,
+      "windows": 40
+    },
+    {
+      "session_id": 299,
+      "class_index": 1,
+      "class_name": "unbalance_like",
+      "split": "test",
+      "frequency_hz": 40.333886413266605,
+      "gain": 1.1209588423425079,
+      "noise_std": 0.05912449275062905,
+      "windows": 40
+    },
+    {
+      "session_id": 300,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 43.780420786867936,
+      "gain": 1.14935997649679,
+      "noise_std": 0.10585293776484339,
+      "windows": 40
+    },
+    {
+      "session_id": 301,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 35.118561835099,
+      "gain": 0.923061993541434,
+      "noise_std": 0.05722663335529113,
+      "windows": 40
+    },
+    {
+      "session_id": 302,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 42.98500796109717,
+      "gain": 0.9890610084070036,
+      "noise_std": 0.08961927970148362,
+      "windows": 40
+    },
+    {
+      "session_id": 303,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 37.60390018264269,
+      "gain": 0.8371291392218713,
+      "noise_std": 0.10410917856249746,
+      "windows": 40
+    },
+    {
+      "session_id": 304,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 42.99517973389366,
+      "gain": 0.8395334451801759,
+      "noise_std": 0.09881944290788679,
+      "windows": 40
+    },
+    {
+      "session_id": 305,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 36.09436629644381,
+      "gain": 1.1206616368386482,
+      "noise_std": 0.11630848066877975,
+      "windows": 40
+    },
+    {
+      "session_id": 306,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 34.20399310803836,
+      "gain": 0.9226034742262414,
+      "noise_std": 0.0686673864743528,
+      "windows": 40
+    },
+    {
+      "session_id": 307,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 44.195643276832655,
+      "gain": 0.9396785377508635,
+      "noise_std": 0.09400695298802542,
+      "windows": 40
+    },
+    {
+      "session_id": 308,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 43.92350479465162,
+      "gain": 0.900165491388708,
+      "noise_std": 0.04854826581421506,
+      "windows": 40
+    },
+    {
+      "session_id": 309,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 34.84744989618784,
+      "gain": 0.8619610505373431,
+      "noise_std": 0.10145348386262151,
+      "windows": 40
+    },
+    {
+      "session_id": 310,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 40.063789112998904,
+      "gain": 0.9386496199034682,
+      "noise_std": 0.04264307140025354,
+      "windows": 40
+    },
+    {
+      "session_id": 311,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 38.285902240575076,
+      "gain": 1.1167028780102024,
+      "noise_std": 0.08661895458139793,
+      "windows": 40
+    },
+    {
+      "session_id": 312,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 36.3210670246414,
+      "gain": 0.8575590272013165,
+      "noise_std": 0.07595373980724873,
+      "windows": 40
+    },
+    {
+      "session_id": 313,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 41.576929341929144,
+      "gain": 0.9436224137203809,
+      "noise_std": 0.10350397179077744,
+      "windows": 40
+    },
+    {
+      "session_id": 314,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 38.12401496123314,
+      "gain": 1.073553109914065,
+      "noise_std": 0.05838680967387622,
+      "windows": 40
+    },
+    {
+      "session_id": 315,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 38.77917783036699,
+      "gain": 0.8740319171438324,
+      "noise_std": 0.06377656094512671,
+      "windows": 40
+    },
+    {
+      "session_id": 316,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 44.89943206357877,
+      "gain": 0.9253278340953621,
+      "noise_std": 0.09440038035764911,
+      "windows": 40
+    },
+    {
+      "session_id": 317,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 34.99896651630931,
+      "gain": 0.9518365151747117,
+      "noise_std": 0.08549135661450047,
+      "windows": 40
+    },
+    {
+      "session_id": 318,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 37.71608149597772,
+      "gain": 0.9924509443331184,
+      "noise_std": 0.09261962555580011,
+      "windows": 40
+    },
+    {
+      "session_id": 319,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 41.700000789180926,
+      "gain": 0.8075549515772771,
+      "noise_std": 0.06743761887922134,
+      "windows": 40
+    },
+    {
+      "session_id": 320,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 39.47432243847502,
+      "gain": 1.1491131597222939,
+      "noise_std": 0.06094330610806967,
+      "windows": 40
+    },
+    {
+      "session_id": 321,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 37.53247864700372,
+      "gain": 0.880341701494284,
+      "noise_std": 0.04107929009253557,
+      "windows": 40
+    },
+    {
+      "session_id": 322,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 39.88614185088741,
+      "gain": 0.9860707260982282,
+      "noise_std": 0.042409000210742426,
+      "windows": 40
+    },
+    {
+      "session_id": 323,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 45.74191180708941,
+      "gain": 0.9114803183011128,
+      "noise_std": 0.0506057225702382,
+      "windows": 40
+    },
+    {
+      "session_id": 324,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 42.9298463125981,
+      "gain": 0.8752945182350708,
+      "noise_std": 0.07917206396811663,
+      "windows": 40
+    },
+    {
+      "session_id": 325,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 35.67399560468863,
+      "gain": 0.9033920211184631,
+      "noise_std": 0.09994434066939183,
+      "windows": 40
+    },
+    {
+      "session_id": 326,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 43.64126871332971,
+      "gain": 1.0168510296833,
+      "noise_std": 0.06442238400970476,
+      "windows": 40
+    },
+    {
+      "session_id": 327,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 36.5914161779477,
+      "gain": 0.8538071628648327,
+      "noise_std": 0.05232576045944414,
+      "windows": 40
+    },
+    {
+      "session_id": 328,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 44.5121621820125,
+      "gain": 0.9451450577583612,
+      "noise_std": 0.0518515587324249,
+      "windows": 40
+    },
+    {
+      "session_id": 329,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 41.89529432212304,
+      "gain": 1.114642909260669,
+      "noise_std": 0.047787746267325,
+      "windows": 40
+    },
+    {
+      "session_id": 330,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 38.25815141289751,
+      "gain": 1.0025166968467363,
+      "noise_std": 0.11557469558767997,
+      "windows": 40
+    },
+    {
+      "session_id": 331,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 41.158464090172906,
+      "gain": 0.9150181005208246,
+      "noise_std": 0.05151787185167769,
+      "windows": 40
+    },
+    {
+      "session_id": 332,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 40.51184653084781,
+      "gain": 1.15792813229235,
+      "noise_std": 0.11585957251617718,
+      "windows": 40
+    },
+    {
+      "session_id": 333,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 35.622634472956655,
+      "gain": 1.1372007186439108,
+      "noise_std": 0.09487761229030843,
+      "windows": 40
+    },
+    {
+      "session_id": 334,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 41.38838394202585,
+      "gain": 0.8750885367438211,
+      "noise_std": 0.06017112016372041,
+      "windows": 40
+    },
+    {
+      "session_id": 335,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 43.055161707053294,
+      "gain": 1.1169417374646757,
+      "noise_std": 0.04918596713440961,
+      "windows": 40
+    },
+    {
+      "session_id": 336,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 44.789339798548525,
+      "gain": 0.9353439381716242,
+      "noise_std": 0.1069670870860378,
+      "windows": 40
+    },
+    {
+      "session_id": 337,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 45.912208502411715,
+      "gain": 0.9450530987378942,
+      "noise_std": 0.11959552382185298,
+      "windows": 40
+    },
+    {
+      "session_id": 338,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 37.66105389049855,
+      "gain": 1.1836180564084087,
+      "noise_std": 0.040532225510734536,
+      "windows": 40
+    },
+    {
+      "session_id": 339,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 39.898260640347885,
+      "gain": 0.8104560772579401,
+      "noise_std": 0.04470356745542595,
+      "windows": 40
+    },
+    {
+      "session_id": 340,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 41.037926562589824,
+      "gain": 0.8556868745920644,
+      "noise_std": 0.08156045085200335,
+      "windows": 40
+    },
+    {
+      "session_id": 341,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 35.828546249609126,
+      "gain": 1.0451375016134332,
+      "noise_std": 0.11269404825437254,
+      "windows": 40
+    },
+    {
+      "session_id": 342,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 38.873029857258864,
+      "gain": 0.9026982157310626,
+      "noise_std": 0.10963648308805282,
+      "windows": 40
+    },
+    {
+      "session_id": 343,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 41.76820799777929,
+      "gain": 0.8601463017356474,
+      "noise_std": 0.08831653811302295,
+      "windows": 40
+    },
+    {
+      "session_id": 344,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 45.095353001066286,
+      "gain": 0.9962466100670042,
+      "noise_std": 0.11379421851001639,
+      "windows": 40
+    },
+    {
+      "session_id": 345,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 42.47930645248278,
+      "gain": 0.9905292754369185,
+      "noise_std": 0.07556152860698691,
+      "windows": 40
+    },
+    {
+      "session_id": 346,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 35.62342359568744,
+      "gain": 1.0641397157785457,
+      "noise_std": 0.04114146079713212,
+      "windows": 40
+    },
+    {
+      "session_id": 347,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 34.577040904615274,
+      "gain": 1.199208013498474,
+      "noise_std": 0.053694840867259785,
+      "windows": 40
+    },
+    {
+      "session_id": 348,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 43.32064172017238,
+      "gain": 1.0517161956417296,
+      "noise_std": 0.08883821231612854,
+      "windows": 40
+    },
+    {
+      "session_id": 349,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 35.77718624489508,
+      "gain": 0.9667617976607983,
+      "noise_std": 0.04238295468970509,
+      "windows": 40
+    },
+    {
+      "session_id": 350,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 39.96897661413065,
+      "gain": 1.0014646450687703,
+      "noise_std": 0.041395037176192,
+      "windows": 40
+    },
+    {
+      "session_id": 351,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 36.252590676075684,
+      "gain": 1.192315248525939,
+      "noise_std": 0.04307008038466206,
+      "windows": 40
+    },
+    {
+      "session_id": 352,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 43.35786170966615,
+      "gain": 0.9701537096045038,
+      "noise_std": 0.09265385172044481,
+      "windows": 40
+    },
+    {
+      "session_id": 353,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 41.67288399289288,
+      "gain": 0.9936472548914408,
+      "noise_std": 0.10389619240336626,
+      "windows": 40
+    },
+    {
+      "session_id": 354,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 42.81784478439848,
+      "gain": 1.1780411119723708,
+      "noise_std": 0.06833927923588368,
+      "windows": 40
+    },
+    {
+      "session_id": 355,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 44.177465738086134,
+      "gain": 0.8003886334458924,
+      "noise_std": 0.0427823602783018,
+      "windows": 40
+    },
+    {
+      "session_id": 356,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 35.364946704793965,
+      "gain": 1.0069336100247714,
+      "noise_std": 0.05996271740689846,
+      "windows": 40
+    },
+    {
+      "session_id": 357,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 38.96805108985623,
+      "gain": 1.1302032170235081,
+      "noise_std": 0.08484588478702897,
+      "windows": 40
+    },
+    {
+      "session_id": 358,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 44.583571775410775,
+      "gain": 1.1588081944244202,
+      "noise_std": 0.04426684105472175,
+      "windows": 40
+    },
+    {
+      "session_id": 359,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 41.329387895299995,
+      "gain": 0.8708639275047807,
+      "noise_std": 0.054045108316799303,
+      "windows": 40
+    },
+    {
+      "session_id": 360,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 36.26211313750879,
+      "gain": 1.0911303366607423,
+      "noise_std": 0.08203011780220204,
+      "windows": 40
+    },
+    {
+      "session_id": 361,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 41.52074008121472,
+      "gain": 1.092851298673542,
+      "noise_std": 0.10803929724802933,
+      "windows": 40
+    },
+    {
+      "session_id": 362,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 41.79024644367455,
+      "gain": 1.0623709564372963,
+      "noise_std": 0.05601169698205179,
+      "windows": 40
+    },
+    {
+      "session_id": 363,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 40.17837057794678,
+      "gain": 1.0578733727203862,
+      "noise_std": 0.10486779758691422,
+      "windows": 40
+    },
+    {
+      "session_id": 364,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 44.55174570082272,
+      "gain": 0.8566572217093008,
+      "noise_std": 0.05307224960853909,
+      "windows": 40
+    },
+    {
+      "session_id": 365,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 37.58283462993822,
+      "gain": 0.8131776780911305,
+      "noise_std": 0.07144177409482677,
+      "windows": 40
+    },
+    {
+      "session_id": 366,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 41.54829653432556,
+      "gain": 1.176748372630757,
+      "noise_std": 0.047992895326527826,
+      "windows": 40
+    },
+    {
+      "session_id": 367,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 42.29310409405028,
+      "gain": 1.0504915566470603,
+      "noise_std": 0.1185148237759335,
+      "windows": 40
+    },
+    {
+      "session_id": 368,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 37.824132616413415,
+      "gain": 0.931547327398575,
+      "noise_std": 0.07854052817388511,
+      "windows": 40
+    },
+    {
+      "session_id": 369,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 37.22357884521873,
+      "gain": 1.13336278725952,
+      "noise_std": 0.05397643657061927,
+      "windows": 40
+    },
+    {
+      "session_id": 370,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 41.62267551862355,
+      "gain": 0.9638527746497558,
+      "noise_std": 0.11262783449986022,
+      "windows": 40
+    },
+    {
+      "session_id": 371,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 44.883535454207355,
+      "gain": 1.0374938126061912,
+      "noise_std": 0.11144180268421802,
+      "windows": 40
+    },
+    {
+      "session_id": 372,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 37.737034381094084,
+      "gain": 1.1651082105495862,
+      "noise_std": 0.075288568979958,
+      "windows": 40
+    },
+    {
+      "session_id": 373,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 40.42007284472058,
+      "gain": 1.001340897654658,
+      "noise_std": 0.10503417606709847,
+      "windows": 40
+    },
+    {
+      "session_id": 374,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 41.49818304803248,
+      "gain": 0.9816396093866484,
+      "noise_std": 0.1147961212451021,
+      "windows": 40
+    },
+    {
+      "session_id": 375,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 44.86109805980233,
+      "gain": 1.0485872843346122,
+      "noise_std": 0.059407515667190505,
+      "windows": 40
+    },
+    {
+      "session_id": 376,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 34.19975060686002,
+      "gain": 1.0984201277097558,
+      "noise_std": 0.10334452150201606,
+      "windows": 40
+    },
+    {
+      "session_id": 377,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 40.06234332913303,
+      "gain": 0.9682683601545123,
+      "noise_std": 0.08563318824754318,
+      "windows": 40
+    },
+    {
+      "session_id": 378,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 36.16082385810224,
+      "gain": 1.1089411121609296,
+      "noise_std": 0.10665823423681225,
+      "windows": 40
+    },
+    {
+      "session_id": 379,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 34.38222991680999,
+      "gain": 1.0229282579199392,
+      "noise_std": 0.11338920916977041,
+      "windows": 40
+    },
+    {
+      "session_id": 380,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 40.62335089210487,
+      "gain": 1.0433926245598015,
+      "noise_std": 0.09764545409930614,
+      "windows": 40
+    },
+    {
+      "session_id": 381,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 45.177642869001915,
+      "gain": 0.9096890924037948,
+      "noise_std": 0.08259326317501228,
+      "windows": 40
+    },
+    {
+      "session_id": 382,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 37.83033998945991,
+      "gain": 0.9787851178683074,
+      "noise_std": 0.07424595723017002,
+      "windows": 40
+    },
+    {
+      "session_id": 383,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 43.14985906973276,
+      "gain": 1.1277584883759861,
+      "noise_std": 0.0542725427381026,
+      "windows": 40
+    },
+    {
+      "session_id": 384,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 43.389421188788766,
+      "gain": 1.0850586108512217,
+      "noise_std": 0.04759187606451439,
+      "windows": 40
+    },
+    {
+      "session_id": 385,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 38.5902863496221,
+      "gain": 1.1377806376558652,
+      "noise_std": 0.07312020453988843,
+      "windows": 40
+    },
+    {
+      "session_id": 386,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 44.84460844350148,
+      "gain": 0.8561215451215669,
+      "noise_std": 0.049612335253560104,
+      "windows": 40
+    },
+    {
+      "session_id": 387,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 43.822114319337274,
+      "gain": 1.091194705938205,
+      "noise_std": 0.06951973206879505,
+      "windows": 40
+    },
+    {
+      "session_id": 388,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 40.53005405280417,
+      "gain": 0.9031196675348886,
+      "noise_std": 0.11523456130211918,
+      "windows": 40
+    },
+    {
+      "session_id": 389,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "train",
+      "frequency_hz": 40.0121338751481,
+      "gain": 1.0814977029689803,
+      "noise_std": 0.05389772222188541,
+      "windows": 40
+    },
+    {
+      "session_id": 390,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 38.67851874461098,
+      "gain": 0.9083991398691299,
+      "noise_std": 0.08522192943934992,
+      "windows": 40
+    },
+    {
+      "session_id": 391,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 43.25185846526139,
+      "gain": 0.8034334577274835,
+      "noise_std": 0.07070844734502818,
+      "windows": 40
+    },
+    {
+      "session_id": 392,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 45.49493882859639,
+      "gain": 0.8395641775836807,
+      "noise_std": 0.08663253511918868,
+      "windows": 40
+    },
+    {
+      "session_id": 393,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 44.933127239280694,
+      "gain": 0.9455818473344747,
+      "noise_std": 0.06555473704015344,
+      "windows": 40
+    },
+    {
+      "session_id": 394,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 36.43721398821391,
+      "gain": 1.0390957654833766,
+      "noise_std": 0.10813278904450438,
+      "windows": 40
+    },
+    {
+      "session_id": 395,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 34.10189383114645,
+      "gain": 0.9884145579090794,
+      "noise_std": 0.04103813213029592,
+      "windows": 40
+    },
+    {
+      "session_id": 396,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 40.321792184955484,
+      "gain": 1.0146246255211633,
+      "noise_std": 0.04993089333649447,
+      "windows": 40
+    },
+    {
+      "session_id": 397,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 41.754602513038655,
+      "gain": 1.0784004916488408,
+      "noise_std": 0.08125315490373039,
+      "windows": 40
+    },
+    {
+      "session_id": 398,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 37.55508016486503,
+      "gain": 1.16470128257751,
+      "noise_std": 0.055436356435625916,
+      "windows": 40
+    },
+    {
+      "session_id": 399,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 45.74312384213514,
+      "gain": 0.8965418954990527,
+      "noise_std": 0.08741300264161914,
+      "windows": 40
+    },
+    {
+      "session_id": 400,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 45.871099290624095,
+      "gain": 0.9211169038489319,
+      "noise_std": 0.07676456280827894,
+      "windows": 40
+    },
+    {
+      "session_id": 401,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 34.30999844931468,
+      "gain": 1.1126522158741292,
+      "noise_std": 0.053834967756822324,
+      "windows": 40
+    },
+    {
+      "session_id": 402,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 35.08335860722469,
+      "gain": 1.1675765419013564,
+      "noise_std": 0.10480278679448665,
+      "windows": 40
+    },
+    {
+      "session_id": 403,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 40.831974449754846,
+      "gain": 1.1501728189833929,
+      "noise_std": 0.10291687429584423,
+      "windows": 40
+    },
+    {
+      "session_id": 404,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 35.16715309178032,
+      "gain": 0.9687292721701596,
+      "noise_std": 0.055386150510357654,
+      "windows": 40
+    },
+    {
+      "session_id": 405,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 40.82757679474388,
+      "gain": 0.9298786445230208,
+      "noise_std": 0.09880223696973675,
+      "windows": 40
+    },
+    {
+      "session_id": 406,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 44.66928553742864,
+      "gain": 0.9506589927509034,
+      "noise_std": 0.08107457631472911,
+      "windows": 40
+    },
+    {
+      "session_id": 407,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 34.012522627039104,
+      "gain": 1.0554027149791898,
+      "noise_std": 0.09170440400144089,
+      "windows": 40
+    },
+    {
+      "session_id": 408,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 37.12662664499448,
+      "gain": 0.9117003858739136,
+      "noise_std": 0.099618658569583,
+      "windows": 40
+    },
+    {
+      "session_id": 409,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 41.85956686900418,
+      "gain": 1.1950936225551017,
+      "noise_std": 0.11797547986357182,
+      "windows": 40
+    },
+    {
+      "session_id": 410,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 40.510767653563654,
+      "gain": 0.9267722897280182,
+      "noise_std": 0.06574319045861374,
+      "windows": 40
+    },
+    {
+      "session_id": 411,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 40.45957714410754,
+      "gain": 0.8007631732813352,
+      "noise_std": 0.04195691367433511,
+      "windows": 40
+    },
+    {
+      "session_id": 412,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 43.60914477060284,
+      "gain": 1.0125231423318748,
+      "noise_std": 0.07953442210264206,
+      "windows": 40
+    },
+    {
+      "session_id": 413,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 39.329094477066604,
+      "gain": 1.0360375424296044,
+      "noise_std": 0.08436704941495463,
+      "windows": 40
+    },
+    {
+      "session_id": 414,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 38.708295705346984,
+      "gain": 0.9545150662587286,
+      "noise_std": 0.058642770707138615,
+      "windows": 40
+    },
+    {
+      "session_id": 415,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 45.33313029542363,
+      "gain": 1.016403769094488,
+      "noise_std": 0.11542700441230969,
+      "windows": 40
+    },
+    {
+      "session_id": 416,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 42.19548262685424,
+      "gain": 0.9711891284130063,
+      "noise_std": 0.11307765601877992,
+      "windows": 40
+    },
+    {
+      "session_id": 417,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 43.84718807941712,
+      "gain": 0.9538436554837206,
+      "noise_std": 0.08557095975781537,
+      "windows": 40
+    },
+    {
+      "session_id": 418,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 41.51782027676784,
+      "gain": 1.093533231390842,
+      "noise_std": 0.05610091057532864,
+      "windows": 40
+    },
+    {
+      "session_id": 419,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "val",
+      "frequency_hz": 43.457825733725514,
+      "gain": 1.1960810960781898,
+      "noise_std": 0.08340204163717826,
+      "windows": 40
+    },
+    {
+      "session_id": 420,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 45.8014663435795,
+      "gain": 0.8216913363100042,
+      "noise_std": 0.06403469892573749,
+      "windows": 40
+    },
+    {
+      "session_id": 421,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 45.2959588846999,
+      "gain": 0.8185239786303681,
+      "noise_std": 0.08024057475396804,
+      "windows": 40
+    },
+    {
+      "session_id": 422,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 39.53750594663548,
+      "gain": 1.0449300350589863,
+      "noise_std": 0.0919564315126872,
+      "windows": 40
+    },
+    {
+      "session_id": 423,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 44.77152596740666,
+      "gain": 1.1474168511531597,
+      "noise_std": 0.10730894655372922,
+      "windows": 40
+    },
+    {
+      "session_id": 424,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 42.18492328329338,
+      "gain": 0.9081159347093234,
+      "noise_std": 0.07912849512899213,
+      "windows": 40
+    },
+    {
+      "session_id": 425,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 39.27178701816088,
+      "gain": 0.9519593743433797,
+      "noise_std": 0.09022001991882925,
+      "windows": 40
+    },
+    {
+      "session_id": 426,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 45.508266917208246,
+      "gain": 0.9656562438227805,
+      "noise_std": 0.10949349336858943,
+      "windows": 40
+    },
+    {
+      "session_id": 427,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 42.042598224174796,
+      "gain": 0.9024431978957964,
+      "noise_std": 0.055935527885530995,
+      "windows": 40
+    },
+    {
+      "session_id": 428,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 39.34650428623657,
+      "gain": 1.0086102368257313,
+      "noise_std": 0.05296940762730847,
+      "windows": 40
+    },
+    {
+      "session_id": 429,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 43.94285990953452,
+      "gain": 0.9294133036568946,
+      "noise_std": 0.09164590442925774,
+      "windows": 40
+    },
+    {
+      "session_id": 430,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 37.635380803356874,
+      "gain": 1.0466449148974375,
+      "noise_std": 0.10831934181378078,
+      "windows": 40
+    },
+    {
+      "session_id": 431,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 35.80628157237925,
+      "gain": 0.8144028358102811,
+      "noise_std": 0.10168018867252637,
+      "windows": 40
+    },
+    {
+      "session_id": 432,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 35.655396642356415,
+      "gain": 1.0127494897559444,
+      "noise_std": 0.09599620164205244,
+      "windows": 40
+    },
+    {
+      "session_id": 433,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 44.14727745053082,
+      "gain": 0.8062026752930782,
+      "noise_std": 0.056787748146216246,
+      "windows": 40
+    },
+    {
+      "session_id": 434,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 36.86863042161217,
+      "gain": 0.9971692445715403,
+      "noise_std": 0.1171791227367999,
+      "windows": 40
+    },
+    {
+      "session_id": 435,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 44.14920168749317,
+      "gain": 1.1946109612078946,
+      "noise_std": 0.054398887232140404,
+      "windows": 40
+    },
+    {
+      "session_id": 436,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 38.31282245443799,
+      "gain": 0.9198310994062728,
+      "noise_std": 0.060826609057279116,
+      "windows": 40
+    },
+    {
+      "session_id": 437,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 42.67824836751878,
+      "gain": 1.050855550830416,
+      "noise_std": 0.06203718367960376,
+      "windows": 40
+    },
+    {
+      "session_id": 438,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 40.53152120592647,
+      "gain": 0.9637967160564005,
+      "noise_std": 0.06872134107000127,
+      "windows": 40
+    },
+    {
+      "session_id": 439,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 37.223737829489274,
+      "gain": 0.8210811314747444,
+      "noise_std": 0.09515862176610942,
+      "windows": 40
+    },
+    {
+      "session_id": 440,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 44.906053964124965,
+      "gain": 1.0245545966929412,
+      "noise_std": 0.08447918328617744,
+      "windows": 40
+    },
+    {
+      "session_id": 441,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 34.339123962838386,
+      "gain": 1.0133140885900642,
+      "noise_std": 0.09388787578155862,
+      "windows": 40
+    },
+    {
+      "session_id": 442,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 34.88648961127604,
+      "gain": 0.8144889188166325,
+      "noise_std": 0.09387757826122797,
+      "windows": 40
+    },
+    {
+      "session_id": 443,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 45.60630865043814,
+      "gain": 0.958917348645174,
+      "noise_std": 0.11073669052988583,
+      "windows": 40
+    },
+    {
+      "session_id": 444,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 36.963519472245885,
+      "gain": 0.910133949022557,
+      "noise_std": 0.04782804610560424,
+      "windows": 40
+    },
+    {
+      "session_id": 445,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 38.19140424596268,
+      "gain": 0.9101261668179177,
+      "noise_std": 0.047813338235016614,
+      "windows": 40
+    },
+    {
+      "session_id": 446,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 43.96801886130714,
+      "gain": 1.1521319760096151,
+      "noise_std": 0.08177084340875157,
+      "windows": 40
+    },
+    {
+      "session_id": 447,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 45.46139460995475,
+      "gain": 1.0726306324887385,
+      "noise_std": 0.05541494140645287,
+      "windows": 40
+    },
+    {
+      "session_id": 448,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 42.20487592329206,
+      "gain": 0.9048656897724189,
+      "noise_std": 0.04662560764551833,
+      "windows": 40
+    },
+    {
+      "session_id": 449,
+      "class_index": 2,
+      "class_name": "misalignment_like",
+      "split": "test",
+      "frequency_hz": 45.432867245677116,
+      "gain": 0.8527113549887708,
+      "noise_std": 0.08752360628823458,
+      "windows": 40
+    },
+    {
+      "session_id": 450,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 41.59484434663568,
+      "gain": 0.8102382155124833,
+      "noise_std": 0.06032159227649933,
+      "windows": 40
+    },
+    {
+      "session_id": 451,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 37.29519650364986,
+      "gain": 0.9883937076414703,
+      "noise_std": 0.10602670640767184,
+      "windows": 40
+    },
+    {
+      "session_id": 452,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 41.3841396536857,
+      "gain": 1.0198907256300958,
+      "noise_std": 0.04259315611678466,
+      "windows": 40
+    },
+    {
+      "session_id": 453,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 34.46063908939935,
+      "gain": 0.8331422597191711,
+      "noise_std": 0.09429185948402204,
+      "windows": 40
+    },
+    {
+      "session_id": 454,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 36.0630778300688,
+      "gain": 0.908998670246015,
+      "noise_std": 0.07348588179569142,
+      "windows": 40
+    },
+    {
+      "session_id": 455,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 41.506127218480614,
+      "gain": 0.9956930979625911,
+      "noise_std": 0.05756270808516768,
+      "windows": 40
+    },
+    {
+      "session_id": 456,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 45.66299793113221,
+      "gain": 1.177445297505463,
+      "noise_std": 0.05649532837181627,
+      "windows": 40
+    },
+    {
+      "session_id": 457,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 44.614334075055666,
+      "gain": 0.879586555653891,
+      "noise_std": 0.09092294362782927,
+      "windows": 40
+    },
+    {
+      "session_id": 458,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 45.048404019915466,
+      "gain": 0.9781135875915805,
+      "noise_std": 0.06694457773572017,
+      "windows": 40
+    },
+    {
+      "session_id": 459,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 45.770392348799795,
+      "gain": 1.1921063859004342,
+      "noise_std": 0.09581568320109626,
+      "windows": 40
+    },
+    {
+      "session_id": 460,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 40.54733016323713,
+      "gain": 1.157312733611835,
+      "noise_std": 0.11039018320221489,
+      "windows": 40
+    },
+    {
+      "session_id": 461,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 36.844333689611375,
+      "gain": 1.1944990346825404,
+      "noise_std": 0.10269972857086374,
+      "windows": 40
+    },
+    {
+      "session_id": 462,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 44.996656028864706,
+      "gain": 0.977575280015837,
+      "noise_std": 0.09152840382792618,
+      "windows": 40
+    },
+    {
+      "session_id": 463,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 36.49020971290505,
+      "gain": 0.9342666729025235,
+      "noise_std": 0.08027882692303687,
+      "windows": 40
+    },
+    {
+      "session_id": 464,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 34.45955428950664,
+      "gain": 1.053873106695782,
+      "noise_std": 0.060981743746040165,
+      "windows": 40
+    },
+    {
+      "session_id": 465,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 43.38651989585844,
+      "gain": 1.158238221414003,
+      "noise_std": 0.0561556985961125,
+      "windows": 40
+    },
+    {
+      "session_id": 466,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 34.03069777447743,
+      "gain": 0.8539861140012781,
+      "noise_std": 0.08448582596468554,
+      "windows": 40
+    },
+    {
+      "session_id": 467,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 41.35641748992226,
+      "gain": 0.8179396872498161,
+      "noise_std": 0.0645127443775592,
+      "windows": 40
+    },
+    {
+      "session_id": 468,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 35.89744044863977,
+      "gain": 1.1529162686082757,
+      "noise_std": 0.07872113469049787,
+      "windows": 40
+    },
+    {
+      "session_id": 469,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 35.49070335691174,
+      "gain": 1.1259348642365707,
+      "noise_std": 0.09106764453019497,
+      "windows": 40
+    },
+    {
+      "session_id": 470,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 40.25002500413639,
+      "gain": 1.0308582369468546,
+      "noise_std": 0.08619371060646779,
+      "windows": 40
+    },
+    {
+      "session_id": 471,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 37.61862714897775,
+      "gain": 0.8617245529676493,
+      "noise_std": 0.08911127982240956,
+      "windows": 40
+    },
+    {
+      "session_id": 472,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 40.29590884624349,
+      "gain": 0.830207948962443,
+      "noise_std": 0.062050232319366155,
+      "windows": 40
+    },
+    {
+      "session_id": 473,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 34.57606402364152,
+      "gain": 1.1215938928410742,
+      "noise_std": 0.0653808037395633,
+      "windows": 40
+    },
+    {
+      "session_id": 474,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 43.61944845407225,
+      "gain": 0.8258576896103785,
+      "noise_std": 0.08405270814174833,
+      "windows": 40
+    },
+    {
+      "session_id": 475,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 37.774122876843855,
+      "gain": 1.1151404218408976,
+      "noise_std": 0.04977666168662807,
+      "windows": 40
+    },
+    {
+      "session_id": 476,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 35.86389497117107,
+      "gain": 0.8525869625855819,
+      "noise_std": 0.0541744847817159,
+      "windows": 40
+    },
+    {
+      "session_id": 477,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 40.451585850119564,
+      "gain": 0.8014925727892654,
+      "noise_std": 0.09998545587981589,
+      "windows": 40
+    },
+    {
+      "session_id": 478,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 45.68083121483049,
+      "gain": 0.8573093863114645,
+      "noise_std": 0.0865817989714158,
+      "windows": 40
+    },
+    {
+      "session_id": 479,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 40.817301378704556,
+      "gain": 1.0514043173339798,
+      "noise_std": 0.08121287051545853,
+      "windows": 40
+    },
+    {
+      "session_id": 480,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 44.25008845677496,
+      "gain": 1.0608072251406588,
+      "noise_std": 0.09433085345689135,
+      "windows": 40
+    },
+    {
+      "session_id": 481,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 36.04806721130982,
+      "gain": 1.0500756599272125,
+      "noise_std": 0.11808764304968741,
+      "windows": 40
+    },
+    {
+      "session_id": 482,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 37.858975797722394,
+      "gain": 1.1241298944715186,
+      "noise_std": 0.06725447851708141,
+      "windows": 40
+    },
+    {
+      "session_id": 483,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 44.90456435826698,
+      "gain": 0.8272327953063172,
+      "noise_std": 0.05992493442200432,
+      "windows": 40
+    },
+    {
+      "session_id": 484,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 39.732429532390334,
+      "gain": 1.0651299297066967,
+      "noise_std": 0.050254121458600316,
+      "windows": 40
+    },
+    {
+      "session_id": 485,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 34.106239681297275,
+      "gain": 0.8585564671865531,
+      "noise_std": 0.08399392102454703,
+      "windows": 40
+    },
+    {
+      "session_id": 486,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 36.23175390398264,
+      "gain": 1.1255089573169816,
+      "noise_std": 0.06261629364817342,
+      "windows": 40
+    },
+    {
+      "session_id": 487,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 43.49270060809355,
+      "gain": 0.842379947647806,
+      "noise_std": 0.11535439923260907,
+      "windows": 40
+    },
+    {
+      "session_id": 488,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 43.69569490163261,
+      "gain": 0.9772008622676503,
+      "noise_std": 0.08031809766379217,
+      "windows": 40
+    },
+    {
+      "session_id": 489,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 43.919627657995505,
+      "gain": 1.060113987152258,
+      "noise_std": 0.10430802574234616,
+      "windows": 40
+    },
+    {
+      "session_id": 490,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 44.58631261394645,
+      "gain": 0.9216572984296274,
+      "noise_std": 0.06964122581582889,
+      "windows": 40
+    },
+    {
+      "session_id": 491,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 42.04112565261404,
+      "gain": 0.9381948596163543,
+      "noise_std": 0.09472123749488887,
+      "windows": 40
+    },
+    {
+      "session_id": 492,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 38.4604036549711,
+      "gain": 0.8549518155286304,
+      "noise_std": 0.06117332882256387,
+      "windows": 40
+    },
+    {
+      "session_id": 493,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 37.82788153349569,
+      "gain": 0.859979630085611,
+      "noise_std": 0.08494965312076239,
+      "windows": 40
+    },
+    {
+      "session_id": 494,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 40.52573646649822,
+      "gain": 1.1244689042375262,
+      "noise_std": 0.08565812720288607,
+      "windows": 40
+    },
+    {
+      "session_id": 495,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 34.4660133239708,
+      "gain": 1.090770927907375,
+      "noise_std": 0.0703258220473813,
+      "windows": 40
+    },
+    {
+      "session_id": 496,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 35.20881728760397,
+      "gain": 0.8190656120236577,
+      "noise_std": 0.06873123786152124,
+      "windows": 40
+    },
+    {
+      "session_id": 497,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 41.09069295828569,
+      "gain": 0.8635733890954866,
+      "noise_std": 0.08389949026444782,
+      "windows": 40
+    },
+    {
+      "session_id": 498,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 40.796489679453565,
+      "gain": 1.0455005291538804,
+      "noise_std": 0.10562654456621182,
+      "windows": 40
+    },
+    {
+      "session_id": 499,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 37.26616293746776,
+      "gain": 0.8153100988114206,
+      "noise_std": 0.04987986045370976,
+      "windows": 40
+    },
+    {
+      "session_id": 500,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 34.122674695777526,
+      "gain": 1.0386802112351434,
+      "noise_std": 0.10880451190717544,
+      "windows": 40
+    },
+    {
+      "session_id": 501,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 45.700431019651546,
+      "gain": 1.0690899942425471,
+      "noise_std": 0.04185564095192658,
+      "windows": 40
+    },
+    {
+      "session_id": 502,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 39.38142933230229,
+      "gain": 0.8085344900311733,
+      "noise_std": 0.09411358227557864,
+      "windows": 40
+    },
+    {
+      "session_id": 503,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 39.81254474688174,
+      "gain": 1.1865006164504122,
+      "noise_std": 0.04251240674627705,
+      "windows": 40
+    },
+    {
+      "session_id": 504,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 44.67667528769398,
+      "gain": 0.9047227850634071,
+      "noise_std": 0.04238062560090874,
+      "windows": 40
+    },
+    {
+      "session_id": 505,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 44.81793381052556,
+      "gain": 0.939262393492325,
+      "noise_std": 0.08778676150240684,
+      "windows": 40
+    },
+    {
+      "session_id": 506,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 36.375680626596626,
+      "gain": 1.1504206062801687,
+      "noise_std": 0.04993114174792795,
+      "windows": 40
+    },
+    {
+      "session_id": 507,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 41.16582726162572,
+      "gain": 1.1547115580705702,
+      "noise_std": 0.09799311660999943,
+      "windows": 40
+    },
+    {
+      "session_id": 508,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 36.21613549299009,
+      "gain": 1.101489945971199,
+      "noise_std": 0.10638308948215078,
+      "windows": 40
+    },
+    {
+      "session_id": 509,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 35.19318095238422,
+      "gain": 0.8466843387715549,
+      "noise_std": 0.09045125121876069,
+      "windows": 40
+    },
+    {
+      "session_id": 510,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 39.28103001267084,
+      "gain": 0.9484860630217655,
+      "noise_std": 0.04237946659289126,
+      "windows": 40
+    },
+    {
+      "session_id": 511,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 37.44525707600395,
+      "gain": 0.898169914738264,
+      "noise_std": 0.11105129049006998,
+      "windows": 40
+    },
+    {
+      "session_id": 512,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 44.90304547268828,
+      "gain": 1.1587476224432205,
+      "noise_std": 0.09639085557857932,
+      "windows": 40
+    },
+    {
+      "session_id": 513,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 44.03770055319366,
+      "gain": 1.022103996357134,
+      "noise_std": 0.08039099899674162,
+      "windows": 40
+    },
+    {
+      "session_id": 514,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 43.08533169167423,
+      "gain": 0.8168937000021028,
+      "noise_std": 0.06310795419169521,
+      "windows": 40
+    },
+    {
+      "session_id": 515,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 38.15299289888468,
+      "gain": 0.8136905100873424,
+      "noise_std": 0.10337299406105319,
+      "windows": 40
+    },
+    {
+      "session_id": 516,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 41.65267494791635,
+      "gain": 1.0885426503842603,
+      "noise_std": 0.07328129347289643,
+      "windows": 40
+    },
+    {
+      "session_id": 517,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 37.43419897583306,
+      "gain": 0.9779748689379284,
+      "noise_std": 0.0724532329863469,
+      "windows": 40
+    },
+    {
+      "session_id": 518,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 44.70385113853657,
+      "gain": 1.1829689453433918,
+      "noise_std": 0.11497923734095827,
+      "windows": 40
+    },
+    {
+      "session_id": 519,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 42.922260649992516,
+      "gain": 1.1462388325475248,
+      "noise_std": 0.11039748428665197,
+      "windows": 40
+    },
+    {
+      "session_id": 520,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 39.801374890069276,
+      "gain": 1.1639336894459165,
+      "noise_std": 0.10835260330083504,
+      "windows": 40
+    },
+    {
+      "session_id": 521,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 34.476922794701515,
+      "gain": 0.9930195244242405,
+      "noise_std": 0.04651493460770607,
+      "windows": 40
+    },
+    {
+      "session_id": 522,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 42.113591968625585,
+      "gain": 0.8249212012506977,
+      "noise_std": 0.05700111170168066,
+      "windows": 40
+    },
+    {
+      "session_id": 523,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 40.88919999957617,
+      "gain": 0.9378492325057243,
+      "noise_std": 0.09032389549281926,
+      "windows": 40
+    },
+    {
+      "session_id": 524,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 45.979191226199305,
+      "gain": 1.0542499552339166,
+      "noise_std": 0.0778327030969537,
+      "windows": 40
+    },
+    {
+      "session_id": 525,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 35.854188318602226,
+      "gain": 0.921162508178524,
+      "noise_std": 0.07153473730747706,
+      "windows": 40
+    },
+    {
+      "session_id": 526,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 40.95254790585305,
+      "gain": 0.9174268427493647,
+      "noise_std": 0.09445634738704026,
+      "windows": 40
+    },
+    {
+      "session_id": 527,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 37.914396772238256,
+      "gain": 0.8318574785893276,
+      "noise_std": 0.07047683828082982,
+      "windows": 40
+    },
+    {
+      "session_id": 528,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 35.544238999007156,
+      "gain": 1.0584223882929162,
+      "noise_std": 0.07764412423466407,
+      "windows": 40
+    },
+    {
+      "session_id": 529,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 36.353385626406855,
+      "gain": 1.0842956688001175,
+      "noise_std": 0.05304611144849418,
+      "windows": 40
+    },
+    {
+      "session_id": 530,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 35.22639120662888,
+      "gain": 1.1633350927560517,
+      "noise_std": 0.07211165795855395,
+      "windows": 40
+    },
+    {
+      "session_id": 531,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 37.59397808682657,
+      "gain": 1.0638244224220859,
+      "noise_std": 0.0582213453925728,
+      "windows": 40
+    },
+    {
+      "session_id": 532,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 43.89549375765324,
+      "gain": 0.862616885769812,
+      "noise_std": 0.09054037230646723,
+      "windows": 40
+    },
+    {
+      "session_id": 533,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 37.03621534967299,
+      "gain": 0.8643271258458205,
+      "noise_std": 0.07995540731727696,
+      "windows": 40
+    },
+    {
+      "session_id": 534,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 39.90800860262925,
+      "gain": 1.0654318242405891,
+      "noise_std": 0.08312900483694582,
+      "windows": 40
+    },
+    {
+      "session_id": 535,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 43.73684875351623,
+      "gain": 1.124728266773956,
+      "noise_std": 0.04404309492329784,
+      "windows": 40
+    },
+    {
+      "session_id": 536,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 41.801218513144356,
+      "gain": 0.8942565826494389,
+      "noise_std": 0.06692267276574004,
+      "windows": 40
+    },
+    {
+      "session_id": 537,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 41.14885701007047,
+      "gain": 1.1902370396612278,
+      "noise_std": 0.04378274164454504,
+      "windows": 40
+    },
+    {
+      "session_id": 538,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 34.97279494226281,
+      "gain": 0.8621853504349293,
+      "noise_std": 0.0677910681379416,
+      "windows": 40
+    },
+    {
+      "session_id": 539,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "train",
+      "frequency_hz": 39.70864798155573,
+      "gain": 0.964292692329243,
+      "noise_std": 0.11671892596023714,
+      "windows": 40
+    },
+    {
+      "session_id": 540,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 36.05835081280094,
+      "gain": 0.8766224609112878,
+      "noise_std": 0.07353495184319019,
+      "windows": 40
+    },
+    {
+      "session_id": 541,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 44.64619847794094,
+      "gain": 1.1828127035904779,
+      "noise_std": 0.11503733572190558,
+      "windows": 40
+    },
+    {
+      "session_id": 542,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 41.522784949379044,
+      "gain": 0.8973595247732581,
+      "noise_std": 0.0499337584327809,
+      "windows": 40
+    },
+    {
+      "session_id": 543,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 39.800536686310096,
+      "gain": 1.1939847313215008,
+      "noise_std": 0.11438612968730547,
+      "windows": 40
+    },
+    {
+      "session_id": 544,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 36.93722773996641,
+      "gain": 0.9941441657590953,
+      "noise_std": 0.06958749889878112,
+      "windows": 40
+    },
+    {
+      "session_id": 545,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 37.38521548972211,
+      "gain": 0.8994938780898708,
+      "noise_std": 0.05788535919607636,
+      "windows": 40
+    },
+    {
+      "session_id": 546,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 34.44198923683738,
+      "gain": 1.0364008139006713,
+      "noise_std": 0.10277810229321671,
+      "windows": 40
+    },
+    {
+      "session_id": 547,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 44.278327299475635,
+      "gain": 0.8217805994676213,
+      "noise_std": 0.07716922569398985,
+      "windows": 40
+    },
+    {
+      "session_id": 548,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 38.20948730364128,
+      "gain": 0.8895709829939819,
+      "noise_std": 0.0829112938213214,
+      "windows": 40
+    },
+    {
+      "session_id": 549,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 43.84244919584363,
+      "gain": 0.8972377275873652,
+      "noise_std": 0.0572562439547039,
+      "windows": 40
+    },
+    {
+      "session_id": 550,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 40.48727378008172,
+      "gain": 0.9318480044308722,
+      "noise_std": 0.08642680684124766,
+      "windows": 40
+    },
+    {
+      "session_id": 551,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 41.12911280308421,
+      "gain": 1.1933635061926542,
+      "noise_std": 0.07779620583489383,
+      "windows": 40
+    },
+    {
+      "session_id": 552,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 43.12609641582914,
+      "gain": 1.075723759255607,
+      "noise_std": 0.08392660186570741,
+      "windows": 40
+    },
+    {
+      "session_id": 553,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 45.58714033229867,
+      "gain": 1.0561167265349414,
+      "noise_std": 0.11563031387272354,
+      "windows": 40
+    },
+    {
+      "session_id": 554,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 35.77355725801948,
+      "gain": 0.948854543038231,
+      "noise_std": 0.10542859733117205,
+      "windows": 40
+    },
+    {
+      "session_id": 555,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 41.288844134917625,
+      "gain": 0.9403232057147222,
+      "noise_std": 0.11376645103512104,
+      "windows": 40
+    },
+    {
+      "session_id": 556,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 44.54475615576918,
+      "gain": 0.9076141540925354,
+      "noise_std": 0.06856905643913253,
+      "windows": 40
+    },
+    {
+      "session_id": 557,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 34.23488420882122,
+      "gain": 1.030963684658421,
+      "noise_std": 0.11032672451375403,
+      "windows": 40
+    },
+    {
+      "session_id": 558,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 38.45099584751203,
+      "gain": 1.1216678455181281,
+      "noise_std": 0.04700025220744373,
+      "windows": 40
+    },
+    {
+      "session_id": 559,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 40.03232760674424,
+      "gain": 0.8807576850785175,
+      "noise_std": 0.10078794001836057,
+      "windows": 40
+    },
+    {
+      "session_id": 560,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 44.515613669875655,
+      "gain": 0.9526521079556936,
+      "noise_std": 0.09969178175190138,
+      "windows": 40
+    },
+    {
+      "session_id": 561,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 40.952564485113534,
+      "gain": 1.0198923706742566,
+      "noise_std": 0.06497373448954802,
+      "windows": 40
+    },
+    {
+      "session_id": 562,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 36.90873308501265,
+      "gain": 1.0740646681768347,
+      "noise_std": 0.11452281430242559,
+      "windows": 40
+    },
+    {
+      "session_id": 563,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 41.27851148468466,
+      "gain": 0.8344221145600461,
+      "noise_std": 0.060830385912765,
+      "windows": 40
+    },
+    {
+      "session_id": 564,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 45.69690377206154,
+      "gain": 0.9881907966446711,
+      "noise_std": 0.07269766206139763,
+      "windows": 40
+    },
+    {
+      "session_id": 565,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 34.65698184979774,
+      "gain": 0.9633074321686953,
+      "noise_std": 0.0601656283379889,
+      "windows": 40
+    },
+    {
+      "session_id": 566,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 43.02462929151178,
+      "gain": 1.0790004738165606,
+      "noise_std": 0.11864139374143001,
+      "windows": 40
+    },
+    {
+      "session_id": 567,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 44.67586818289921,
+      "gain": 0.9193489342110813,
+      "noise_std": 0.10869733944869744,
+      "windows": 40
+    },
+    {
+      "session_id": 568,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 37.11962622614175,
+      "gain": 0.9984362701675967,
+      "noise_std": 0.10331297569594736,
+      "windows": 40
+    },
+    {
+      "session_id": 569,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "val",
+      "frequency_hz": 38.211652118642874,
+      "gain": 1.1486135576646659,
+      "noise_std": 0.1117906695655537,
+      "windows": 40
+    },
+    {
+      "session_id": 570,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 37.55868638904273,
+      "gain": 0.9881327118199448,
+      "noise_std": 0.09888728464353927,
+      "windows": 40
+    },
+    {
+      "session_id": 571,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 45.77365110316161,
+      "gain": 0.8174794181660913,
+      "noise_std": 0.04949950396027933,
+      "windows": 40
+    },
+    {
+      "session_id": 572,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 41.420590751882166,
+      "gain": 1.1316189962992613,
+      "noise_std": 0.0942476618873554,
+      "windows": 40
+    },
+    {
+      "session_id": 573,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 43.48316812864956,
+      "gain": 1.0797406398480942,
+      "noise_std": 0.11457710577668836,
+      "windows": 40
+    },
+    {
+      "session_id": 574,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 39.59130282229311,
+      "gain": 1.0388340824036497,
+      "noise_std": 0.08494968559841937,
+      "windows": 40
+    },
+    {
+      "session_id": 575,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 42.563597688642936,
+      "gain": 0.8196874175263422,
+      "noise_std": 0.04778487592520267,
+      "windows": 40
+    },
+    {
+      "session_id": 576,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 34.95799709375498,
+      "gain": 1.0190016601994973,
+      "noise_std": 0.07158521098384267,
+      "windows": 40
+    },
+    {
+      "session_id": 577,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 39.6188325968229,
+      "gain": 1.07124085825216,
+      "noise_std": 0.046455054195069984,
+      "windows": 40
+    },
+    {
+      "session_id": 578,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 35.54007956571761,
+      "gain": 0.967562289187289,
+      "noise_std": 0.09723011654608363,
+      "windows": 40
+    },
+    {
+      "session_id": 579,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 41.70402887810615,
+      "gain": 0.8668731675075421,
+      "noise_std": 0.06544950513367051,
+      "windows": 40
+    },
+    {
+      "session_id": 580,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 39.36899036480586,
+      "gain": 0.958331314317283,
+      "noise_std": 0.10905693608198985,
+      "windows": 40
+    },
+    {
+      "session_id": 581,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 36.970027799989914,
+      "gain": 1.0340314718776713,
+      "noise_std": 0.0737089520215614,
+      "windows": 40
+    },
+    {
+      "session_id": 582,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 37.702938233979836,
+      "gain": 0.9299891219189726,
+      "noise_std": 0.09723474882653577,
+      "windows": 40
+    },
+    {
+      "session_id": 583,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 35.25549028632603,
+      "gain": 1.1687510340986376,
+      "noise_std": 0.0840474426102995,
+      "windows": 40
+    },
+    {
+      "session_id": 584,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 39.03337679055592,
+      "gain": 1.1716924927278733,
+      "noise_std": 0.1158614679045698,
+      "windows": 40
+    },
+    {
+      "session_id": 585,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 34.67423126292632,
+      "gain": 1.0322195842596062,
+      "noise_std": 0.10510536797545672,
+      "windows": 40
+    },
+    {
+      "session_id": 586,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 38.24160935343414,
+      "gain": 0.957652251767646,
+      "noise_std": 0.09357741306854228,
+      "windows": 40
+    },
+    {
+      "session_id": 587,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 37.59571257924995,
+      "gain": 0.8535692742555909,
+      "noise_std": 0.09746126143806574,
+      "windows": 40
+    },
+    {
+      "session_id": 588,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 43.97162155331341,
+      "gain": 0.9709305961366964,
+      "noise_std": 0.09026185667963646,
+      "windows": 40
+    },
+    {
+      "session_id": 589,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 43.048487750480206,
+      "gain": 1.1361930950280996,
+      "noise_std": 0.055280692190266476,
+      "windows": 40
+    },
+    {
+      "session_id": 590,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 42.631681966816785,
+      "gain": 1.1169264705265733,
+      "noise_std": 0.10245214650757825,
+      "windows": 40
+    },
+    {
+      "session_id": 591,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 43.14891589627757,
+      "gain": 1.086286566288874,
+      "noise_std": 0.09030106585192768,
+      "windows": 40
+    },
+    {
+      "session_id": 592,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 44.72715525307956,
+      "gain": 1.1130255690890762,
+      "noise_std": 0.11461342118867612,
+      "windows": 40
+    },
+    {
+      "session_id": 593,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 38.421418077477526,
+      "gain": 1.0779508777186926,
+      "noise_std": 0.06599391027319737,
+      "windows": 40
+    },
+    {
+      "session_id": 594,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 45.3029743379703,
+      "gain": 0.9291241562853072,
+      "noise_std": 0.04048283448517702,
+      "windows": 40
+    },
+    {
+      "session_id": 595,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 43.74830823197309,
+      "gain": 0.9182893942728514,
+      "noise_std": 0.10761019110433395,
+      "windows": 40
+    },
+    {
+      "session_id": 596,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 36.316536795028334,
+      "gain": 1.172468718027162,
+      "noise_std": 0.0834123460907878,
+      "windows": 40
+    },
+    {
+      "session_id": 597,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 39.60676255528403,
+      "gain": 0.8898340099770519,
+      "noise_std": 0.06717696076546903,
+      "windows": 40
+    },
+    {
+      "session_id": 598,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 35.11403739157348,
+      "gain": 0.9017875104134171,
+      "noise_std": 0.07325393841707846,
+      "windows": 40
+    },
+    {
+      "session_id": 599,
+      "class_index": 3,
+      "class_name": "impact_like",
+      "split": "test",
+      "frequency_hz": 38.615767307585436,
+      "gain": 1.0249278867506635,
+      "noise_std": 0.056131398770507025,
+      "windows": 40
+    }
+  ]
+}

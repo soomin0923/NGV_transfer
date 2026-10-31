@@ -1,0 +1,30 @@
+{
+  "schema": "day2_random_benchmark_v2",
+  "utc": "2026-10-12T05:21:50.963394+00:00",
+  "hostname": "sm2",
+  "machine": "aarch64",
+  "platform": "Linux-6.18.50+rpt-rpi-2712-aarch64-with-glibc2.41",
+  "python": "3.13.5",
+  "model": "model_int8_frozen.tflite",
+  "model_sha256": "179aada7dffc7c5ad0256f94fb301c063a9cea3464d4293f345bb28f88a6a5a4",
+  "execution_path": "builtin_cpu_no_default_delegates",
+  "delegate_fallback_reason": "failed to create XNNPACK runtimeNode number 117 (TfLiteXNNPackDelegate) failed to prepare.",
+  "precision": "int8",
+  "bytes": 1238432,
+  "threads": 4,
+  "repeats": 100,
+  "warmup": 20,
+  "input_shape": [
+    1,
+    160,
+    160,
+    3
+  ],
+  "input_seed": 42,
+  "input_distribution": "uniform float32 [0,255)",
+  "timing_scope": "prepared input -> quantization -> CPU inference -> float32 NumPy output; no camera/display",
+  "median_ms": 2.2801715,
+  "p95_ms": 2.4711648000000004,
+  "mean_ms": 2.2953155499999998,
+  "not_accuracy": "Random input has no ground truth; this is a timing/sanity test."
+}

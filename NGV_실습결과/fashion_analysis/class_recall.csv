@@ -1,0 +1,61 @@
+﻿model,class,test_examples,recall
+baseline_fp32,T-shirt/top,300,0.8033333333333333
+baseline_fp32,Trouser,300,0.9766666666666667
+baseline_fp32,Pullover,300,0.81
+baseline_fp32,Dress,300,0.9
+baseline_fp32,Coat,300,0.69
+baseline_fp32,Sandal,300,0.97
+baseline_fp32,Shirt,300,0.7266666666666667
+baseline_fp32,Sneaker,300,0.9633333333333334
+baseline_fp32,Bag,300,0.9666666666666667
+baseline_fp32,Ankle boot,300,0.9333333333333333
+baseline_dynamic,T-shirt/top,300,0.8033333333333333
+baseline_dynamic,Trouser,300,0.9766666666666667
+baseline_dynamic,Pullover,300,0.81
+baseline_dynamic,Dress,300,0.9033333333333333
+baseline_dynamic,Coat,300,0.6866666666666666
+baseline_dynamic,Sandal,300,0.9733333333333334
+baseline_dynamic,Shirt,300,0.7266666666666667
+baseline_dynamic,Sneaker,300,0.96
+baseline_dynamic,Bag,300,0.97
+baseline_dynamic,Ankle boot,300,0.9333333333333333
+baseline_int8,T-shirt/top,300,0.81
+baseline_int8,Trouser,300,0.9766666666666667
+baseline_int8,Pullover,300,0.8133333333333334
+baseline_int8,Dress,300,0.8966666666666666
+baseline_int8,Coat,300,0.6966666666666667
+baseline_int8,Sandal,300,0.9733333333333334
+baseline_int8,Shirt,300,0.7166666666666667
+baseline_int8,Sneaker,300,0.9633333333333334
+baseline_int8,Bag,300,0.9633333333333334
+baseline_int8,Ankle boot,300,0.93
+pruned_fp32,T-shirt/top,300,0.8
+pruned_fp32,Trouser,300,0.95
+pruned_fp32,Pullover,300,0.74
+pruned_fp32,Dress,300,0.8933333333333333
+pruned_fp32,Coat,300,0.7933333333333333
+pruned_fp32,Sandal,300,0.9333333333333333
+pruned_fp32,Shirt,300,0.6366666666666667
+pruned_fp32,Sneaker,300,0.9666666666666667
+pruned_fp32,Bag,300,0.9466666666666667
+pruned_fp32,Ankle boot,300,0.9466666666666667
+pruned_dynamic,T-shirt/top,300,0.8
+pruned_dynamic,Trouser,300,0.95
+pruned_dynamic,Pullover,300,0.74
+pruned_dynamic,Dress,300,0.8933333333333333
+pruned_dynamic,Coat,300,0.7933333333333333
+pruned_dynamic,Sandal,300,0.9333333333333333
+pruned_dynamic,Shirt,300,0.6366666666666667
+pruned_dynamic,Sneaker,300,0.9666666666666667
+pruned_dynamic,Bag,300,0.9466666666666667
+pruned_dynamic,Ankle boot,300,0.9466666666666667
+pruned_int8,T-shirt/top,300,0.8166666666666667
+pruned_int8,Trouser,300,0.95
+pruned_int8,Pullover,300,0.7433333333333333
+pruned_int8,Dress,300,0.8966666666666666
+pruned_int8,Coat,300,0.81
+pruned_int8,Sandal,300,0.9333333333333333
+pruned_int8,Shirt,300,0.62
+pruned_int8,Sneaker,300,0.9666666666666667
+pruned_int8,Bag,300,0.95
+pruned_int8,Ankle boot,300,0.9433333333333334

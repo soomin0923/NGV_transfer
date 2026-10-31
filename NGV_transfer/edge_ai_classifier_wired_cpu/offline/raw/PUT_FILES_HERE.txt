@@ -1,0 +1,10 @@
+강사: 아래 원본 7개를 이 폴더에 그대로 복사하세요. gz 압축을 풀지 마세요.
+Python이나 패키지를 준비할 필요는 없습니다. 전체 edge_ai_classifier_wired_cpu 폴더를 ZIP으로 압축하여 학생에게 전달하세요.
+
+train-images-idx3-ubyte.gz
+train-labels-idx1-ubyte.gz
+t10k-images-idx3-ubyte.gz
+t10k-labels-idx1-ubyte.gz
+weights_mobilenet_v3_small_224_1.0_float_no_top_v2.h5
+weights_mobilenet_v3_small_224_1.0_float.h5
+imagenet_class_index.json

@@ -1,0 +1,74 @@
+{
+  "environment": {
+    "utc": "2026-10-12T05:13:25.567243+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15"
+  },
+  "device": "CPU",
+  "seconds": 45.08984071099985,
+  "validation_accuracy": {
+    "best_head": 0.7699999809265137,
+    "best_fine_tuned": 0.7649999856948853
+  },
+  "selected": "best_head",
+  "history": {
+    "head": {
+      "accuracy": [
+        0.6116666793823242,
+        0.8983333110809326,
+        0.9466666579246521,
+        0.9599999785423279,
+        0.9733333587646484
+      ],
+      "loss": [
+        1.0560860633850098,
+        0.3510500490665436,
+        0.21962161362171173,
+        0.15296483039855957,
+        0.11870941519737244
+      ],
+      "val_accuracy": [
+        0.699999988079071,
+        0.7400000095367432,
+        0.7599999904632568,
+        0.7699999809265137,
+        0.7649999856948853
+      ],
+      "val_loss": [
+        0.872343897819519,
+        0.7466607093811035,
+        0.7072628140449524,
+        0.6760480999946594,
+        0.7364628314971924
+      ]
+    },
+    "fine_tuned": {
+      "accuracy": [
+        0.9683333039283752
+      ],
+      "loss": [
+        0.12831208109855652
+      ],
+      "val_accuracy": [
+        0.7649999856948853
+      ],
+      "val_loss": [
+        0.7017626166343689
+      ]
+    }
+  },
+  "labels": [
+    "bottle",
+    "phone",
+    "cookie",
+    "mouse",
+    "other"
+  ],
+  "image_size": 160,
+  "batch_size": 16,
+  "pretrained_sha256": "002803a73df2ab65425267ee2082d1ec213b6aa9716f19ac1a1ed5361239c5f6",
+  "preprocessing": "RGB float32 0..255; MobileNetV3 internal preprocessing",
+  "architecture": "MobileNetV3Small"
+}

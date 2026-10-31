@@ -1,0 +1,12 @@
+.venv*/
+__pycache__/
+*.pyc
+dataset_raw/*
+dataset_split/
+artifacts/*
+models/*
+day3/out/
+day2_extra/artifacts/
+day2_extra/comparison/
+day3_image/artifacts/
+day3_image/results/

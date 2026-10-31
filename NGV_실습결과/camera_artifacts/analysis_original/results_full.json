@@ -1,0 +1,419 @@
+[
+  {
+    "schema": "day2_evaluation_v2",
+    "utc": "2026-10-12T05:18:38.723819+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15",
+    "accuracy": 0.775,
+    "macro_f1": 0.7548337032722415,
+    "per_class": [
+      {
+        "label": "bottle",
+        "support": 40,
+        "predicted": 15,
+        "precision": 0.9333333333333333,
+        "recall": 0.35,
+        "f1": 0.5090909090909091
+      },
+      {
+        "label": "phone",
+        "support": 40,
+        "predicted": 58,
+        "precision": 0.6896551724137931,
+        "recall": 1.0,
+        "f1": 0.8163265306122449
+      },
+      {
+        "label": "cookie",
+        "support": 40,
+        "predicted": 40,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "label": "mouse",
+        "support": 40,
+        "predicted": 46,
+        "precision": 0.8695652173913043,
+        "recall": 1.0,
+        "f1": 0.9302325581395349
+      },
+      {
+        "label": "other",
+        "support": 40,
+        "predicted": 41,
+        "precision": 0.5121951219512195,
+        "recall": 0.525,
+        "f1": 0.5185185185185186
+      }
+    ],
+    "zero_division": "Undefined precision/recall/F1 is reported as 0.",
+    "samples": 200,
+    "labels": [
+      "bottle",
+      "phone",
+      "cookie",
+      "mouse",
+      "other"
+    ],
+    "confusion_matrix": [
+      [
+        14,
+        0,
+        0,
+        6,
+        20
+      ],
+      [
+        0,
+        40,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        40,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        40,
+        0
+      ],
+      [
+        1,
+        18,
+        0,
+        0,
+        21
+      ]
+    ],
+    "model": "/home/sm/edge_ai_classifier_wired_cpu/artifacts/model_float32_frozen.tflite",
+    "model_sha256": "c8c952ebe54eb9b8c11834da704005ff8c248e6c28d61ce4223bb5637ff0125c",
+    "bytes": 3762060,
+    "data": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/test",
+    "data_sha256": "37ce59cf6a09801059b5880049449652238ea6f94b66f5def16c851248c06a66",
+    "split": "test",
+    "backend": "litert",
+    "device": "CPU",
+    "precision": "fp32",
+    "threads": 4,
+    "execution_path": "xnnpack_or_default_cpu",
+    "delegate_fallback_reason": null,
+    "batch": 1,
+    "warmup": 20,
+    "timed_samples": 200,
+    "timing_scope": "prepared float32 input -> quantization (if any) -> CPU inference -> float32 probabilities; excludes file load/resize and camera/display",
+    "latency_method": "one inference per held-out image after warmup",
+    "median_ms": 0.955822,
+    "p95_ms": 1.34846725,
+    "mean_ms": 1.01262834,
+    "invoke_median_ms": 0.7609355,
+    "input": {
+      "dtype": "float32",
+      "shape": [
+        1,
+        160,
+        160,
+        3
+      ],
+      "scale": 0.0,
+      "zero_point": 0
+    },
+    "output": {
+      "dtype": "float32",
+      "shape": [
+        1,
+        5
+      ],
+      "scale": 0.0,
+      "zero_point": 0
+    }
+  },
+  {
+    "schema": "day2_evaluation_v2",
+    "utc": "2026-10-12T05:18:39.572946+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15",
+    "accuracy": 0.755,
+    "macro_f1": 0.7285867511996005,
+    "per_class": [
+      {
+        "label": "bottle",
+        "support": 40,
+        "predicted": 13,
+        "precision": 0.9230769230769231,
+        "recall": 0.3,
+        "f1": 0.4528301886792453
+      },
+      {
+        "label": "phone",
+        "support": 40,
+        "predicted": 60,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      {
+        "label": "cookie",
+        "support": 40,
+        "predicted": 40,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "label": "mouse",
+        "support": 40,
+        "predicted": 48,
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1": 0.9090909090909091
+      },
+      {
+        "label": "other",
+        "support": 40,
+        "predicted": 39,
+        "precision": 0.48717948717948717,
+        "recall": 0.475,
+        "f1": 0.4810126582278481
+      }
+    ],
+    "zero_division": "Undefined precision/recall/F1 is reported as 0.",
+    "samples": 200,
+    "labels": [
+      "bottle",
+      "phone",
+      "cookie",
+      "mouse",
+      "other"
+    ],
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        0,
+        8,
+        20
+      ],
+      [
+        0,
+        40,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        40,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        40,
+        0
+      ],
+      [
+        1,
+        20,
+        0,
+        0,
+        19
+      ]
+    ],
+    "model": "/home/sm/edge_ai_classifier_wired_cpu/artifacts/dynamic_diagnostic/model_dynamic_frozen.tflite",
+    "model_sha256": "0b026d48772542538b59313d1f262971980d8767e17e2a77bdeedfcadc03382f",
+    "bytes": 1130712,
+    "data": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/test",
+    "data_sha256": "37ce59cf6a09801059b5880049449652238ea6f94b66f5def16c851248c06a66",
+    "split": "test",
+    "backend": "litert",
+    "device": "CPU",
+    "precision": "dynamic",
+    "threads": 4,
+    "execution_path": "xnnpack_or_default_cpu",
+    "delegate_fallback_reason": null,
+    "batch": 1,
+    "warmup": 20,
+    "timed_samples": 200,
+    "timing_scope": "prepared float32 input -> quantization (if any) -> CPU inference -> float32 probabilities; excludes file load/resize and camera/display",
+    "latency_method": "one inference per held-out image after warmup",
+    "median_ms": 1.149807,
+    "p95_ms": 1.4262373999999998,
+    "mean_ms": 1.22360773,
+    "invoke_median_ms": 1.0394135,
+    "input": {
+      "dtype": "float32",
+      "shape": [
+        1,
+        160,
+        160,
+        3
+      ],
+      "scale": 0.0,
+      "zero_point": 0
+    },
+    "output": {
+      "dtype": "float32",
+      "shape": [
+        1,
+        5
+      ],
+      "scale": 0.0,
+      "zero_point": 0
+    }
+  },
+  {
+    "schema": "day2_evaluation_v2",
+    "utc": "2026-10-12T05:18:41.068457+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15",
+    "accuracy": 0.74,
+    "macro_f1": 0.6806840491108671,
+    "per_class": [
+      {
+        "label": "bottle",
+        "support": 40,
+        "predicted": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "label": "phone",
+        "support": 40,
+        "predicted": 41,
+        "precision": 0.8536585365853658,
+        "recall": 0.875,
+        "f1": 0.8641975308641976
+      },
+      {
+        "label": "cookie",
+        "support": 40,
+        "predicted": 42,
+        "precision": 0.9523809523809523,
+        "recall": 1.0,
+        "f1": 0.975609756097561
+      },
+      {
+        "label": "mouse",
+        "support": 40,
+        "predicted": 39,
+        "precision": 1.0,
+        "recall": 0.975,
+        "f1": 0.9873417721518987
+      },
+      {
+        "label": "other",
+        "support": 40,
+        "predicted": 78,
+        "precision": 0.4358974358974359,
+        "recall": 0.85,
+        "f1": 0.5762711864406781
+      }
+    ],
+    "zero_division": "Undefined precision/recall/F1 is reported as 0.",
+    "samples": 200,
+    "labels": [
+      "bottle",
+      "phone",
+      "cookie",
+      "mouse",
+      "other"
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        2,
+        0,
+        38
+      ],
+      [
+        0,
+        35,
+        0,
+        0,
+        5
+      ],
+      [
+        0,
+        0,
+        40,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        39,
+        1
+      ],
+      [
+        0,
+        6,
+        0,
+        0,
+        34
+      ]
+    ],
+    "model": "/home/sm/edge_ai_classifier_wired_cpu/artifacts/int8/model_int8_frozen.tflite",
+    "model_sha256": "179aada7dffc7c5ad0256f94fb301c063a9cea3464d4293f345bb28f88a6a5a4",
+    "bytes": 1238432,
+    "data": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/test",
+    "data_sha256": "37ce59cf6a09801059b5880049449652238ea6f94b66f5def16c851248c06a66",
+    "split": "test",
+    "backend": "litert",
+    "device": "CPU",
+    "precision": "int8",
+    "threads": 4,
+    "execution_path": "builtin_cpu_no_default_delegates",
+    "delegate_fallback_reason": "failed to create XNNPACK runtimeNode number 117 (TfLiteXNNPackDelegate) failed to prepare.",
+    "batch": 1,
+    "warmup": 20,
+    "timed_samples": 200,
+    "timing_scope": "prepared float32 input -> quantization (if any) -> CPU inference -> float32 probabilities; excludes file load/resize and camera/display",
+    "latency_method": "one inference per held-out image after warmup",
+    "median_ms": 4.068981,
+    "p95_ms": 4.583349049999999,
+    "mean_ms": 4.03269098,
+    "invoke_median_ms": 3.865839,
+    "input": {
+      "dtype": "int8",
+      "shape": [
+        1,
+        160,
+        160,
+        3
+      ],
+      "scale": 1.0,
+      "zero_point": -128
+    },
+    "output": {
+      "dtype": "int8",
+      "shape": [
+        1,
+        5
+      ],
+      "scale": 0.00390625,
+      "zero_point": -128
+    }
+  }
+]

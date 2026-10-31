@@ -1,0 +1,6 @@
+﻿truth,bottle,phone,cookie,mouse,other
+bottle,40,0,0,0,0
+phone,0,3,0,6,31
+cookie,0,0,40,0,0
+mouse,0,0,0,40,0
+other,4,2,0,0,34

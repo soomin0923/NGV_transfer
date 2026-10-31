@@ -1,0 +1,482 @@
+[
+  {
+    "schema": "edge_benchmark_v1",
+    "utc": "2026-10-13T04:52:49.646509+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15",
+    "backend": "onnx",
+    "tag": "wsl",
+    "variant": "baseline",
+    "precision": "fp32",
+    "model": "baseline_fp32.onnx",
+    "execution_path": "onnx_cpu",
+    "model_sha256": "c22324a350d8003847b81b1329353e1cb52760db669675e9f9b01567e5f365ec",
+    "bytes": 1056517,
+    "input_data_sha256": "c6f34e2d0d106ec6fae1280cdcf678a35475c53a6319f22af1569386062b750a",
+    "batch": 1,
+    "threads": 4,
+    "samples": 4800,
+    "accuracy": 0.9997916666666666,
+    "macro_f1": 0.9997916666304977,
+    "confusion_matrix": [
+      [
+        1200,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1200,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1200,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1199
+      ]
+    ],
+    "class_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "per_class_precision": [
+      0.9991673605328892,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "per_class_recall": [
+      1.0,
+      1.0,
+      1.0,
+      0.9991666666666666
+    ],
+    "per_class_f1": [
+      0.9995835068721366,
+      1.0,
+      1.0,
+      0.9995831596498541
+    ],
+    "warmup": 20,
+    "repeats": 100,
+    "timing_scope": "prepared_input_to_numpy_output; CPU only",
+    "mean_ms": 0.04769765000000001,
+    "median_ms": 0.0391465,
+    "p95_ms": 0.08858629999999994,
+    "samples_per_second": 20965.393473263353,
+    "evaluation_sha256": "cbbcecf40a1af596c3305ce97a7497125f8eb0a7914cfce125b86ca8e731ba77"
+  },
+  {
+    "schema": "edge_benchmark_v1",
+    "utc": "2026-10-13T04:52:50.095142+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15",
+    "backend": "onnx",
+    "tag": "wsl",
+    "variant": "baseline",
+    "precision": "int8",
+    "model": "baseline_int8.onnx",
+    "execution_path": "onnx_cpu",
+    "model_sha256": "dde76c6977cd1969f8d05614ef7447e700ee87910f8d473a4b5cb22eaa0d5305",
+    "bytes": 273299,
+    "input_data_sha256": "c6f34e2d0d106ec6fae1280cdcf678a35475c53a6319f22af1569386062b750a",
+    "batch": 1,
+    "threads": 4,
+    "samples": 4800,
+    "accuracy": 0.9997916666666666,
+    "macro_f1": 0.9997916666304977,
+    "confusion_matrix": [
+      [
+        1200,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1200,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1200,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1199
+      ]
+    ],
+    "class_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "per_class_precision": [
+      0.9991673605328892,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "per_class_recall": [
+      1.0,
+      1.0,
+      1.0,
+      0.9991666666666666
+    ],
+    "per_class_f1": [
+      0.9995835068721366,
+      1.0,
+      1.0,
+      0.9995831596498541
+    ],
+    "warmup": 20,
+    "repeats": 100,
+    "timing_scope": "prepared_input_to_numpy_output; CPU only",
+    "mean_ms": 0.052903429999999994,
+    "median_ms": 0.041911500000000004,
+    "p95_ms": 0.08922639999999997,
+    "samples_per_second": 18902.366065867565,
+    "evaluation_sha256": "cbbcecf40a1af596c3305ce97a7497125f8eb0a7914cfce125b86ca8e731ba77"
+  },
+  {
+    "schema": "edge_benchmark_v1",
+    "utc": "2026-10-13T04:52:50.460910+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15",
+    "backend": "onnx",
+    "tag": "wsl",
+    "variant": "unstructured",
+    "precision": "fp32",
+    "model": "unstructured_fp32.onnx",
+    "execution_path": "onnx_cpu",
+    "model_sha256": "ea7cc10718869b2d987b6930d3eead87804f5554f18dcda79f8559b6584ecda9",
+    "bytes": 1056517,
+    "input_data_sha256": "c6f34e2d0d106ec6fae1280cdcf678a35475c53a6319f22af1569386062b750a",
+    "batch": 1,
+    "threads": 4,
+    "samples": 4800,
+    "accuracy": 0.9997916666666666,
+    "macro_f1": 0.9997916666304977,
+    "confusion_matrix": [
+      [
+        1200,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1200,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1200,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1199
+      ]
+    ],
+    "class_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "per_class_precision": [
+      0.9991673605328892,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "per_class_recall": [
+      1.0,
+      1.0,
+      1.0,
+      0.9991666666666666
+    ],
+    "per_class_f1": [
+      0.9995835068721366,
+      1.0,
+      1.0,
+      0.9995831596498541
+    ],
+    "warmup": 20,
+    "repeats": 100,
+    "timing_scope": "prepared_input_to_numpy_output; CPU only",
+    "mean_ms": 0.032835039999999996,
+    "median_ms": 0.017906,
+    "p95_ms": 0.06047049999999994,
+    "samples_per_second": 30455.269736233004,
+    "evaluation_sha256": "cbbcecf40a1af596c3305ce97a7497125f8eb0a7914cfce125b86ca8e731ba77"
+  },
+  {
+    "schema": "edge_benchmark_v1",
+    "utc": "2026-10-13T04:52:50.844840+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15",
+    "backend": "onnx",
+    "tag": "wsl",
+    "variant": "unstructured",
+    "precision": "int8",
+    "model": "unstructured_int8.onnx",
+    "execution_path": "onnx_cpu",
+    "model_sha256": "5ea91dffb8b379fcd73ae67e8a47e7faa0a5bfa0557b274b676aa38c6400a594",
+    "bytes": 273299,
+    "input_data_sha256": "c6f34e2d0d106ec6fae1280cdcf678a35475c53a6319f22af1569386062b750a",
+    "batch": 1,
+    "threads": 4,
+    "samples": 4800,
+    "accuracy": 0.9997916666666666,
+    "macro_f1": 0.9997916666304977,
+    "confusion_matrix": [
+      [
+        1200,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1200,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1200,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1199
+      ]
+    ],
+    "class_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "per_class_precision": [
+      0.9991673605328892,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "per_class_recall": [
+      1.0,
+      1.0,
+      1.0,
+      0.9991666666666666
+    ],
+    "per_class_f1": [
+      0.9995835068721366,
+      1.0,
+      1.0,
+      0.9995831596498541
+    ],
+    "warmup": 20,
+    "repeats": 100,
+    "timing_scope": "prepared_input_to_numpy_output; CPU only",
+    "mean_ms": 0.027754119999999997,
+    "median_ms": 0.024587,
+    "p95_ms": 0.04152094999999999,
+    "samples_per_second": 36030.68661517642,
+    "evaluation_sha256": "cbbcecf40a1af596c3305ce97a7497125f8eb0a7914cfce125b86ca8e731ba77"
+  },
+  {
+    "schema": "edge_benchmark_v1",
+    "utc": "2026-10-13T04:52:51.198148+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15",
+    "backend": "onnx",
+    "tag": "wsl",
+    "variant": "structured",
+    "precision": "fp32",
+    "model": "structured_fp32.onnx",
+    "execution_path": "onnx_cpu",
+    "model_sha256": "32fc9ada16d2354bb99c3f977b9e42c9b4d8abce7f22f3cb4a73ca88980e4653",
+    "bytes": 397573,
+    "input_data_sha256": "c6f34e2d0d106ec6fae1280cdcf678a35475c53a6319f22af1569386062b750a",
+    "batch": 1,
+    "threads": 4,
+    "samples": 4800,
+    "accuracy": 0.9997916666666666,
+    "macro_f1": 0.9997916666304977,
+    "confusion_matrix": [
+      [
+        1200,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1200,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1200,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1199
+      ]
+    ],
+    "class_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "per_class_precision": [
+      0.9991673605328892,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "per_class_recall": [
+      1.0,
+      1.0,
+      1.0,
+      0.9991666666666666
+    ],
+    "per_class_f1": [
+      0.9995835068721366,
+      1.0,
+      1.0,
+      0.9995831596498541
+    ],
+    "warmup": 20,
+    "repeats": 100,
+    "timing_scope": "prepared_input_to_numpy_output; CPU only",
+    "mean_ms": 0.023545129999999997,
+    "median_ms": 0.021790999999999998,
+    "p95_ms": 0.0341219,
+    "samples_per_second": 42471.62789077827,
+    "evaluation_sha256": "cbbcecf40a1af596c3305ce97a7497125f8eb0a7914cfce125b86ca8e731ba77"
+  },
+  {
+    "schema": "edge_benchmark_v1",
+    "utc": "2026-10-13T04:52:51.456679+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15",
+    "backend": "onnx",
+    "tag": "wsl",
+    "variant": "structured",
+    "precision": "int8",
+    "model": "structured_int8.onnx",
+    "execution_path": "onnx_cpu",
+    "model_sha256": "330b4b64f71e47dfd9c5a1821cd760626d54f51647dddd07a51aad71d344abd2",
+    "bytes": 105491,
+    "input_data_sha256": "c6f34e2d0d106ec6fae1280cdcf678a35475c53a6319f22af1569386062b750a",
+    "batch": 1,
+    "threads": 4,
+    "samples": 4800,
+    "accuracy": 0.9997916666666666,
+    "macro_f1": 0.9997916666304977,
+    "confusion_matrix": [
+      [
+        1200,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1200,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1200,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1199
+      ]
+    ],
+    "class_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "per_class_precision": [
+      0.9991673605328892,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "per_class_recall": [
+      1.0,
+      1.0,
+      1.0,
+      0.9991666666666666
+    ],
+    "per_class_f1": [
+      0.9995835068721366,
+      1.0,
+      1.0,
+      0.9995831596498541
+    ],
+    "warmup": 20,
+    "repeats": 100,
+    "timing_scope": "prepared_input_to_numpy_output; CPU only",
+    "mean_ms": 0.02159561,
+    "median_ms": 0.0190135,
+    "p95_ms": 0.03178519999999999,
+    "samples_per_second": 46305.70750258964,
+    "evaluation_sha256": "cbbcecf40a1af596c3305ce97a7497125f8eb0a7914cfce125b86ca8e731ba77"
+  }
+]

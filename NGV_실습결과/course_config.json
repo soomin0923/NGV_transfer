@@ -1,0 +1,36 @@
+{
+  "labels": [
+    "bottle",
+    "phone",
+    "cookie",
+    "mouse",
+    "other"
+  ],
+  "photos_per_session": 40,
+  "sessions": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05"
+  ],
+  "train_sessions": [
+    "s01",
+    "s02",
+    "s03"
+  ],
+  "val_sessions": [
+    "s04"
+  ],
+  "test_sessions": [
+    "s05"
+  ],
+  "threads": 4,
+  "camera": {
+    "camera": "auto",
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "fourcc": "AUTO"
+  }
+}

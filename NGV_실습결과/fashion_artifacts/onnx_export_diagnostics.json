@@ -1,0 +1,177 @@
+{
+  "status": "passed",
+  "models": [
+    {
+      "schema": "fashion_cpu_reference_v1",
+      "variant": "baseline",
+      "precision": "fp32",
+      "validated": true,
+      "finite": true,
+      "QuantizeBias": false,
+      "calibration_split": "train",
+      "cpu_parity": {
+        "allclose": true,
+        "atol": 0.0001,
+        "rtol": 0.001,
+        "max_abs_error": 5.364418029785156e-07,
+        "mean_abs_error": 1.7274733247872206e-08,
+        "mismatched_elements": 0,
+        "top1_agreement": 1.0,
+        "worst_index": [
+          19,
+          6
+        ]
+      },
+      "zero_parity": {
+        "allclose": true,
+        "atol": 0.0001,
+        "rtol": 0.001,
+        "max_abs_error": 5.960464477539063e-08,
+        "mean_abs_error": 1.4528632164001465e-08,
+        "mismatched_elements": 0,
+        "top1_agreement": 1.0,
+        "worst_index": [
+          0,
+          5
+        ]
+      },
+      "max_abs_error": 5.364418029785156e-07,
+      "top1_agreement": 1.0,
+      "model_sha256": "5222d6cc28e2001ae0024546f85213767afb5eff090242264ab1cd727404d398",
+      "source_keras_sha256": "d60cc48d9c24224634ad407b023998db49cacb8f5f1904f4b722c2af5124c754",
+      "source_weights_sha256": "9b184191a87813ea31e169a4b2e9c5bdfb618da70a2d011a3891976ec593fbe0",
+      "training_reference_sha256": "fa115359d6869783a09d27e2dd65582d710022e60e9388e2991767af43961744",
+      "cpu_reference_sha256": "3ee558f57f5247df334da506bd47a517d1f5e13037fcb3caf69e712cf56cbaea",
+      "calibration_sha256": "46ff2e6ed6c7939ed322087c017739364899384c0844a225d2b517b5e888f5fc"
+    },
+    {
+      "schema": "fashion_cpu_reference_v1",
+      "variant": "baseline",
+      "precision": "int8",
+      "validated": true,
+      "finite": true,
+      "QuantizeBias": false,
+      "calibration_split": "train",
+      "cpu_parity": {
+        "allclose": false,
+        "atol": 0.0001,
+        "rtol": 0.001,
+        "max_abs_error": 0.0496671199798584,
+        "mean_abs_error": 0.0010534511067141147,
+        "mismatched_elements": 158,
+        "top1_agreement": 0.96875,
+        "worst_index": [
+          0,
+          6
+        ]
+      },
+      "zero_parity": {
+        "allclose": false,
+        "atol": 0.0001,
+        "rtol": 0.001,
+        "max_abs_error": 0.04493299126625061,
+        "mean_abs_error": 0.012228570831939577,
+        "mismatched_elements": 10,
+        "top1_agreement": 1.0,
+        "worst_index": [
+          0,
+          5
+        ]
+      },
+      "max_abs_error": 0.0496671199798584,
+      "top1_agreement": 0.96875,
+      "model_sha256": "8624c648750dbd7749bbcb55d8850f607f79a8925df4415168f1643d4b4da834",
+      "source_keras_sha256": "d60cc48d9c24224634ad407b023998db49cacb8f5f1904f4b722c2af5124c754",
+      "source_weights_sha256": "9b184191a87813ea31e169a4b2e9c5bdfb618da70a2d011a3891976ec593fbe0",
+      "training_reference_sha256": "fa115359d6869783a09d27e2dd65582d710022e60e9388e2991767af43961744",
+      "cpu_reference_sha256": "3ee558f57f5247df334da506bd47a517d1f5e13037fcb3caf69e712cf56cbaea",
+      "calibration_sha256": "46ff2e6ed6c7939ed322087c017739364899384c0844a225d2b517b5e888f5fc"
+    },
+    {
+      "schema": "fashion_cpu_reference_v1",
+      "variant": "pruned",
+      "precision": "fp32",
+      "validated": true,
+      "finite": true,
+      "QuantizeBias": false,
+      "calibration_split": "train",
+      "cpu_parity": {
+        "allclose": true,
+        "atol": 0.0001,
+        "rtol": 0.001,
+        "max_abs_error": 4.172325134277344e-07,
+        "mean_abs_error": 1.8611678834212774e-08,
+        "mismatched_elements": 0,
+        "top1_agreement": 1.0,
+        "worst_index": [
+          53,
+          0
+        ]
+      },
+      "zero_parity": {
+        "allclose": true,
+        "atol": 0.0001,
+        "rtol": 0.001,
+        "max_abs_error": 2.086162567138672e-07,
+        "mean_abs_error": 5.213078111410141e-08,
+        "mismatched_elements": 0,
+        "top1_agreement": 1.0,
+        "worst_index": [
+          0,
+          5
+        ]
+      },
+      "max_abs_error": 4.172325134277344e-07,
+      "top1_agreement": 1.0,
+      "model_sha256": "8688f739741d052cc898a9ede82e28449ccee606b8486d7cebceb04853b2cfe9",
+      "source_keras_sha256": "c997bd7acce712c49d034a6dec0c20624a13df59cd5b441f0105c883e1162fb0",
+      "source_weights_sha256": "b94122a2cfd3c5aeb0eaf396032907210040018c217f7589d98174fc6e3047d8",
+      "training_reference_sha256": "9e8913bd10d5ef336c910725380743cf498c0a6838de9b762690bccef5a87865",
+      "cpu_reference_sha256": "59362a59c7cf081a8f12738b6326c0886c0d561bf9c16cbdb07d5e1e2c46ea7c",
+      "calibration_sha256": "46ff2e6ed6c7939ed322087c017739364899384c0844a225d2b517b5e888f5fc"
+    },
+    {
+      "schema": "fashion_cpu_reference_v1",
+      "variant": "pruned",
+      "precision": "int8",
+      "validated": true,
+      "finite": true,
+      "QuantizeBias": false,
+      "calibration_split": "train",
+      "cpu_parity": {
+        "allclose": false,
+        "atol": 0.0001,
+        "rtol": 0.001,
+        "max_abs_error": 0.03203138709068298,
+        "mean_abs_error": 0.0013157443554770803,
+        "mismatched_elements": 224,
+        "top1_agreement": 1.0,
+        "worst_index": [
+          39,
+          2
+        ]
+      },
+      "zero_parity": {
+        "allclose": false,
+        "atol": 0.0001,
+        "rtol": 0.001,
+        "max_abs_error": 0.024453431367874146,
+        "mean_abs_error": 0.005153472907841206,
+        "mismatched_elements": 10,
+        "top1_agreement": 1.0,
+        "worst_index": [
+          0,
+          5
+        ]
+      },
+      "max_abs_error": 0.03203138709068298,
+      "top1_agreement": 1.0,
+      "model_sha256": "9557540422765874cfb5d68626913e717f330dd51eddb90caa36142c24f0502a",
+      "source_keras_sha256": "c997bd7acce712c49d034a6dec0c20624a13df59cd5b441f0105c883e1162fb0",
+      "source_weights_sha256": "b94122a2cfd3c5aeb0eaf396032907210040018c217f7589d98174fc6e3047d8",
+      "training_reference_sha256": "9e8913bd10d5ef336c910725380743cf498c0a6838de9b762690bccef5a87865",
+      "cpu_reference_sha256": "59362a59c7cf081a8f12738b6326c0886c0d561bf9c16cbdb07d5e1e2c46ea7c",
+      "calibration_sha256": "46ff2e6ed6c7939ed322087c017739364899384c0844a225d2b517b5e888f5fc"
+    }
+  ]
+}

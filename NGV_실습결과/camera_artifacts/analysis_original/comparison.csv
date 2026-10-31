@@ -1,0 +1,4 @@
+﻿precision,samples,accuracy,macro_f1,bytes,median_ms,p95_ms,threads,batch,warmup,execution_path
+fp32,200,0.775,0.7548337032722415,3762060,0.955822,1.34846725,4,1,20,xnnpack_or_default_cpu
+dynamic,200,0.755,0.7285867511996005,1130712,1.149807,1.4262373999999998,4,1,20,xnnpack_or_default_cpu
+int8,200,0.74,0.6806840491108671,1238432,4.068981,4.583349049999999,4,1,20,builtin_cpu_no_default_delegates

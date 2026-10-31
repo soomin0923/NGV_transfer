@@ -1,0 +1,657 @@
+{
+  "source_split": "train",
+  "directory": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train",
+  "requested_images": 128,
+  "selected_images": 128,
+  "class_counts": {
+    "bottle": 26,
+    "phone": 26,
+    "cookie": 26,
+    "mouse": 25,
+    "other": 25
+  },
+  "selection": "deterministic balanced quotas; evenly spaced sorted filenames per class",
+  "split_manifest_verified": true,
+  "files": [
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s01_20261012_103107_303d45850cea.jpg",
+      "label": "bottle",
+      "sha256": "8dd00d3ea5950a24b601c3f1c8a1795a61b5c51e35d734b636dbbdf8543588a8"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s01_20261012_103109_a9433e4c2c5c.jpg",
+      "label": "bottle",
+      "sha256": "361a991f0827b4c82f921caf9014a06b285eafbc450b0481416fae47129c09e9"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s01_20261012_103112_ab84844ddc3c.jpg",
+      "label": "bottle",
+      "sha256": "a4430677c8044e3ea2f151b63ec23a713404aa2747d1c08d8d722a5bc0b6f757"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s01_20261012_103115_e88ee421b4fb.jpg",
+      "label": "bottle",
+      "sha256": "f52b7c3a38350a8c603b84c872ae89bb618ae96b074547099f9b8dc9ee36f033"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s01_20261012_103118_8060869d03ae.jpg",
+      "label": "bottle",
+      "sha256": "6e28ec209bca57439038776f3150310ebc48babc3c39bd083c8e6917105aa428"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s01_20261012_103120_cf9fb76a1e8d.jpg",
+      "label": "bottle",
+      "sha256": "b730d6fcb9eeec3d8c4a1885ca6ca4a79f6ce5350b97a1d69506ecabd80d9c3a"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s01_20261012_103123_73b5b6ab434c.jpg",
+      "label": "bottle",
+      "sha256": "1a01dd4700bb17cab61ece2af080b87db675fd5c43b549c8540229b748928e5e"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s01_20261012_103126_272f5bbeb210.jpg",
+      "label": "bottle",
+      "sha256": "aa70e68622573eda4dfcef60de86700c6c5f29d5bdbdf9efe26ae5d5a8ca241b"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s01_20261012_103129_912e22f65704.jpg",
+      "label": "bottle",
+      "sha256": "e716cdfd35775e572d55a777aca17864a5bb989a7425959c7acc5245eea00747"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s02_20261012_103211_fa6f763449a6.jpg",
+      "label": "bottle",
+      "sha256": "b2a61a2f98febf1eb08d96ba128c136dcdcdd47379ecfea39c1249170ce4c9b8"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s02_20261012_103214_4ec1ea5ce3c3.jpg",
+      "label": "bottle",
+      "sha256": "b5ecee60122286ac26cb63ef71f711922ba3c4199c8a8cec2a3e1e9ca0064dd1"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s02_20261012_103217_5ad57103bade.jpg",
+      "label": "bottle",
+      "sha256": "c651936de08092429a648ff0d29f7c94efd53ba68ab5a26b8c930fc193599b61"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s02_20261012_103220_357f6f714aac.jpg",
+      "label": "bottle",
+      "sha256": "e682bda5de9c771cdf57c0dc385395d64097f412d7998676588e8ee403557d7c"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s02_20261012_103222_db4fbf9ca993.jpg",
+      "label": "bottle",
+      "sha256": "02189c4dbe4fc441c7dca80d6c712090842c673912e61f509b1be5509fc58c89"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s02_20261012_103225_7b80f607cef5.jpg",
+      "label": "bottle",
+      "sha256": "1e707c4db87c66b5e599c41e918513e3bd5d7963c9a529100aed287442e62099"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s02_20261012_103228_9183acc3bf17.jpg",
+      "label": "bottle",
+      "sha256": "d5f927a370e380a345332b07e7ad48895c12e9d17b52479682085ff9f7066c30"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s02_20261012_103231_375f541c339e.jpg",
+      "label": "bottle",
+      "sha256": "9031e99103049319cabac09d56a6b76172d93cfc65450af889896915c6e8518b"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s03_20261012_134651_985f1a5caf06.jpg",
+      "label": "bottle",
+      "sha256": "e00b538bc890ccc627c287f8a219fa59b57524666e6ab0164a5a1b09869558d5"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s03_20261012_134654_3578b87e7494.jpg",
+      "label": "bottle",
+      "sha256": "13d0df579fc30044d543ce82f117ac86365c95d59cf4dec104b7c3ac783a960e"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s03_20261012_134657_4b1b5a086620.jpg",
+      "label": "bottle",
+      "sha256": "5f30fd4a3cb70cdf5d1720f36f54c27f58171e4d00ab3798384e7778360f78ac"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s03_20261012_134700_10f589a9d694.jpg",
+      "label": "bottle",
+      "sha256": "328ade59b84a870e3d7a1f35eaa9c2d1171198e396795d969396d834b20ea024"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s03_20261012_134702_82b21fe5fd7e.jpg",
+      "label": "bottle",
+      "sha256": "5284eb87604f6cfcbc28ff038a7e6fa535074ad437a3f8bcee405a2ab01c9637"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s03_20261012_134705_cc8d1f68870d.jpg",
+      "label": "bottle",
+      "sha256": "ea2330bd5343fe82f97d6c8bfc9f0739add105a8477819e8e1fb0316187dd41e"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s03_20261012_134708_297828864e76.jpg",
+      "label": "bottle",
+      "sha256": "7adf1492cea7bf6775252bf68198ad6579039ab987f817b0e032886cfd592a96"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s03_20261012_134711_06ad24011b26.jpg",
+      "label": "bottle",
+      "sha256": "5cba4cd95415345f7d9b979c15bd3989a388d07231b163671723d62d47872825"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/bottle/s03_20261012_134714_1f16f439addb.jpg",
+      "label": "bottle",
+      "sha256": "9fcafde08d65fe8811c59ddaf06f14d23d1636a375e00ea65d04cb573f4c9808"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s01_20261012_135330_d808b1a82251.jpg",
+      "label": "phone",
+      "sha256": "55bdb295c1378c3f8dcbb8e66c89940e4d7093a3a8a7056c961c6f03a1045dc1"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s01_20261012_135333_1224ca588879.jpg",
+      "label": "phone",
+      "sha256": "3b810313e105ecbbca133cdc501a939a159a1f410fc719da4f859b6f66efb848"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s01_20261012_135335_b3744ab54a44.jpg",
+      "label": "phone",
+      "sha256": "7fdfde33399866299633b563c1fee416a655c24c6f7a80ba09f666944afc6cbf"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s01_20261012_135338_d98440bcce4e.jpg",
+      "label": "phone",
+      "sha256": "728929322014f29c35361dde5fd5a32463d045693caa160a29a857193673d581"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s01_20261012_135341_f4d01403dbba.jpg",
+      "label": "phone",
+      "sha256": "de876837e4856e18ec08958d284a978a8d31c6a785bc33ca6fba81d4007eac2f"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s01_20261012_135343_436c55e86319.jpg",
+      "label": "phone",
+      "sha256": "8e811f909586f81d0ef930f3306462fd206d014ed76eff2d295ed6a97b1867d8"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s01_20261012_135346_a970cd5ea880.jpg",
+      "label": "phone",
+      "sha256": "1092512671534ce2997d7731bbb261035f8a6c14b8f6ba81c906b7ed5a9c3219"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s01_20261012_135349_c78090b1334d.jpg",
+      "label": "phone",
+      "sha256": "092ed191f7a687684894078ff311bf005dbf373011d89c84ae72ec4beb3050da"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s01_20261012_135352_0d7a061da0a5.jpg",
+      "label": "phone",
+      "sha256": "a8624c65adae575979ab432d85150933ba00bc3dfe8f24b0b7ec8e8ddf821289"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s02_20261012_135417_f744d6f25665.jpg",
+      "label": "phone",
+      "sha256": "7a21ee9f53411559684e6a25bbee26139cf9f3dae7b86bf6a8f12bbc8764f58c"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s02_20261012_135420_9629b5e27da5.jpg",
+      "label": "phone",
+      "sha256": "cd7d5631d17871c0ecf8f4204b7eab660e22a636e8da258dc0f95f52917f61e5"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s02_20261012_135423_fa19dc36ec78.jpg",
+      "label": "phone",
+      "sha256": "f676680da8fbbc07ecfb214875c48e8c6605e5507a3c3f34825bee043018ce41"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s02_20261012_135426_64bb43b99d09.jpg",
+      "label": "phone",
+      "sha256": "8fa08fb7dda0306335b11dc7bedc9c2089c6a300381c67e1ba9add80a2f6a659"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s02_20261012_135428_d14495130c39.jpg",
+      "label": "phone",
+      "sha256": "4b994b446cae7d85a1e5c990de73fe015bef77d396a33cf4519851fa1beb0985"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s02_20261012_135431_097e99f55143.jpg",
+      "label": "phone",
+      "sha256": "706b09b567b24b46f9c25f50648f56940b438cd437f48ddd7b3b62188f195b28"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s02_20261012_135434_6b70753d11fc.jpg",
+      "label": "phone",
+      "sha256": "d5f940ebd6445b451275c56b4c612558dfe99305633950f56902cdb9642dcf3a"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s02_20261012_135437_25dd5debc49c.jpg",
+      "label": "phone",
+      "sha256": "d0f3370ed69c512015311b2cd062aee269325d9da0c703cbdd5e0202eda06df1"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s03_20261012_134730_f0a5fc6692cf.jpg",
+      "label": "phone",
+      "sha256": "9fa79780a79dd9a005b9e57c8438f539e0033470e4ab79d98b32b4a2694c1f80"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s03_20261012_134733_98c7a427dee0.jpg",
+      "label": "phone",
+      "sha256": "0c0d34934d715cf37a7a0d3eb0045d44625c48e68594fac348bc531feb53ddc4"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s03_20261012_134736_0f55f81f501a.jpg",
+      "label": "phone",
+      "sha256": "b1affc8a0802bff269c3f59723fde98cbafd34f9c1904512a5f3719db317c6de"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s03_20261012_134739_6139d33414b7.jpg",
+      "label": "phone",
+      "sha256": "05698b0eb121cabb63afe402b2c1637ec4175531e44f1ca0c31e2eb3452aa91b"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s03_20261012_134741_552bd35b018c.jpg",
+      "label": "phone",
+      "sha256": "2ea5113a50338a3da9b21a2020ac92c7baf3d386fc0d72b563641fe44da91d7b"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s03_20261012_134800_b53abdfa6250.jpg",
+      "label": "phone",
+      "sha256": "4cc773e722080f15bdae705d74b46cab8f2f04ad0beedb348d520065f62b73e8"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s03_20261012_134803_533f6aa13dd6.jpg",
+      "label": "phone",
+      "sha256": "e66f8f1348a847b069b778d50728f17b59bd40d45ef71329696dff1047e34cea"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s03_20261012_134806_785d9eaea294.jpg",
+      "label": "phone",
+      "sha256": "34dd6a795616614d15b569eb71cb3c517ea09b2ae005249f98bab89ba29155e1"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/phone/s03_20261012_134809_2154878fdbbf.jpg",
+      "label": "phone",
+      "sha256": "8d69c2ab4b13a4ff6084f71b8c45d67a129f77547bd00522f6dbbe6545f395ed"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s01_20261012_135928_b74134e58156.jpg",
+      "label": "cookie",
+      "sha256": "a4de1675e35bb038b60023cf6cbe5da5aec9c2291e601d4b031b9e9a0c39ca8b"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s01_20261012_135930_885a814b5e5b.jpg",
+      "label": "cookie",
+      "sha256": "0c4b5ce4ebdf0f6d097ead7aada38c1cc51479d7b62b8b54644820fe0ef69650"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s01_20261012_135933_8906e476581b.jpg",
+      "label": "cookie",
+      "sha256": "d8a77b26e4621c0acdbb0a32cec0b14db604f5600824693cc51c3a0b022a051b"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s01_20261012_135936_c022874404e7.jpg",
+      "label": "cookie",
+      "sha256": "84114f8c4955c80ec32bd9f5044faa666e442322e4905ca6834b28fd6c4b706c"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s01_20261012_135939_1873f45bc297.jpg",
+      "label": "cookie",
+      "sha256": "506d7859958532ce87cf8cc7fb9f3f67d40766a5082554892dccc0bcc3ce4011"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s01_20261012_135941_38690c147709.jpg",
+      "label": "cookie",
+      "sha256": "2cc1bc2008c5389fc3374541180ac52ccb6e11cbaed7d94c5f82ef0059eaa355"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s01_20261012_135944_a4cb469f8f42.jpg",
+      "label": "cookie",
+      "sha256": "3858633a097476a86119ab4cbc0e8508d3d6e04b1b13804f88676ab0a118e9ac"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s01_20261012_135947_54d68cc437af.jpg",
+      "label": "cookie",
+      "sha256": "5e84061b80a13a209ac4cce90d7c9f99085d83d457a7e7da527c9792496746c0"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s01_20261012_135949_98c2827215c3.jpg",
+      "label": "cookie",
+      "sha256": "747630f7fa59ef9792b516b455e8cb46397590c55237b4c055f3ddf2ced6d996"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s02_20261012_140002_54643862dc16.jpg",
+      "label": "cookie",
+      "sha256": "c1a61f07dda525bd825ec5fd11917d0b66e1a57c5c224217e9b932bd8406450f"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s02_20261012_140005_74425700f163.jpg",
+      "label": "cookie",
+      "sha256": "ecd74d8bb837680f02f485269e97aa35d403e9d44ef023c61919bacfc03d50ff"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s02_20261012_140008_74261604193d.jpg",
+      "label": "cookie",
+      "sha256": "1b3c75accf45beb8af83d07fd7481f1b68c21a5efcd204016f7893b3218fa2bb"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s02_20261012_140011_759d483ad152.jpg",
+      "label": "cookie",
+      "sha256": "2ca75c6f6fa43b982463b938c29a55bb264d716ff545f6874020345aa20a9543"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s02_20261012_140013_1169a014ba4a.jpg",
+      "label": "cookie",
+      "sha256": "34f257617097e1140f8b96083bb7b415267cf46971898146a26789b7b5b99cf1"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s02_20261012_140016_80f999b68b24.jpg",
+      "label": "cookie",
+      "sha256": "972c04968d26dde9b5433d5435b9e502d5cb3d84c38787f9b7e23b90f3bb5db3"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s02_20261012_140018_a94d6d27279b.jpg",
+      "label": "cookie",
+      "sha256": "4fb7564c87085600d17f61d0130643da60ce60411fd6e0f6a13e196667c45047"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s02_20261012_140021_c3f0f7c3825d.jpg",
+      "label": "cookie",
+      "sha256": "7b46b9d26867b22f6dfa5420e7fca54a79941e45791cf5f30d6838e6423d9cff"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s03_20261012_134859_2ccd68c9344d.jpg",
+      "label": "cookie",
+      "sha256": "976fab2a94fa0b4af8d2f56244b5d8a567687f0655c77ada25783ef77d13b127"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s03_20261012_134902_88ac39bedf93.jpg",
+      "label": "cookie",
+      "sha256": "1c5839d42e1b99ef8caa3a2383ccbca6d04059b41811f55a5df1a9a3ba425755"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s03_20261012_134905_4da162477f44.jpg",
+      "label": "cookie",
+      "sha256": "205e97548127d31f69e6509f9d5f6c0ec3ec092fdb3e0c528b71ef9cd47de0f4"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s03_20261012_134908_4209451b8c57.jpg",
+      "label": "cookie",
+      "sha256": "cd06ff6dd972c5ebd6ad7e3438c1954316033dfd12c2e9704109346dd7a6f309"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s03_20261012_134910_cc27f8f1776c.jpg",
+      "label": "cookie",
+      "sha256": "7e3189b3a7985210e5828b6e0928536ddafa4d2a8dd7bc6ba6c4dec30dca817f"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s03_20261012_134913_5355f7484842.jpg",
+      "label": "cookie",
+      "sha256": "98e0c327c42cc6a2d5f3b08390ca9b2c538a8036221d87dc1969b62b118dc08f"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s03_20261012_134916_33e28626f943.jpg",
+      "label": "cookie",
+      "sha256": "84135f43a737a904f295a80645022ef26396127228f3120bff1804e0f94d9187"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s03_20261012_134919_2060b63457bd.jpg",
+      "label": "cookie",
+      "sha256": "b3550ab28f949e704a07af37ed1208d291d2294a4a51481c44c9c1407ee08202"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/cookie/s03_20261012_134922_bb6b9df4eee7.jpg",
+      "label": "cookie",
+      "sha256": "661fcbf13cad708acb1cb08f0aef18239ccf1908653c8f8e907b5412ee283dc8"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s01_20261012_140305_366e0e7314c2.jpg",
+      "label": "mouse",
+      "sha256": "303983b7de13febaa335da849380f3ad322a818da1174a5a811aab72a09033e2"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s01_20261012_140307_502845155045.jpg",
+      "label": "mouse",
+      "sha256": "ec4cb3960d108ddf61b2f448e12ef3067f89bb97dbaf456118eb32f6998007a0"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s01_20261012_140310_daac398d5270.jpg",
+      "label": "mouse",
+      "sha256": "bab2b479cd76b4146f7233587187411bc6e4c066a1f3d9a92947e18abc103fb1"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s01_20261012_140313_e91cd293a3cf.jpg",
+      "label": "mouse",
+      "sha256": "3325abb7c4a3ac353dc2cc746cf0b1322fff2fc024227ad05935a613cea0b364"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s01_20261012_140316_cdfcaf01eff1.jpg",
+      "label": "mouse",
+      "sha256": "1c8fbaa51e764e25d4b73f83844822dde45b3c126195fa401c008e4f61b76cd6"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s01_20261012_140319_5c76e6746bc7.jpg",
+      "label": "mouse",
+      "sha256": "8f282aef4544208d6affa55ec2493a180b7e407893cc9e92cef4b3a11f400740"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s01_20261012_140322_2770a65c7694.jpg",
+      "label": "mouse",
+      "sha256": "7df64608421c6ba417fc36578f3a08416087cdd9482c72faa8aa9699579c3b22"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s01_20261012_140324_ce6e466027eb.jpg",
+      "label": "mouse",
+      "sha256": "4cf8606264930ea35276c1142069704e57d308035de2387cdfb0345c75e6b3d8"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s01_20261012_140327_8563d43e2e0d.jpg",
+      "label": "mouse",
+      "sha256": "897f9c11308509ad6d02ece563d21f9cb85dd31497c1f6146a38d3dceccc213b"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s02_20261012_140348_7d4bbf3a559e.jpg",
+      "label": "mouse",
+      "sha256": "7cb994506dea766f45f398418848ba7cb8efc811b0363a14a8c204ef7365792a"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s02_20261012_140350_fe4016c7b705.jpg",
+      "label": "mouse",
+      "sha256": "1f84b2092fe99f4bc82e192ef46039d1baf1571f1aac6cd69db6c5ee2d3e526e"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s02_20261012_140353_ba0eaaad5fed.jpg",
+      "label": "mouse",
+      "sha256": "e0e2e93fc1e0d715160a8e2bd98dfb8157ecd2dee3dc4677073a1208732a5bd3"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s02_20261012_140356_f9458cbb7130.jpg",
+      "label": "mouse",
+      "sha256": "2453576308905aa09205945d83d319a017583bcb9ad20d6d69384bb87e2243e1"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s02_20261012_140359_73f9c2c63684.jpg",
+      "label": "mouse",
+      "sha256": "af2a8fadc063b262f3d995857fcc0dfcc99046b49c406d624fa08de233367954"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s02_20261012_140402_5b40130eb62a.jpg",
+      "label": "mouse",
+      "sha256": "b31a98cfb6a65fa871d83732a58a322fedb301b6f38a9ef8778cc036fd5b9ed8"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s02_20261012_140405_91da1ab48cf9.jpg",
+      "label": "mouse",
+      "sha256": "d7d674c8b9c40306f33e5fc158020164c440adb734c384b4ca92583f903a83e5"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s02_20261012_140407_c6c8d4ecebdf.jpg",
+      "label": "mouse",
+      "sha256": "3783bd2c93d602de9f623e298c3ec3d5e4c50e991b9f4c9b8754da77a89bb2d0"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s03_20261012_134826_12127ce1d5f2.jpg",
+      "label": "mouse",
+      "sha256": "b514810fff5d28ba4ac60ded9dc26abe32fc2a5090cd1631bc597b053ea8e79d"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s03_20261012_134829_07c127027f62.jpg",
+      "label": "mouse",
+      "sha256": "4b4627c40df78024e6a8b3c91f089d9d5607fbdd3f34a6f6ae977e6848ca1253"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s03_20261012_134832_2e7fac4f42b4.jpg",
+      "label": "mouse",
+      "sha256": "8a8148a72a1934a7c967cc704357c6c047b3b9516a1696d07b1fd1e66edaab0b"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s03_20261012_134835_5821f463b6c8.jpg",
+      "label": "mouse",
+      "sha256": "a7aebfe8716d7fd7318ceb8b9dec30c95373ff0b8c9c35eff96365e95989ff89"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s03_20261012_134837_f2408275a5ec.jpg",
+      "label": "mouse",
+      "sha256": "a26d2b672291eb5f5629d5ed96b65328d8a345564e916bf7b87a24a2cb22d774"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s03_20261012_134840_fcc4d7852545.jpg",
+      "label": "mouse",
+      "sha256": "c71ebeb07be66800c087f317ea6dbb40ed36286391b3ae6d627c583db8c5b8ac"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s03_20261012_134843_e2e1abfe63bf.jpg",
+      "label": "mouse",
+      "sha256": "01d4d68385e50dbb124713c64d2afeb4383e0fc5bfa130fca84fa2acd46dd1a3"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/mouse/s03_20261012_134846_8ed7d61719f1.jpg",
+      "label": "mouse",
+      "sha256": "0a5b06c7fda7624a7f97f7483cb5e3f5b352dbe8ed4e0c0345e1853e62f120ee"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s01_20261012_135240_519d7b326f25.jpg",
+      "label": "other",
+      "sha256": "63bee4da9d61566f5c85cecb51715b34183998b2526d8d1f7eb7cf6a1fcfd3ba"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s01_20261012_135243_91ed7fa4b351.jpg",
+      "label": "other",
+      "sha256": "e9e0bc7bd73efccff27a4f2be8eda585f915cfa3760e468e685a6150e3bbd0f0"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s01_20261012_135245_c523b29303fa.jpg",
+      "label": "other",
+      "sha256": "e726ead131c91a16f7c1bd36501060ea70d72b438e2467716f392e0b226e0e1d"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s01_20261012_135248_33e613549c03.jpg",
+      "label": "other",
+      "sha256": "689211ace61ce86e23a269bf481194bbf109847651a4b5998c6ac6bd6e793a28"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s01_20261012_135251_3a5b56e54225.jpg",
+      "label": "other",
+      "sha256": "5c9e16da9e4c4d710ab0391e25437365edfd49aa6cc56226129d20234c732ac7"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s01_20261012_135254_0cbce5981473.jpg",
+      "label": "other",
+      "sha256": "a48f414e8fe17453b95d4879d781005780f629d137d21ec2cd7124b5688f8513"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s01_20261012_135257_13ef087cca69.jpg",
+      "label": "other",
+      "sha256": "558f6260b0c570ec7579cd7ae9bd6765008b73efffc7fc5f1675374dc00c82b3"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s01_20261012_135300_096f6ea207b0.jpg",
+      "label": "other",
+      "sha256": "880f447ce7d824a4b7c3cd93ef917575ecfdb33caacb8dac33135ea029e9a265"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s01_20261012_135303_89382e9e372c.jpg",
+      "label": "other",
+      "sha256": "e2943d2349f124926caf9f68a700514e58b96f3f0e4582300a3901d760f2499e"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s02_20261012_135207_e6c730d7603b.jpg",
+      "label": "other",
+      "sha256": "45417e2084116a162ca8f073c0780e6b866160d800cb34f943ffa7f9295a4609"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s02_20261012_135210_501774304780.jpg",
+      "label": "other",
+      "sha256": "681f5568156a45290a6343773e3f010b202bd06421a8b582890bd12961e75024"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s02_20261012_135213_52a6f2426298.jpg",
+      "label": "other",
+      "sha256": "c0b48983dc85d4401190f78fed4e7fe4a03b1fd06367ef66e1c83f319d80af9b"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s02_20261012_135216_3c6399ed3cd9.jpg",
+      "label": "other",
+      "sha256": "3600e70551d2540f07088ac373893afa60aa84dd751b0517d24813954ca4c70c"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s02_20261012_135218_ebe11cc8b985.jpg",
+      "label": "other",
+      "sha256": "1da89c79b2d3fc675e5101503a9414657affc70f9f634f4079619fbec0a8bb34"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s02_20261012_135221_e383143c35d8.jpg",
+      "label": "other",
+      "sha256": "9059b62b58731219cf97a4ff472d37c108b76a7dfd685da18a267d4576cdefe0"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s02_20261012_135224_ee3f6406952e.jpg",
+      "label": "other",
+      "sha256": "7d846c55b2ff2ba429194a43af625f689e10d7f38267b5e6626702fdce583b9d"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s02_20261012_135227_9be9c02f5143.jpg",
+      "label": "other",
+      "sha256": "bc79dc9f5ae6cbe9c062c4d025b402c5ba8f52fea60c858516a29bdd33ca9f52"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s03_20261012_134939_2550b98c00c6.jpg",
+      "label": "other",
+      "sha256": "6ce9792a3d2e33a46a2818237057677444c4338e8f1391ed958aeb6de46b5539"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s03_20261012_134941_b1d0594f633b.jpg",
+      "label": "other",
+      "sha256": "7584416acddd0d37d371694d5ca4b73cfb68439265d3a5ce965dfbe065e45503"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s03_20261012_134944_594f2ec163b4.jpg",
+      "label": "other",
+      "sha256": "70fcbf527c8c0c9b8d9c5ace2999da3fd5d17369409a52829aae31e01dd49957"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s03_20261012_134947_5dd0d70e72ac.jpg",
+      "label": "other",
+      "sha256": "60f576a1d0d53baa0b27f842156ef5b158b808f7d255e4278a2a9d4e81721830"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s03_20261012_134950_4f839c191f2e.jpg",
+      "label": "other",
+      "sha256": "f087dcd2002915eff0d97a8faf8189f448035382b18d19822e085ab35c3b7b9c"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s03_20261012_134953_97be54eec635.jpg",
+      "label": "other",
+      "sha256": "4ca70c08c3756a910946a0781a10597b9b771c5190520c98db7e30e400cff0d1"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s03_20261012_134956_4e8e7bc56fe7.jpg",
+      "label": "other",
+      "sha256": "890bd976846af2f09dffa3aed91663179c4671e0229712c94a231620afe8ee0f"
+    },
+    {
+      "path": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/train/other/s03_20261012_134959_bdc29ce860b2.jpg",
+      "label": "other",
+      "sha256": "eba96555ad90f3356a1dd0c0042167f724ea7e71fc0eebdbf3d7da7946a971c0"
+    }
+  ]
+}

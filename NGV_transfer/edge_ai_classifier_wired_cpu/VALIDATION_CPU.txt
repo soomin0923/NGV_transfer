@@ -1,0 +1,103 @@
+NGV-CPU-20261008-R6-PI-FIX1 — 추가 검증
+
+- Pi의 --system-site-packages 환경에서 전역 pip check가 apt-listchanges/types-*
+  메타데이터 때문에 실패한 사용자 로그에 대한 수정입니다.
+- raspberry_pi/setup_pi.sh의 전역 pip check만 제거하고 기존 실습용 import/버전
+  검사, pip 설치 의존성 해결, video 그룹 설정을 유지했습니다.
+- 마지막 단계 표시는 실제 수행 범위인 라이브러리 로딩·버전 검사로 바로잡았습니다.
+- R6 원본에 동일 복구 패치를 적용하고 반복 적용 결과 동일, Bash 구문 검사,
+  소스 manifest 검증을 통과했습니다.
+- 실제 Raspberry Pi에서 수정 설치를 실행한 결과는 아직 확인하지 않았습니다.
+- 아래는 수정 전 배포의 검증 기록입니다.
+
+NGV-CPU-20261007-R6 — 검증 범위
+
+R6 변경:
+- Windows↔WSL 탐색기 복사와 Windows↔Pi scp 전송으로 가이드 재작성.
+- R5 학습·설치·변환·추론 소스는 유지.
+- tools/update_existing.py는 배포 버전/가이드 파일명만 R6로 맞춤.
+- R6 가이드 명령블록73개/참조소스37개/SCP14개를 경로와 대조.
+- Linux OpenSSH scp와 로컬SFTP서버로 폴더 업로드·다운로드·재전송 의미 확인.
+  프로젝트/artifacts/comparison/dataset_raw를 부모 폴더로 복사할 때 중복 중첩 없음.
+- HTML1365px/390px에서 가로넘침/깨진이미지/목차누락 없음, 화면 확인.
+- 실제 Windows OpenSSH/PowerShell/교실 네트워크 전송은 실장비 미검증.
+
+이하 R5와 유지한 실행 코드의 검증 기록:
+
+R5 온라인 설치·GUI 안내 개편 검증:
+- USB에는 코드+공식 원본7개만 배포하며 강사 Python/패키지 준비 단계 제거.
+- 공개 진입점: bash setup_laptop.sh, bash setup_pi.sh.
+- 원본 누락 사전 검사, Windows 드라이브 실행 중단, root 실행 거부를 확인.
+- ABI/해시/파일 변조 단위검사9개, R5 설치 사전검사4개, 촬영 수 검사2개 통과.
+- 실제59개 호환 wheel로 새 .python/.venv/.venv_day3_tools를 만들고
+  TensorFlow/LiteRT/ONNX import, pip check, CPU전용 설정 확인 성공.
+- 검증된 다운로드 캐시는 인터넷 다운로드 없이 재사용하는 경로 확인.
+- 7개 원본을 공식 URL에서 실제 다운로드하고 각각 체크섬 확인.
+  R5 --from-raw로 Fashion 배열/가중치/manifest 생성 및 구조·해시 검사 성공.
+- R5 HTML 27절/명령블록57개, 데스크톱1365px/모바일390px 렌더 확인.
+  깨진 이미지/목차 링크 누락/페이지 가로 넘침 없음.
+- evaluate_all.py는 기존6평가 출력 경로를 유지하며 입력 누락 시 중단 확인.
+- Linux/WSL 파일 탐색기 접근과 WinSCP UNC/SFTP 절차는 공식 문서에 근거함.
+  실제 Windows GUI/학생 WSL sudo·apt/Pi ARM64·카메라 실물은 미검증.
+- root 전용 시험환경이므로 실제 설치 핵심함수를 격리 복제에서 실행함.
+  배포 진입점의 일반 사용자 조건은 유지하고 거부 동작을 별도 확인함.
+
+이하 유지한 Python/패키지 및 학습 코드의 이전 실행 근거:
+
+R4 새 설치 경로 검증:
+- 기존 Ubuntu 및 시스템 Python을 유지하고 공식 PBS CPython 3.12.15를
+  프로젝트 .python에 설치. TF 48개/ONNX 11개 wheel을 해시 lock으로
+  --no-index 설치한 뒤 pip check, 핵심 import/버전 검사 성공.
+- 새 두 venv 생성과 같은 Python 출처 venv 재사용 확인.
+- 당시 설치 단위검사9개와 Pi wheel 배포 환경 비교 검사4개 통과.
+  R5에서는 Pi가 온라인으로 직접 설치하므로 Pi wheel 배포/검사 기능은 제거.
+- Ubuntu 버전 이름 대신 x86_64/AVX/glibc>=2.27/GLIBCXX>=3.4.22 검사.
+  실제 wheel ELF 요구사항 및 플랫폼/ABI 태그, 파일 해시, 경로 검사.
+- 공식 Ubuntu 18.04.5 base의 glibc 2.27와 기본 시스템 라이브러리를
+  추출하여 그 동적 로더로 실제 실행 확인: CPU 1배치 학습, FP32 변환,
+  dynamic-range 변환 요청, full INT8 변환, 세 TFLite 추론, matplotlib,
+  ONNX Runtime CPUExecutionProvider 추론. 작은 모델은 dynamic 요청에도
+  일부 가중치가 FP32로 남을 수 있으므로 양자화 비율 검증과는 다름.
+- /proc/self/maps로 신형 호스트 시스템 .so 혼입 없음을 확인.
+- 이 검사는 현재 커널 위의 Ubuntu 18.04 사용자 공간 ABI 실행이며
+  Ubuntu 18.04 WSL 전체 부팅/apt/교실 장치 실행 검사가 아님.
+- 실행 환경은 uid 0만 사용 가능하여 일반 사용자용 wrapper 전체 대신
+  복제 프로젝트에서 동일한 설치 helper/pip 명령을 실행. 운영 wrapper의
+  root 차단은 따로 거부 동작을 확인했고 제거하지 않음.
+- R4 HTML의 T/S/L 명령·경로·가상환경 전환을 코드와 대조.
+  데스크톱/모바일 렌더 및 이미지·목차 링크 확인.
+
+유지한 R2 ML 코드와 기존 CPU 실행 검증:
+
+실제 Linux x86_64 CPU 실행:
+- tensorflow-cpu 2.21.0, keras 3.15.1, ai-edge-litert 2.2.0,
+  numpy 2.2.6, onnx 1.18.0, onnxruntime 1.22.1.
+- R1의 공식 원본 7개 다운로드·MD5/산출물 SHA256·배열 구조 검사와
+  네트워크 차단 상태의 로컬 처리·손상 거부 검증을 유지.
+- 촬영 분류: 작은 합성 사진 50장의 R1 축소 학습 모델로 FP32/dynamic/INT8
+  실제 변환·정답 평가·Pi용 benchmark CLI·시각화 HTML 실행.
+- ImageNet: 공식 가중치로 FP32/dynamic/INT8 변환, 유한값·입출력 검사.
+  INT8의 XNNPACK 실패를 재현하고 같은 모델의 기본 정수 CPU 커널로
+  실제 추론 및 batch 1→2→1 실행 성공. 모델의 부동소수점 텐서 없음 확인.
+- 진동: 축소 학습 모델로 TFLite 9개 + ONNX 6개 변환·평가,
+  독립 Pi 묶음의 평가/INT8 데모를 x86 CPU에서 실행.
+  기본 24,000개 생성 데이터의 실제 원시 예시 파형·FFT·입력 특징 시각화.
+  R1 데이터 복원에서 모든 원본 배열의 정확한 일치 확인.
+- Fashion-MNIST: 실제 이미지 100/100/100 축소 분할의 R1 학습 모델로
+  TFLite 6개 + ONNX 4개 변환·평가·묶음·분석 HTML 실행.
+- 전체 단위검사 76개 통과 시점 이후, 변경된 진동/카메라 기록 경로를
+  추가 표적 검사. 테스트는 소스 tests 폴더에 포함.
+- 가이드 명령 80개를 실제 Python 인자와 대조. 가이드·보고서 렌더 점검.
+
+한계:
+- 실제 Raspberry Pi ARM64/교실 USB 카메라/Windows PowerShell/SSH는
+  이 환경에서 실행하지 못함. Pi용 CLI 실행 검증은 x86 CPU에서 수행.
+- 카메라 기록은 모의 입력 검사이며 실제 촬영 성능이 아님.
+- 전체 기본 epoch 학습의 정확도·시간은 측정하지 않음.
+  축소 실행은 실행 경로 검증이며 강의에서 기대할 정확도 예시가 아님.
+- INT8·dynamic·가지치기가 항상 빠르거나 정확도를 유지하지는 않음.
+  실제 평가·모델 해시·장치·스레드·배치별 결과로 판단.
+- 각 Ubuntu의 기본 apt 라이브러리는 수업 전에 해당 OS 저장소에서 설치.
+  각자 다운로드하는 WSL 패키지는 명시한 ABI 범위로 제한하며 모든 Ubuntu
+  실장비를 시험한 것은 아님. Pi는 본인 OS의 Python/OpenCV를 설치하고
+  호환되는64비트 Python3.11~3.13용 LiteRT 패키지를 직접 다운로드함.

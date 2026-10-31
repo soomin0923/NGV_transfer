@@ -1,0 +1,722 @@
+[
+  {
+    "schema": "edge_benchmark_v1",
+    "utc": "2026-10-13T04:52:29.182176+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15",
+    "backend": "tflite",
+    "tag": "wsl",
+    "variant": "baseline",
+    "precision": "fp32",
+    "model": "baseline_fp32.tflite",
+    "execution_path": "xnnpack_or_default_cpu",
+    "model_sha256": "d57dbd9aee3b9d80259653ee10397e0e84331e16b0e7cd5d7c7698fbcce785ff",
+    "bytes": 1057828,
+    "input_data_sha256": "c6f34e2d0d106ec6fae1280cdcf678a35475c53a6319f22af1569386062b750a",
+    "batch": 1,
+    "threads": 4,
+    "samples": 4800,
+    "accuracy": 0.9997916666666666,
+    "macro_f1": 0.9997916666304977,
+    "confusion_matrix": [
+      [
+        1200,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1200,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1200,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1199
+      ]
+    ],
+    "class_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "per_class_precision": [
+      0.9991673605328892,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "per_class_recall": [
+      1.0,
+      1.0,
+      1.0,
+      0.9991666666666666
+    ],
+    "per_class_f1": [
+      0.9995835068721366,
+      1.0,
+      1.0,
+      0.9995831596498541
+    ],
+    "warmup": 20,
+    "repeats": 100,
+    "timing_scope": "prepared_input_to_numpy_output; CPU only",
+    "mean_ms": 0.029255449999999995,
+    "median_ms": 0.020740500000000002,
+    "p95_ms": 0.06932545,
+    "samples_per_second": 34181.66529655159,
+    "evaluation_sha256": "cbbcecf40a1af596c3305ce97a7497125f8eb0a7914cfce125b86ca8e731ba77"
+  },
+  {
+    "schema": "edge_benchmark_v1",
+    "utc": "2026-10-13T04:52:29.551362+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15",
+    "backend": "tflite",
+    "tag": "wsl",
+    "variant": "baseline",
+    "precision": "dynamic",
+    "model": "baseline_dynamic.tflite",
+    "execution_path": "xnnpack_or_default_cpu",
+    "model_sha256": "ab7018ef356db948180d3044ce82f264382a321ea10ecc57762ca15a4d01979e",
+    "bytes": 277712,
+    "input_data_sha256": "c6f34e2d0d106ec6fae1280cdcf678a35475c53a6319f22af1569386062b750a",
+    "batch": 1,
+    "threads": 4,
+    "samples": 4800,
+    "accuracy": 0.9997916666666666,
+    "macro_f1": 0.9997916666304977,
+    "confusion_matrix": [
+      [
+        1200,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1200,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1200,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1199
+      ]
+    ],
+    "class_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "per_class_precision": [
+      0.9991673605328892,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "per_class_recall": [
+      1.0,
+      1.0,
+      1.0,
+      0.9991666666666666
+    ],
+    "per_class_f1": [
+      0.9995835068721366,
+      1.0,
+      1.0,
+      0.9995831596498541
+    ],
+    "warmup": 20,
+    "repeats": 100,
+    "timing_scope": "prepared_input_to_numpy_output; CPU only",
+    "mean_ms": 0.03917277,
+    "median_ms": 0.0152335,
+    "p95_ms": 0.10009304999999993,
+    "samples_per_second": 25527.936880644385,
+    "evaluation_sha256": "cbbcecf40a1af596c3305ce97a7497125f8eb0a7914cfce125b86ca8e731ba77"
+  },
+  {
+    "schema": "edge_benchmark_v1",
+    "utc": "2026-10-13T04:52:30.184319+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15",
+    "backend": "tflite",
+    "tag": "wsl",
+    "variant": "baseline",
+    "precision": "int8",
+    "model": "baseline_int8.tflite",
+    "execution_path": "xnnpack_or_default_cpu",
+    "model_sha256": "f97e1bce532ddbe8b3238d6be83ad37b6d7dc1675b7e2ff49679c68f44876b2f",
+    "bytes": 287160,
+    "input_data_sha256": "c6f34e2d0d106ec6fae1280cdcf678a35475c53a6319f22af1569386062b750a",
+    "batch": 1,
+    "threads": 4,
+    "samples": 4800,
+    "accuracy": 0.9997916666666666,
+    "macro_f1": 0.9997916666304977,
+    "confusion_matrix": [
+      [
+        1200,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1200,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1200,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1199
+      ]
+    ],
+    "class_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "per_class_precision": [
+      0.9991673605328892,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "per_class_recall": [
+      1.0,
+      1.0,
+      1.0,
+      0.9991666666666666
+    ],
+    "per_class_f1": [
+      0.9995835068721366,
+      1.0,
+      1.0,
+      0.9995831596498541
+    ],
+    "warmup": 20,
+    "repeats": 100,
+    "timing_scope": "prepared_input_to_numpy_output; CPU only",
+    "mean_ms": 0.06243443,
+    "median_ms": 0.046134999999999995,
+    "p95_ms": 0.1598771,
+    "samples_per_second": 16016.803548939264,
+    "evaluation_sha256": "cbbcecf40a1af596c3305ce97a7497125f8eb0a7914cfce125b86ca8e731ba77"
+  },
+  {
+    "schema": "edge_benchmark_v1",
+    "utc": "2026-10-13T04:52:30.555945+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15",
+    "backend": "tflite",
+    "tag": "wsl",
+    "variant": "unstructured",
+    "precision": "fp32",
+    "model": "unstructured_fp32.tflite",
+    "execution_path": "xnnpack_or_default_cpu",
+    "model_sha256": "11b02f3caa9e101fed519588ac70ce60e426b2669f0f172c123941445defbf10",
+    "bytes": 1057828,
+    "input_data_sha256": "c6f34e2d0d106ec6fae1280cdcf678a35475c53a6319f22af1569386062b750a",
+    "batch": 1,
+    "threads": 4,
+    "samples": 4800,
+    "accuracy": 0.9997916666666666,
+    "macro_f1": 0.9997916666304977,
+    "confusion_matrix": [
+      [
+        1200,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1200,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1200,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1199
+      ]
+    ],
+    "class_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "per_class_precision": [
+      0.9991673605328892,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "per_class_recall": [
+      1.0,
+      1.0,
+      1.0,
+      0.9991666666666666
+    ],
+    "per_class_f1": [
+      0.9995835068721366,
+      1.0,
+      1.0,
+      0.9995831596498541
+    ],
+    "warmup": 20,
+    "repeats": 100,
+    "timing_scope": "prepared_input_to_numpy_output; CPU only",
+    "mean_ms": 0.05261409,
+    "median_ms": 0.035445000000000004,
+    "p95_ms": 0.12492479999999999,
+    "samples_per_second": 19006.315608613586,
+    "evaluation_sha256": "cbbcecf40a1af596c3305ce97a7497125f8eb0a7914cfce125b86ca8e731ba77"
+  },
+  {
+    "schema": "edge_benchmark_v1",
+    "utc": "2026-10-13T04:52:30.775144+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15",
+    "backend": "tflite",
+    "tag": "wsl",
+    "variant": "unstructured",
+    "precision": "dynamic",
+    "model": "unstructured_dynamic.tflite",
+    "execution_path": "xnnpack_or_default_cpu",
+    "model_sha256": "7407c18d2530f793d1acd88a1078d76e36df078c2fb5c4862d42604a594a3581",
+    "bytes": 277712,
+    "input_data_sha256": "c6f34e2d0d106ec6fae1280cdcf678a35475c53a6319f22af1569386062b750a",
+    "batch": 1,
+    "threads": 4,
+    "samples": 4800,
+    "accuracy": 0.9997916666666666,
+    "macro_f1": 0.9997916666304977,
+    "confusion_matrix": [
+      [
+        1200,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1200,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1200,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1199
+      ]
+    ],
+    "class_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "per_class_precision": [
+      0.9991673605328892,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "per_class_recall": [
+      1.0,
+      1.0,
+      1.0,
+      0.9991666666666666
+    ],
+    "per_class_f1": [
+      0.9995835068721366,
+      1.0,
+      1.0,
+      0.9995831596498541
+    ],
+    "warmup": 20,
+    "repeats": 100,
+    "timing_scope": "prepared_input_to_numpy_output; CPU only",
+    "mean_ms": 0.011234730000000002,
+    "median_ms": 0.0108755,
+    "p95_ms": 0.0119638,
+    "samples_per_second": 89009.70472810649,
+    "evaluation_sha256": "cbbcecf40a1af596c3305ce97a7497125f8eb0a7914cfce125b86ca8e731ba77"
+  },
+  {
+    "schema": "edge_benchmark_v1",
+    "utc": "2026-10-13T04:52:31.498161+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15",
+    "backend": "tflite",
+    "tag": "wsl",
+    "variant": "unstructured",
+    "precision": "int8",
+    "model": "unstructured_int8.tflite",
+    "execution_path": "xnnpack_or_default_cpu",
+    "model_sha256": "d9d9c86e5fc5407ee7928fd0660054b7db25cd58341b57adbb28fef6b4bb232d",
+    "bytes": 287160,
+    "input_data_sha256": "c6f34e2d0d106ec6fae1280cdcf678a35475c53a6319f22af1569386062b750a",
+    "batch": 1,
+    "threads": 4,
+    "samples": 4800,
+    "accuracy": 0.9997916666666666,
+    "macro_f1": 0.9997916666304977,
+    "confusion_matrix": [
+      [
+        1200,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1200,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1200,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1199
+      ]
+    ],
+    "class_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "per_class_precision": [
+      0.9991673605328892,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "per_class_recall": [
+      1.0,
+      1.0,
+      1.0,
+      0.9991666666666666
+    ],
+    "per_class_f1": [
+      0.9995835068721366,
+      1.0,
+      1.0,
+      0.9995831596498541
+    ],
+    "warmup": 20,
+    "repeats": 100,
+    "timing_scope": "prepared_input_to_numpy_output; CPU only",
+    "mean_ms": 0.08384952,
+    "median_ms": 0.060626,
+    "p95_ms": 0.21748639999999994,
+    "samples_per_second": 11926.126708894697,
+    "evaluation_sha256": "cbbcecf40a1af596c3305ce97a7497125f8eb0a7914cfce125b86ca8e731ba77"
+  },
+  {
+    "schema": "edge_benchmark_v1",
+    "utc": "2026-10-13T04:52:31.725501+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15",
+    "backend": "tflite",
+    "tag": "wsl",
+    "variant": "structured",
+    "precision": "fp32",
+    "model": "structured_fp32.tflite",
+    "execution_path": "xnnpack_or_default_cpu",
+    "model_sha256": "ca1d4cb9c1abdb6ffb848b891f1dc154b4f4e8dbb2feb3f3502cb3285bffdfac",
+    "bytes": 398908,
+    "input_data_sha256": "c6f34e2d0d106ec6fae1280cdcf678a35475c53a6319f22af1569386062b750a",
+    "batch": 1,
+    "threads": 4,
+    "samples": 4800,
+    "accuracy": 0.9997916666666666,
+    "macro_f1": 0.9997916666304977,
+    "confusion_matrix": [
+      [
+        1200,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1200,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1200,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1199
+      ]
+    ],
+    "class_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "per_class_precision": [
+      0.9991673605328892,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "per_class_recall": [
+      1.0,
+      1.0,
+      1.0,
+      0.9991666666666666
+    ],
+    "per_class_f1": [
+      0.9995835068721366,
+      1.0,
+      1.0,
+      0.9995831596498541
+    ],
+    "warmup": 20,
+    "repeats": 100,
+    "timing_scope": "prepared_input_to_numpy_output; CPU only",
+    "mean_ms": 0.011958499999999999,
+    "median_ms": 0.0114065,
+    "p95_ms": 0.015352599999999997,
+    "samples_per_second": 83622.5279090187,
+    "evaluation_sha256": "cbbcecf40a1af596c3305ce97a7497125f8eb0a7914cfce125b86ca8e731ba77"
+  },
+  {
+    "schema": "edge_benchmark_v1",
+    "utc": "2026-10-13T04:52:32.019523+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15",
+    "backend": "tflite",
+    "tag": "wsl",
+    "variant": "structured",
+    "precision": "dynamic",
+    "model": "structured_dynamic.tflite",
+    "execution_path": "xnnpack_or_default_cpu",
+    "model_sha256": "cb1e79ab867d147d41e123ba92bbd44fc5ec6ffe6e541ef9a905e6afd14c1ae3",
+    "bytes": 108688,
+    "input_data_sha256": "c6f34e2d0d106ec6fae1280cdcf678a35475c53a6319f22af1569386062b750a",
+    "batch": 1,
+    "threads": 4,
+    "samples": 4800,
+    "accuracy": 0.9997916666666666,
+    "macro_f1": 0.9997916666304977,
+    "confusion_matrix": [
+      [
+        1200,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1200,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1200,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1199
+      ]
+    ],
+    "class_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "per_class_precision": [
+      0.9991673605328892,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "per_class_recall": [
+      1.0,
+      1.0,
+      1.0,
+      0.9991666666666666
+    ],
+    "per_class_f1": [
+      0.9995835068721366,
+      1.0,
+      1.0,
+      0.9995831596498541
+    ],
+    "warmup": 20,
+    "repeats": 100,
+    "timing_scope": "prepared_input_to_numpy_output; CPU only",
+    "mean_ms": 0.031561000000000006,
+    "median_ms": 0.030920000000000003,
+    "p95_ms": 0.034262,
+    "samples_per_second": 31684.67412312664,
+    "evaluation_sha256": "cbbcecf40a1af596c3305ce97a7497125f8eb0a7914cfce125b86ca8e731ba77"
+  },
+  {
+    "schema": "edge_benchmark_v1",
+    "utc": "2026-10-13T04:52:32.474763+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15",
+    "backend": "tflite",
+    "tag": "wsl",
+    "variant": "structured",
+    "precision": "int8",
+    "model": "structured_int8.tflite",
+    "execution_path": "xnnpack_or_default_cpu",
+    "model_sha256": "ae5f2579344e365c194b0f0d3149dc5e1252781b82ba17db45786a0923165f21",
+    "bytes": 112096,
+    "input_data_sha256": "c6f34e2d0d106ec6fae1280cdcf678a35475c53a6319f22af1569386062b750a",
+    "batch": 1,
+    "threads": 4,
+    "samples": 4800,
+    "accuracy": 0.9997916666666666,
+    "macro_f1": 0.9997916666304977,
+    "confusion_matrix": [
+      [
+        1200,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1200,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1200,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1199
+      ]
+    ],
+    "class_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "per_class_precision": [
+      0.9991673605328892,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "per_class_recall": [
+      1.0,
+      1.0,
+      1.0,
+      0.9991666666666666
+    ],
+    "per_class_f1": [
+      0.9995835068721366,
+      1.0,
+      1.0,
+      0.9995831596498541
+    ],
+    "warmup": 20,
+    "repeats": 100,
+    "timing_scope": "prepared_input_to_numpy_output; CPU only",
+    "mean_ms": 0.0177406,
+    "median_ms": 0.017037,
+    "p95_ms": 0.0239523,
+    "samples_per_second": 56367.87932764394,
+    "evaluation_sha256": "cbbcecf40a1af596c3305ce97a7497125f8eb0a7914cfce125b86ca8e731ba77"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "variant": "unstructured",
+  "accuracy": 0.9997916666666666,
+  "samples": 4800,
+  "parameters": 263940,
+  "dense_macs": 263168,
+  "zero_fraction_kernels": 0.5,
+  "history": {
+    "accuracy": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "loss": [
+      2.3311173208639957e-05,
+      6.143000973679591e-06,
+      3.1290728657040745e-06
+    ],
+    "val_accuracy": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "val_loss": [
+      2.387761378486175e-05,
+      1.538218384666834e-05,
+      1.1232103133806959e-05
+    ]
+  },
+  "pre_finetune_accuracy": 0.9997916666666666,
+  "environment": {
+    "utc": "2026-10-13T04:52:11.976956+00:00",
+    "hostname": "DESKTOP-BQ43C60",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15"
+  }
+}

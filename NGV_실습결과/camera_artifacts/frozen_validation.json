@@ -1,0 +1,40 @@
+{
+  "schema": "day2_export_v2",
+  "status": "PASS",
+  "mode": "fp32",
+  "source_sha256": "055383cf64844afe229f8d404f17f172971d72bb712aed8cd0ece9ff5b7baed5",
+  "model_sha256": "c8c952ebe54eb9b8c11834da704005ff8c248e6c28d61ce4223bb5637ff0125c",
+  "finite": true,
+  "samples_including_zero": 201,
+  "validation_real_samples": 200,
+  "max_abs_error": 6.109476089477539e-06,
+  "mean_abs_error": 4.550248604573426e-07,
+  "keras_top1_agreement": 1.0,
+  "real_images_keras_top1_agreement": 1.0,
+  "validation_data": "/home/sm/edge_ai_classifier_wired_cpu/dataset_split/val",
+  "input": {
+    "dtype": "float32",
+    "shape": [
+      1,
+      160,
+      160,
+      3
+    ],
+    "scale": 0.0,
+    "zero_point": 0
+  },
+  "output": {
+    "dtype": "float32",
+    "shape": [
+      1,
+      5
+    ],
+    "scale": 0.0,
+    "zero_point": 0
+  },
+  "not_accuracy": "Agreement is with Keras predictions, not ground truth. Evaluate untouched test images for accuracy.",
+  "integer_validation": null,
+  "calibration": null,
+  "execution_path": "xnnpack_or_default_cpu",
+  "delegate_fallback_reason": null
+}

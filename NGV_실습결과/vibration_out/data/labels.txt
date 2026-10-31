@@ -1,0 +1,4 @@
+normal
+unbalance_like
+misalignment_like
+impact_like
